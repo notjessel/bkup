@@ -20,12 +20,12 @@
 $alignc
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1572091282,,"wq"
 :q!
-|2,0,1572089867,,"q!"
+|2,0,1572091243,,"q!"
 :w
 |2,0,1572086446,,"w"
-:wq
-|2,0,1572085908,,"wq"
 :q1
 |2,0,1572001919,,"q1"
 :%s/alignr/alignc/g
@@ -1165,30 +1165,52 @@ $alignc
 |3,1,36,0,1,0,1571834307,"5"
 
 # File marks:
-'0  1  0  ~/.ssh/id_rsa.pub
-|4,48,1,0,1572089867,"~/.ssh/id_rsa.pub"
-'1  1  0  ~/.ssh/id_rsa.pub
-|4,49,1,0,1572087225,"~/.ssh/id_rsa.pub"
-'2  34  12  ~/.aliases.zsh
-|4,50,34,12,1572086450,"~/.aliases.zsh"
-'3  60  37  ~/.scripts/bin/mpdmenu
-|4,51,60,37,1572085908,"~/.scripts/bin/mpdmenu"
-'4  478  9  ~/.ncmpcpp/bindings
-|4,52,478,9,1572085466,"~/.ncmpcpp/bindings"
-'5  4  7  ~/.oh-my-zsh/themes/jesse2.zsh-theme
-|4,53,4,7,1572070690,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
-'6  4  60  ~/.oh-my-zsh/themes/jesse2.zsh-theme
-|4,54,4,60,1572052345,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
-'7  94  152  ~/.config-git/logs/HEAD
-|4,55,94,152,1572005965,"~/.config-git/logs/HEAD"
-'8  94  152  ~/.config-git/logs/HEAD
-|4,56,94,152,1572003776,"~/.config-git/logs/HEAD"
-'9  94  0  ~/.config-git/logs/HEAD
-|4,57,94,0,1572003710,"~/.config-git/logs/HEAD"
+'0  2  3  ~/.scripts/bin/githubbkup
+|4,48,2,3,1572091282,"~/.scripts/bin/githubbkup"
+'1  2  44  /tmp/fcr-7F028Y
+|4,49,2,44,1572091243,"/tmp/fcr-7F028Y"
+'2  1  0  ~/.ssh/id_rsa.pub
+|4,50,1,0,1572089867,"~/.ssh/id_rsa.pub"
+'3  1  0  ~/.ssh/id_rsa.pub
+|4,51,1,0,1572087225,"~/.ssh/id_rsa.pub"
+'4  34  12  ~/.aliases.zsh
+|4,52,34,12,1572086450,"~/.aliases.zsh"
+'5  60  37  ~/.scripts/bin/mpdmenu
+|4,53,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+'6  478  9  ~/.ncmpcpp/bindings
+|4,54,478,9,1572085466,"~/.ncmpcpp/bindings"
+'7  4  7  ~/.oh-my-zsh/themes/jesse2.zsh-theme
+|4,55,4,7,1572070690,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
+'8  4  60  ~/.oh-my-zsh/themes/jesse2.zsh-theme
+|4,56,4,60,1572052345,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
+'9  94  152  ~/.config-git/logs/HEAD
+|4,57,94,152,1572005965,"~/.config-git/logs/HEAD"
 
 # Jumplist (newest first):
+-'  2  3  ~/.scripts/bin/githubbkup
+|4,39,2,3,1572091282,"~/.scripts/bin/githubbkup"
+-'  2  44  /tmp/fcr-7F028Y
+|4,39,2,44,1572091243,"/tmp/fcr-7F028Y"
+-'  2  44  /tmp/fcr-7F028Y
+|4,39,2,44,1572091243,"/tmp/fcr-7F028Y"
+-'  1  0  /tmp/fcr-7F028Y
+|4,39,1,0,1572091231,"/tmp/fcr-7F028Y"
+-'  1  0  /tmp/fcr-7F028Y
+|4,39,1,0,1572091231,"/tmp/fcr-7F028Y"
 -'  1  0  ~/.ssh/id_rsa.pub
 |4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
 -'  1  0  ~/.ssh/id_rsa.pub
 |4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
 -'  34  12  ~/.aliases.zsh
@@ -1199,6 +1221,54 @@ $alignc
 |4,39,34,12,1572086450,"~/.aliases.zsh"
 -'  34  12  ~/.aliases.zsh
 |4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  34  12  ~/.aliases.zsh
+|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
+-'  36  0  ~/.aliases.zsh
+|4,39,36,0,1572086321,"~/.aliases.zsh"
 -'  36  0  ~/.aliases.zsh
 |4,39,36,0,1572086321,"~/.aliases.zsh"
 -'  36  0  ~/.aliases.zsh
@@ -1223,6 +1293,54 @@ $alignc
 |4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
 -'  60  37  ~/.scripts/bin/mpdmenu
 |4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
+-'  60  37  ~/.scripts/bin/mpdmenu
+|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
 -'  18  43  ~/.scripts/bin/mpdmenu
 |4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
 -'  18  43  ~/.scripts/bin/mpdmenu
@@ -1239,156 +1357,49 @@ $alignc
 |4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
 -'  18  43  ~/.scripts/bin/mpdmenu
 |4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  7  22  ~/.scripts/bin/mpdmenu
-|4,39,7,22,1572085885,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  62  52  ~/.scripts/bin/mpdmenu
-|4,39,62,52,1572085884,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  26  2  ~/.scripts/bin/mpdmenu
-|4,39,26,2,1572085723,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  68  22  ~/.scripts/bin/mpdmenu
-|4,39,68,22,1572085718,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  67  4  ~/.scripts/bin/mpdmenu
-|4,39,67,4,1572085717,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  65  12  ~/.scripts/bin/mpdmenu
-|4,39,65,12,1572085716,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  44  17  ~/.scripts/bin/mpdmenu
-|4,39,44,17,1572085699,"~/.scripts/bin/mpdmenu"
--'  30  16  ~/.scripts/bin/mpdmenu
-|4,39,30,16,1572085699,"~/.scripts/bin/mpdmenu"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
--'  478  9  ~/.ncmpcpp/bindings
-|4,39,478,9,1572085466,"~/.ncmpcpp/bindings"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+-'  18  43  ~/.scripts/bin/mpdmenu
+|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
 
 # History of marks within files (newest to oldest):
+
+> ~/.scripts/bin/githubbkup
+	*	1572091278	0
+	"	2	3
+	^	2	4
+	.	2	3
+	+	2	3
+
+> /tmp/fcr-7F028Y
+	*	1572091239	0
+	"	2	44
 
 > ~/.ssh/id_rsa.pub
 	*	1572089862	0
@@ -2570,13 +2581,6 @@ $alignc
 	.	2	37
 	+	2	37
 
-> ~/.scripts/bin/githubbkup
-	*	1571289098	0
-	"	2	54
-	^	2	55
-	.	2	49
-	+	2	49
-
 > ~/.config/dwmblocks/statusbar/pulse
 	*	1571278698	0
 	"	4	24
@@ -2971,10 +2975,3 @@ $alignc
 	+	7	10
 	+	18	28
 	+	79	31
-
-> /tmp/fcr-FVcYJe
-	*	1570640451	0
-	"	3	45
-	^	3	46
-	.	3	45
-	+	3	45
