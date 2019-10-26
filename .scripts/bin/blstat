@@ -1,0 +1,2 @@
+#!/bin/sh
+xbacklight | awk '{printf("%.0f\n", $1)}'

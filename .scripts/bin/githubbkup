@@ -1,0 +1,2 @@
+#!/bin/sh
+config-commit && config pull --all && config push --all

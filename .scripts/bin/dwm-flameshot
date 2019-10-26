@@ -1,0 +1,2 @@
+#!/bin/sh
+exec flameshot full -d 1000 -p ~/.screenshots/

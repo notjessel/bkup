@@ -1,0 +1,2 @@
+#!/bin/sh
+exec sxhkd -c ~/.config/sxhkd/dwmrc "$@"

@@ -1,0 +1,30 @@
+^sep()
+File Search,fsearch,gtk-find
+Disks,gnome-disks,drive-removable-media
+^sep()
+System Settings,xfce4-settings-manager,preferences-desktop
+#Compiz Settings,ccsm,ccsm
+GTK Theme,xfce4-appearance-settings,preferences-desktop-theme
+#Emerald Themes        ,emerald-theme-manager,emerald-theme-manager
+Openbox Settings      ,obconf,obconf
+Panel Settings,tint2conf,tint2
+^sep()
+Web Browser,chromium,chromium
+Terminal,st,utilities-terminal
+Pulse Effects,pulseeffects,pulseeffects
+Skype,skypeforlinux,skypeforlinux
+#Pushbullet,"/opt/PB for Desktop/pb-for-desktop" %U,pb-for-desktop
+ProjectM,projectM-pulseaudio,prjm16-transparent
+Color Picker,gcolor2,deepin-picker
+#Lock,i3lock-fancy -p,system-lock-screen
+^sep()
+#Logout,killall compiz,system-log-out
+Logout,lxsession-logout,system-log-out
+#Exit,^checkout(exit),system-shutdown
+
+#exit,^tag(exit)
+#exit to prompt,openbox --exit,system-log-out
+#suspend,systemctl -i suspend,system-log-out
+#reboot,systemctl -i reboot,system-reboot
+#poweroff,systemctl -i poweroff,system-shutdown
+

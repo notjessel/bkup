@@ -1,0 +1,9 @@
+#!/bin/sh
+sselp > ~/.config/sselp-clipboard.txt &&
+    sleep 15 &&
+sselp > ~/.config/sselp-clipboard.txt &&
+    sleep 15 &&
+sselp > ~/.config/sselp-clipboard.txt &&
+    sleep 15 &&
+sselp > ~/.config/sselp-clipboard.txt 
+    

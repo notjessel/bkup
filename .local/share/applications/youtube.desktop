@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=YouTube
+Comment=YouTube 
+Exec=qutebrowser --target=window https://www.youtube.com
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/jll/.local/share/ice/youtube.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=qutebrowser
+StartupNotify=true

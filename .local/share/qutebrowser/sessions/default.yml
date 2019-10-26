@@ -1,0 +1,36 @@
+windows:
+- active: true
+  geometry: !!binary |
+    AdnQywADAAAAAAAAAAAAFQAABj8AAAODAAAAMwAAADMAAANSAAACigAAAAACAAAABkAAAAAAAAAA
+    FQAABj8AAAOD
+  tabs:
+  - history:
+    - pinned: false
+      title: DuckDuckGo — Privacy, simplified.
+      url: https://start.duckduckgo.com/
+    - original-url: http://chaturbate.com/
+      pinned: false
+      title: Chaturbate - Free Adult Webcams, Live Sex, Free Sex Chat, Exhibitionist
+        & Pornstar Free Cams
+      url: https://chaturbate.com/
+    - active: true
+      original-url: https://chaturbate.com/auth/login/?next=/
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Chaturbate - Free Adult Webcams, Live Sex, Free Sex Chat, Exhibitionist
+        & Pornstar Free Cams
+      url: https://chaturbate.com/
+      zoom: 1.0
+  - active: true
+    history:
+    - active: true
+      pinned: false
+      scroll-pos:
+        x: 0
+        y: 0
+      title: Chaturbate - Free Adult Webcams, Live Sex, Free Sex Chat, Exhibitionist
+        & Pornstar Free Cams
+      url: https://chaturbate.com/followed-cams/
+      zoom: 1.0

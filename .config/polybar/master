@@ -1,0 +1,92 @@
+ [colors]
+ #background = #bb294245
+ background = #1F292E
+ foreground = #D6D6D6
+ moderate = #ebcb8b
+ urgent = #bf616a
+ trim = #919ba0
+ blue = #4BB775
+ purple = #BBA8BF
+ border = #E91E63
+
+; Use either of the following command to list available outputs:
+; If unspecified, the application will pick the first one it finds.
+; $ polybar -m | cut -d ':' -f 1
+; $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor = 
+monitor-fallback =
+
+monitor-strict = false
+
+monitor-exact = true
+
+override-redirect = false
+
+bottom = false
+
+fixed-center = false 
+
+width = 100%
+height = 20
+
+offset-x = 0
+offset-y = 0
+background-0 = 
+radius = 0.0
+line-size = 0 
+border-size =
+border-top-size = 1
+border-bottom-size = 0
+padding = 0
+module-margin = 0
+
+font-0 = "CodeNewRoman Nerd Font:size=14:antialias=true;2"
+font-1 = "Font Awesome 5 Brands:pixelsize=14:antialias=true;1"
+font-2 = "MaterialIcons:size=14:antialias=true;2"
+font-3 = "icomoon:size=14:antialias=true;2"
+font-4 = "onlinewebfonts:size=14:antialias=true;2"
+
+separator = |
+
+spacing = 0
+
+dim-value = 1.0
+
+wm-name = bspwm
+
+;locale = 
+
+tray-position =
+
+tray-detached = false
+
+tray-maxsize = 16
+
+tray-transparent = false
+
+tray-background = ${root.background}
+
+tray-offset-x = 0
+tray-offset-y = 0
+
+tray-padding = 0
+tray-scale = 1.0
+
+; wm-restack =
+
+dpi-x = 96
+dpi-y = 96
+
+enable-ipc = false
+
+click-left = 
+click-middle = 
+click-right =
+scroll-up =
+scroll-down =
+double-click-left =
+double-click-middle =
+double-click-right =
+
+cursor-click = 
+cursor-scroll = 

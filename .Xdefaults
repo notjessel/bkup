@@ -1,0 +1,28 @@
+ !! Transparency (0-1):
+ st.alpha:           0.70
+ 
+ !! Set a default font and font size as below:
+ st.font:            iosevkass08:pixelsize=15:antialias=true:autohint=true
+ 
+ st.termname:        st-256color
+ st.borderpx:        0
+ 
+ st.background:      #1D2A2D
+ st.foreground:      #d6d6d6
+ 
+ st.color0:          #000000 
+ st.color1:          #D94D43
+ st.color2:          #61D6E8
+ st.color3:          #F2FF5D
+ st.color4:          #d6d6d6
+ st.color5:          #d6d6d6
+ st.color6:          #96b5b4
+ st.color7:          #FF6363
+ st.color8:          #D94D43
+ st.color9:          #bf616a
+ st.color10:         #a3be8c
+ st.color11:         #F2FF5D
+ st.color12:         #8fa1b3
+ st.color13:         #F2FF5D
+ st.color14:         #d6d6d6
+ st.color15:         #61D6E8

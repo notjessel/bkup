@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Translate
+Comment=Translate (Ice SSB)
+Exec=chromium --app=https://translate.google.com
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/jll/.local/share/ice/translate.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true

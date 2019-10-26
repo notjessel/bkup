@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Network Manager
+Exec=networkmanager
+Terminal=true
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+

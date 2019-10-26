@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Name=Transmission-Cli
+Comment=runs transmission-cli
+Exec=transcript
+Terminal=false
+X-MultipleArgs=false
+StartupNotify=true

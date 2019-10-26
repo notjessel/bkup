@@ -1,0 +1,6 @@
+${execi 900 ~/.conky/updateWeather.sh IWIENWIE4}
+${offset 10}${font DejaVu Sans Mono:bold:size=8}Austria, Vienna${font} ${hr 2}${image ~/.conky/tmp/IWIENWIE4_current -p 10,220 -s 48x48 -n}
+${offset 60}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json temp_c}C${alignr}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json temp_f}F
+${offset 60}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json relative_humidity}${alignr}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json wind_kph}kph
+${offset 60}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json pressure_mb}mb${alignr}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json wind_dir}
+${offset 60}${exec ~/.conky/getWeatherValue.sh ~/.conky/tmp/IWIENWIE4.json weather}

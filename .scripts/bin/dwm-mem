@@ -1,0 +1,10 @@
+#!/bin/sh
+free -h | awk '(NR==2){ print $3 }' > /home/jll/.config/dwm/memused.txt &&
+sleep 10 &&
+free -h | awk '(NR==2){ print $3 }' > /home/jll/.config/dwm/memused.txt &&
+sleep 10 &&
+free -h | awk '(NR==2){ print $3 }' > /home/jll/.config/dwm/memused.txt &&
+sleep 10 &&
+free -h | awk '(NR==2){ print $3 }' > /home/jll/.config/dwm/memused.txt &&
+sleep 10 &&
+free -h | awk '(NR==2){ print $3 }' > /home/jll/.config/dwm/memused.txt

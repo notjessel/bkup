@@ -1,0 +1,2 @@
+#!/bin/sh
+exec /etc/cron.hourly/dwm-updates

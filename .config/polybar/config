@@ -1,0 +1,129 @@
+;=====================================================
+;     File Includes
+;=====================================================
+
+[section/base]
+include-file = /home/jll/.config/polybar/master.conf
+include-file = /home/jll/.config/polybar/modules.conf
+
+
+;=====================================================
+;     Bspwm Bars
+;=====================================================
+
+[bar/bspwm-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = bspwm 
+modules-center = xwindow 
+modules-right  = clock volume power
+
+
+;=====================================================
+;     monsterwm Bars
+;=====================================================
+
+[bar/monsterwm-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = xworkspaces 
+modules-center = xwindow 
+modules-right  = clock volume power
+
+
+;=====================================================
+;     FrankenWM Bars
+;=====================================================
+
+[bar/frankenwm-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = xworkspaces 
+modules-center = xwindow 
+modules-right  = clock volume power
+
+;=====================================================
+;     Openbox Bars
+;=====================================================
+
+[bar/openbox-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = xworkspaces
+modules-center = clock 
+modules-right  = tray volume power 
+
+
+;=====================================================
+;     spectrwm
+;=====================================================
+
+[bar/spectrwm-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = workspaces
+modules-center = titlescript
+modules-right  = clock volume power
+
+
+;=====================================================
+;     i3 Bars
+;=====================================================
+
+[bar/i3-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = i3 window_switch titlescript
+modules-center = 
+modules-right  = clock volume power
+
+
+
+;=====================================================
+;     Xmonad Bars
+;=====================================================
+
+[bar/xmonad]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = workspaces
+modules-center = titlescript
+modules-right  = clock volume battery
+
+
+
+;=====================================================
+;     Openbox Bars
+;=====================================================
+
+[bar/generic-bar]
+inherit = bar/master
+
+; Use $ xrandr -q | grep " connected" | cut -d ' ' -f1
+monitor =
+
+modules-left   = workspaces menu
+modules-center = clock
+modules-right  = ${env:POLYBAR_MODULES:coreuse temperature memory pkg network volume}
+

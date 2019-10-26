@@ -1,0 +1,11 @@
+#!/bin/bash
+
+RET=$(echo -e "logout\nreboot\nshutdown\ncancel" | dmenu -l 5 -p "exit dwm?")
+
+case $RET in
+	shutdown) poweroff ;;
+	reboot) reboot ;;
+	logout) killall dwm ;;
+
+	*) ;;
+esac

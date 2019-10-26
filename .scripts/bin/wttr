@@ -1,0 +1,2 @@
+#!/bin/sh
+exec qutebrowser --target=window wttr.in/22485

@@ -1,0 +1,3 @@
+#!/bin/sh
+exec free -h | awk '(NR==2){ print $3 }'
+sleep 1

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Pushbullet
+Comment=Pushbullet (Ice SSB)
+Exec=qutebrowser --target=window https://www.pushbullet.com
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/jll/.local/share/ice/pushbullet.jpg
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=qutebrowser
+StartupNotify=true

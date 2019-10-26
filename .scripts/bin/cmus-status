@@ -1,0 +1,8 @@
+#!/bin/sh
+TRACKNO=$(cmus-remote -Q | grep -a '^tag tracknumber' | awk '{gsub("tag tracknumber ", "");print}')
+STATUS=$(cmus-remote -Q | grep -a '^status' | awk '{gsub("status ", "");print}')
+SHUFFLE=$(cmus-remote -Q | grep -a '^set shuffle' | awk '{gsub("set shuffle ", "");print}')
+printf "%s %s -%s "$STATUS" "$TRACKNO"
+         printf "%0d:%02d/" $((POSITION%3600/60)) $((POSITION%60)) > ~/.config/cmus-stat.txt
+         printf "%0d:%02d" $((DURATION%3600/60)) $((DURATION%60)) > ~/.config/cmus-stat.txt
+         printf "%s\n" "$SHUFFLE" > ~/.config/cmus-stat.txt

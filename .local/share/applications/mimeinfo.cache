@@ -1,0 +1,11 @@
+[MIME Cache]
+application/vnd.mozilla.xul+xml=waterfox.desktop;
+application/vnd.ms-htmlhelp=wine-extension-chm.desktop;
+application/xhtml+xml=waterfox.desktop;
+application/xhtml_xml=pushbullet.desktop;youtube.desktop;translate.desktop;
+text/html=waterfox.desktop;pushbullet.desktop;youtube.desktop;translate.desktop;
+text/mml=waterfox.desktop;
+text/xml=waterfox.desktop;pushbullet.desktop;youtube.desktop;translate.desktop;
+x-scheme-handler/ftp=waterfox.desktop;
+x-scheme-handler/http=waterfox.desktop;
+x-scheme-handler/https=waterfox.desktop;

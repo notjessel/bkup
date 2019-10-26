@@ -1,0 +1,23 @@
+@icon,,5,10,48,48,0,left,top,,,/home/jesse/Pictures/archico.png
+@rect,,58,9,210,35,0,left,bottom,#b8c2c6 100,#000000 0,content
+@search,,58,9,200,40,0,left,bottom,#b8c2c6 100,#222222 3,Search programs.....
+#^sep()
+Logout,xfce4-session-logout,system-log-out
+^sep()
+Web Browser,chromium,chromium
+Terminal,st,utilities-terminal
+Pulse Effects,pulseeffects,pulseeffects
+Skype,skypeforlinux,skypeforlinux
+#Pushbullet,"/opt/PB for Desktop/pb-for-desktop" %U,pb-for-desktop
+ProjectM,projectM-pulseaudio,prjm16-transparent
+Color Picker,gcolor2,deepin-picker
+^sep()
+Panel Settings,tint2conf,tint2
+Openbox Settings      ,obconf,obconf
+System Settings,xfce4-settings-manager,preferences-desktop
+^sep()
+Disks,gnome-disks,drive-removable-media
+File Search,fsearch,gtk-find
+#Compiz Settings,ccsm,ccsm
+GTK Theme,xfce4-appearance-settings,preferences-desktop-theme
+#Emerald Themes        ,emerald-theme-manager,emerald-theme-manager

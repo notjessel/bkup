@@ -1,0 +1,137 @@
+#!/bin/sh
+export SEP="|"
+export SEP1="["
+export SEP2="]"
+export PERC="%"
+export IDENTIFIER="unicode"
+# status modules #
+
+dwm_battery () {
+    CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
+    STATUS=$(cat /sys/class/power_supply/BAT0/status)
+
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        if [ "$STATUS" = "Charging" ]; then
+            printf "🔌%s%%" "$CHARGE"
+        else
+            printf "🔋%s%%" "$CHARGE"
+        fi
+    else
+        printf "BAT %s%%" "$CHARGE"
+    fi
+    printf "%s\n" #"$SEP2"#
+}
+
+dwm_mem () {
+    
+    TOTAL=$(free --giga | awk '(NR==2){ print $2 }' )
+    USED=$(cat ~/.config/dwm/memused.txt) 
+        
+    printf "%s" "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        printf "%s/%sGi" "$USED" "$TOTAL"
+    else
+        printf "%s/%sGi" "$USED" "$TOTAL"
+    fi
+    printf "%s" #"$SEP2"#
+}
+
+dwm_clock () {
+    printf "%s" #"$SEP"#
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        printf "%s" "$(date "+%l:%M%P")"
+    else
+        printf "DAT%s" "$(date "+%l:%M%P")"
+    fi
+    printf "%s\n" #"$SEP2"#
+}
+
+
+dwm_pulse () {
+    VOL=$(pamixer --get-volume-human | tr -d '%')
+ 
+    printf "%s"  "$SEP"
+    if [ "$IDENTIFIER" = "unicode" ]; then
+        if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
+            printf "🔇"
+        elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
+            printf "🔈 %s%%" "$VOL"
+        elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
+            printf "🔉 %s%%" "$VOL"
+        else
+            printf "🔊 %s%%" "$VOL"
+        fi
+   else
+       if [ "$VOL" = "muted" ] || [ "$VOL" -eq 0 ]; then
+           printf "MUTE"
+       elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
+           printf "VOL %s%%" "$VOL"
+       elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
+           printf "VOL %s%%" "$VOL"
+       else
+           printf "VOL %s%%" "$VOL"
+       fi
+    fi
+    printf "%s\n" #"$SEP2"#
+}
+
+dwm_cmus () {
+    if ps -C cmus > /dev/null; then
+        ARTIST=$(cmus-remote -Q | grep -a '^tag artist' | awk '{gsub("tag artist ", "");print}')
+        TRACK=$(cmus-remote -Q | grep -a '^tag title' | awk '{gsub("tag title ", "");print}')
+        POSITION=$(cmus-remote -Q | grep -a '^position' | awk '{gsub("position ", "");print}')
+        DURATION=$(cmus-remote -Q | grep -a '^duration' | awk '{gsub("duration ", "");print}')
+        STATUS=$(cmus-remote -Q | grep -a '^status' | awk '{gsub("status ", "");print}')
+        SHUFFLE=$(cmus-remote -Q | grep -a '^set shuffle' | awk '{gsub("set shuffle ", "");print}')
+
+        if [ "$IDENTIFIER" = "unicode" ]; then
+            if [ "$STATUS" = "playing" ]; then
+                STATUS="▶"
+            else
+                STATUS="⏸"
+            fi
+
+            if [ "$SHUFFLE" = "true" ]; then
+                SHUFFLE=" 🔀"
+            else
+                SHUFFLE=""
+            fi
+        else
+            if [ "$STATUS" = "playing" ]; then
+                STATUS="PLA"
+            else
+                STATUS="PAU"
+            fi
+
+            if [ "$SHUFFLE" = "true" ]; then
+                SHUFFLE=" S"
+            else
+                SHUFFLE=""
+            fi
+        fi
+        
+        printf "%s%s %s - %s " "$SEP" "$STATUS" "$ARTIST" "$TRACK"
+        printf "%0d:%02d/" $((POSITION%3600/60)) $((POSITION%60))
+        printf "%0d:%02d" $((DURATION%3600/60)) $((DURATION%60))
+        printf "%s%s\n" "$SHUFFLE" "$SEP"
+    fi
+}
+
+dwm_backlight () {
+    printf "%s☀%.0f%s\n" "$SEP" "$(xbacklight)" "$PERC"
+}
+
+dwm_updates () {
+    printf  "%s🔃%s" "$SEP" "$(cat ~/.config/dwm/update-check.txt)"
+}
+
+dwm_wttr () {
+    printf "%s🌡%s" "$SEP" "$(cat ~/.config/dwm/dwm-wttr.txt)"
+}
+
+# module order #
+while true
+do
+    xsetroot -name "$(dwm_clock)$(dwm_wttr)$(dwm_backlight)$(dwm_pulse)$(dwm_battery)"
+done

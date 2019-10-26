@@ -1,0 +1,5 @@
+#!/bin/sh
+sleep 4 &&
+conky -c .conky/wttr &
+sleep 6 &&
+conky -c .conky/clock &

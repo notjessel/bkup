@@ -1,0 +1,2 @@
+#!/bin/sh
+exec amixer -q -D pulse sset Capture toggle

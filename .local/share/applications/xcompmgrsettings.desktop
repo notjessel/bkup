@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Xcompmgr Settings
+Comment=Composite settings
+Exec=gcompmgr
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=preferences-desktop
+Categories=GTK;Desktop;Settings
+StartupNotify=true
+

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Xed
+Comment=text editor
+Exec=xed
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=GTK
+MimeType=text/html;text/xml;application/xhtml_xml;

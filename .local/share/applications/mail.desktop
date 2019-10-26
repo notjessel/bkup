@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Mail
+Exec=qutebrowser --target=window https://mail.cock.li
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=qutebrowser
+StartupNotify=true

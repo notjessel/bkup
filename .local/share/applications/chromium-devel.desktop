@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Chromium
+Exec=/home/jll/Downloads/ungoogled-chromium_70.0.3538.110-1_linux/chrome-wrapper %U
+Terminal=false
+Icon=/home/jll/Downloads/ungoogled-chromium_70.0.3538.110-1_linux/product_logo_48.png
+Type=Application
+Categories=Application;Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;

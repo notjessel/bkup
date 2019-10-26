@@ -1,0 +1,350 @@
+#   _ ____     _____             __      
+#  (_)___ \   / ____|           / _(_)      
+#   _  __) | | |     ___  _ __ | |_ _  __ _ 
+#  | ||__ <  | |    / _ \| '_ \|  _| |/ _` |
+#  | |___) | | |___| (_) | | | | | | | (_| |
+#  |_|____/   \_____\___/|_| |_|_| |_|\__, |
+#                                      __/ |
+#  By: Jesse L. Limerick              |___/   
+
+# Font for window titles. Will also be used by the bar unless a different font
+# is used in the bar {} block below.
+font pango:Ubuntu Condensed bold 11
+
+# This font is widely installed, provides lots of unicode glyphs, right-to-left
+# text rendering and scalability on retina/hidpi displays (thanks to pango).
+#font pango:DejaVu Sans Mono 8
+
+# Before i3 v4.8, we used to recommend this one as the default:
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+# The font above is very space-efficient, that is, it looks good, sharp and
+# clear in small sizes. However, its unicode glyph coverage is limited, the old
+# X core fonts rendering does not support right-to-left and this being a bitmap
+# font, it doesn't scale on retina/hidpi displays.
+
+##COLORS##
+#set $bg-color 	         #283630bb
+set $bg-color		 #1D2A2D
+set $bd-color		 #61D6E8
+#set $inactive-bg-color  #283431bb
+set $inactive-bg-color	 #1D2A2D
+set $inactive-bd-color	 #1A2528
+set $text-color          #D6D6D6
+set $inactive-text-color #AFB9BD
+#				  border	       background		text	 	 	     indicator	child border 
+client.focused          	$bd-color		$bg-color		$text-color   		     $bd-color	$bd-color  
+client.unfocused        	$bg-color		$bg-color 		$inactive-text-color         $bg-color	$bg-color
+client.focused_inactive		$bg-color		$bg-color	 	$inactive-text-color         $bg-color	$bg-color
+client.urgent           	$bg-color   	        $bg-color		$text-color		     $bg-color	$bg-color
+client.background  					$bg-color
+
+# i3 config #
+bindsym Mod1+Control+3 exec mousepad i3conf
+
+# i3 desktop dmenu #
+bindsym Mod4+space exec i3-dmenu-desktop
+
+# launch terminal #
+bindsym grave exec urxvtc 
+
+# launch file manager #
+bindsym Mod1+f exec pcmanfm
+
+# launch web browser #
+bindsym Mod1+w exec chromium --force-dark-mode
+
+# screenshot utility #
+bindsym Print exec flameshot full -d 2000 -p ~/Pictures/Screenshots/ 
+
+# launch calculator #
+bindsym Mod1+c exec gnome-calculator
+
+# launch music player #
+bindsym Mod1+m exec urxvtc -e musikcube
+
+# use these keys for focus, movement, and resize directions when reaching for
+# the arrows is not convenient
+set $up j
+set $down k
+set $left l
+set $right semicolon
+
+# use Mouse+Mod1 to drag floating windows to their wanted position
+floating_modifier Mod1
+
+# start a terminal
+bindsym Mod1+Return exec urxvtc
+
+# kill focused window
+bindsym Mod1+q kill
+
+# start dmenu (a program launcher)
+bindsym Mod4+d exec dmenu_run
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
+
+# change focus
+bindsym Mod1+$left focus left
+bindsym Mod1+$down focus down
+bindsym Mod1+$up focus up
+bindsym Mod1+$right focus right
+
+# alternatively, you can use the cursor keys:
+bindsym Mod1+Left focus left
+bindsym Mod1+Down focus down
+bindsym Mod1+Up focus up
+bindsym Mod1+Right focus right
+
+# move focused window
+bindsym Mod1+Shift+$left move left
+bindsym Mod1+Shift+$down move down
+bindsym Mod1+Shift+$up move up
+bindsym Mod1+Shift+$right move right
+
+# alternatively, you can use the cursor keys:
+bindsym Mod1+Shift+Left move left
+bindsym Mod1+Shift+Down move down
+bindsym Mod1+Shift+Up move up
+bindsym Mod1+Shift+Right move right
+
+# split in horizontal orientation
+bindsym Mod1+v split h
+
+# split in vertical orientation
+bindsym Mod1+h split v
+
+# enter fullscreen mode for the focused container
+#bindsym Mod1+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym Mod1+s layout stacking
+bindsym Mod1+t layout tabbed
+bindsym Mod1+e layout toggle split
+
+# toggle tiling / floating
+bindsym Mod1+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym Mod1+Shift+space focus mode_toggle
+
+# focus the parent container
+bindsym Mod1+a focus parent
+
+# focus the child container
+#bindsym Mod1+d focus child
+
+# move the currently focused window to the scratchpad
+#bindsym Mod1+Shift+minus move scratchpad
+bindsym Mod1+Shift+i move scratchpad
+
+# Show the next scratchpad window or hide the focused scratchpad window.
+# If there are multiple scratchpad windows, this command cycles through them.
+#bindsym Mod1+minus scratchpad show
+bindsym Mod1+i scratchpad show
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+#set $ws1 "  1"
+#set $ws2 "♪ 2"
+set $ws1 "  1"
+set $ws2 "  2"
+set $ws3 "  3"
+set $ws4 "  4"
+set $ws5 "  5"
+set $ws6 "  6"
+set $ws7 "  7"
+set $ws8 "  8"
+set $ws9 "  9"
+set $ws10 "♪ 10"
+
+
+# switch to workspace
+bindsym Mod1+1 workspace $ws1
+bindsym Mod1+2 workspace $ws2
+bindsym Mod1+3 workspace $ws3
+bindsym Mod1+4 workspace $ws4
+bindsym Mod1+5 workspace $ws5
+bindsym Mod1+6 workspace $ws6
+bindsym Mod1+7 workspace $ws7
+bindsym Mod1+8 workspace $ws8
+bindsym Mod1+9 workspace $ws9
+bindsym Mod1+0 workspace $ws10
+
+# move focused container to workspace
+bindsym Mod1+Shift+1 move container to workspace $ws1
+bindsym Mod1+Shift+2 move container to workspace $ws2
+bindsym Mod1+Shift+3 move container to workspace $ws3
+bindsym Mod1+Shift+4 move container to workspace $ws4
+bindsym Mod1+Shift+5 move container to workspace $ws5
+bindsym Mod1+Shift+6 move container to workspace $ws6
+bindsym Mod1+Shift+7 move container to workspace $ws7
+bindsym Mod1+Shift+8 move container to workspace $ws8
+bindsym Mod1+Shift+9 move container to workspace $ws9
+bindsym Mod1+Shift+0 move container to workspace $ws10
+
+# reload the configuration file
+bindsym Mod1+Shift+c reload
+
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym Mod1+Shift+r restart
+
+# exit i3 (logs you out of your X session)
+bindsym Mod1+Shift+e exec exitx
+
+#bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# resize window (you can also use the mouse for that)
+mode "resize" {
+        # These bindings trigger as soon as you enter the resize mode
+
+        # Pressing left will shrink the window’s width.
+        # Pressing right will grow the window’s width.
+        # Pressing up will shrink the window’s height.
+        # Pressing down will grow the window’s height.
+        bindsym $left       resize shrink width 10 px or 10 ppt
+        bindsym $down       resize grow height 10 px or 10 ppt
+        bindsym $up         resize shrink height 10 px or 10 ppt
+        bindsym $right      resize grow width 10 px or 10 ppt
+
+        # same bindings, but for the arrow keys
+        bindsym Left        resize shrink width 10 px or 10 ppt
+        bindsym Down        resize grow height 10 px or 10 ppt
+        bindsym Up          resize shrink height 10 px or 10 ppt
+        bindsym Right       resize grow width 10 px or 10 ppt
+
+        # back to normal: Enter or Escape or Mod1+r
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym Mod1+r mode "default"
+}
+
+bindsym Mod1+r mode "resize"
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        position top
+        i3bar_command sleep1; al-polybar-session
+        #status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	#status_command py3status
+	#tray_padding 0
+	#height 24
+        font pango:Ubuntu Condensed 14
+        colors {
+                background $bg-color
+                separator #757575
+                #                  border             background         text
+                focused_workspace  $bg-color          $bg-color          $text-color
+                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+}
+}
+
+## Always floating ##
+for_window [class="Nitrogen"] floating enable
+for_window [class="Skype"] floating enable
+for_window [class="Whatsie"] floating enable
+for_window [class="Pavucontrol"] floating enable
+for_window [class="Pulseeffects"] floating enable
+for_window [class="Fsearch"] floating enable
+for_window [class="Grsync"] floating enable
+for_window [class="GParted"] floating enable
+for_window [class="Gnome-disks"] floating enable
+for_window [class="Gnome-calculator"] floating enable
+for_window [class="File-roller"] floating enable
+for_window [class="Python3"] floating enable
+
+## Gaps ##
+#smart_gaps on
+gaps inner 0
+gaps outer 0
+
+set $mode_gaps Toggle gaps: (1) on (2) off
+bindsym mod1+g mode "$mode_gaps"
+mode "$mode_gaps" {
+    bindsym 1 mode "default", gaps inner all set 20, gaps outer all set 10
+    bindsym 2 mode "default", gaps inner all set 0, gaps outer all set 0
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindsym Mod1+shift+g mode "adjust (i)nner or (o)uter gaps?"
+
+mode "adjust (i)nner or (o)uter gaps?" {
+        bindsym o      mode "outer gaps adjustment (+) or (-)"
+        bindsym i      mode "inner gaps adjustment (+) or (-)"
+        bindsym Return mode "adjust (i)nner or (o)uter gaps?"
+        bindsym Escape mode "default"
+}
+
+mode "outer gaps adjustment (+) or (-)" {
+        bindsym plus  gaps outer current plus 5
+        bindsym minus gaps outer current minus 5
+        bindsym 0     gaps outer current set 0
+
+        bindsym Shift+plus  gaps outer all plus 5
+        bindsym Shift+minus gaps outer all minus 5
+        bindsym Shift+0     gaps outer all set 0
+
+        bindsym Return mode "adjust (i)nner or (o)uter gaps?"
+        bindsym Escape mode "default"
+}
+mode "inner gaps adjustment (+) or (-)" {
+        bindsym plus  gaps inner current plus 5
+        bindsym minus gaps inner current minus 5        
+        bindsym 0     gaps inner current set 0
+
+        bindsym Shift+plus  gaps inner all plus 5
+        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+0     gaps inner all set 0
+
+        bindsym Return mode "adjust (i)nner or (o)uter gaps?"
+        bindsym Escape mode "default"
+}
+
+
+
+## Media Keys ##
+# volume
+bindsym XF86AudioRaiseVolume exec amixer -q -D pulse sset Master 5%+; exec pkill -RTMIN+10 i3blocks 
+bindsym XF86AudioLowerVolume exec amixer -q -D pulse sset Master 5%-; exec pkill -RTMIN+10 i3blocks
+bindsym XF86AudioMute exec amixer -q -D pulse sset Master toggle; exec pkill -RTMIN+10
+bindsym XF86AudioMicMute exec amixer -q -D pulse sset Capture toggle; exec pkill -RTMIN+10
+# backlight
+#bindsym XF86MonBrightnessUp exec xbacklight -inc 5
+#bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+
+## Borders ##
+smart_borders on
+for_window [class="^.*"] border pixel 2
+for_window [class="conky*"] border pixel 0
+
+## Launch Programs ##
+bindsym Mod1+n exec nicotine
+
+## i3 lock ##
+bindsym XF86Launch1 exec slimlock
+
+# i3 autostart
+
+#wallpaper management
+exec --no-startup-id nitrogen --restore
+
+#composite (transparency, effects)
+exec_always --no-startup-id compton
+
+#settings daemon
+exec --no-startup-id xfsettingsd
+
+#power manager
+exec_always --no-startup-id sleep4;xfce4-power-manager
+
+#conky (widget)
+exec --no-startup-id conky -c ~/.conky/Gotham/Gotham
+
+#hide cursor when not in use
+exec --no-startup-id unclutter --timeout 2
+
+

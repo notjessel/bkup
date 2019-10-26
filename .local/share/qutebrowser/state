@@ -1,0 +1,11 @@
+[general]
+version = 1.8.1
+quickstart-done = 1
+qt_version = 5.13.1
+webkit-warning-shown = 1
+contact-info = 
+
+[geometry]
+mainwindow = AdnQywADAAAAAAAAAAAAFAAABj8AAAODAAAAAAAAABQAAAY/AAADgwAAAAAAAAAABkAAAAAAAAAAFAAABj8AAAOD
+inspector = AdnQywADAAAAAANeAAAAFAAABj8AAAODAAADYQAAABcAAAY8AAADgAAAAAAAAAAABkAAAANhAAAAFwAABjwAAAOA
+
