@@ -23,20 +23,23 @@ usr/bin/gnome-keyring-daemon --start --components=secrets &
 pulseeffects --gapplication-service --load-preset freeqy &
 /usr/lib/at-spi-bus-launcher --launch-immediately &
 gnome-keyring-daemon --start --components=pkcs11 &
+when-changed -r1q /var/log/pacman.log pkgupdates &
+when-changed -r1q ~/.config/mpd/log mpd-conky &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
 amixer set channel 0% mute &
 unclutter --timeout 2 &
-conky -c ~/.conky/mpd &
+#conky -c ~/.conky/mpd &
 rfkill block bluetooth
 nitrogen --restore &
+whenchanged &
 xsettingsd &
 beep -l 0 &
 dwmblocks &
-dwm-wttr &
 compton &
 xset -b
 sleep 3 &&
+dwm-wttr &
 pkgupdates &
 
 exec dwm

@@ -31,10 +31,9 @@ alias dmconf='vim ~/.config/dmenu/config.h'
 alias dwc='~/.config/dwm/ && sudo make clean install && cd ~/ && clear'
 alias stconf='vim ~/.config/st/config.h'
 alias stwc='~/.config/st/ && sudo make clean install && cd ~/ && clear'
-alias bkup='/usr/bin/git --git-dir=$HOME/.bkup --work-tree=$HOME'
-alias bkup-commit="bkup commit -am 'pizza rules'"
-alias gitbkup="bkup-commit && bkup pull --all && bkup push --all"
 alias baliasRC='vim ~/.bash/aliases.bash'
+#GIT ALIASES#
+alias bkup='/usr/bin/git --git-dir=$HOME/.bkup --work-tree=$HOME'
 alias xs=startx
 alias trashput=trash-put
 alias trashempty='sudo trash-empty'

@@ -1,2 +1,0 @@
-#!/bin/sh
-bkup-commit && bkup pull --all && bkup push --all

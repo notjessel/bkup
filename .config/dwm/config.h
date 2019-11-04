@@ -121,7 +121,7 @@ static const Layout layouts[] = {
 #define PRVTRK    0x1008ff16
 #define NXTTRK    0x1008ff17
 #define PLYTRK    0x1008ff14
-#define PAZTRK    0x1008ff15
+#define STPTRK    0x1008ff15
 #define SEEKFWD   0x1008ff27
 #define SEEKBK    0x1008ff26
 #define TAGKEYS(KEY,TAG) \
@@ -167,6 +167,7 @@ static const char *mpdprvcmd[]   =  { "mpd-prev", NULL };
 static const char *mpdskfwdcmd[] =  { "mpd-seekfwd", NULL };
 static const char *mpdskbkcmd[]  =  { "mpd-seekbk", NULL };
 static const char *mpdmenucmd[]  =  { "mpdmenu", NULL };
+static const char *mpdcnkycmd[]  =  { "mpd-conky-kill", NULL };
 static const char *blockscmd[]   =  { "dwmblockskill", NULL };
 static const char *settingscmd[] =  { "dmenu_syssettings", NULL };
 static const char *xresetcmd[]   =  { "xsettingsd-reset", NULL };
@@ -186,11 +187,12 @@ static Key keys[] = {
      { NOMOD,               MICMUTE,   spawn,    {.v = micmutecmd }  },
      { NOMOD,               PLYTRK,    spawn,    {.v = mpdplypzcmd }  },
      { MOD4,                XK_Return, spawn,    {.v = mpdplypzcmd }  },
-     { NOMOD,               PAZTRK,    spawn,    {.v = mpdstopcmd }  },
+     { NOMOD,               STPTRK,    spawn,    {.v = mpdstopcmd }  },
      { NOMOD,               NXTTRK,    spawn,    {.v = mpdnxtcmd }  },
      { NOMOD,               PRVTRK,    spawn,    {.v = mpdprvcmd }  },
      { MOD4,                SEEKFWD,   spawn,    {.v = mpdskfwdcmd }  },
      { MOD4,                SEEKBK,    spawn,    {.v = mpdskbkcmd }  },
+     { NOMOD,               STPTRK,    spawn,    {.v = mpdcnkycmd }  },
      { MOD4,                XK_m,      spawn,    {.v = mpdmenucmd }  },
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },
      { MODKEY,              XK_f,      spawn,    {.v = filemancmd }  },
@@ -215,7 +217,7 @@ static Key keys[] = {
      { MODKEY,              VOLINC,    spawn,    {.v = blockscmd }  },
      { MODKEY,              VOLDEC,    spawn,    {.v = blockscmd }  },
      { NOMOD,               MUTE,      spawn,    {.v = blockscmd }  },
-     { NOMOD,               PAZTRK,    spawn,    {.v = blockscmd} },
+     { NOMOD,               STPTRK,    spawn,    {.v = blockscmd} },
      { NOMOD,               PLYTRK,    spawn,    {.v = blockscmd} },
      { NOMOD,               NXTTRK,    spawn,    {.v = blockscmd} },
      { NOMOD,               PRVTRK,    spawn,    {.v = blockscmd} },

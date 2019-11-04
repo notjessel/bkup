@@ -15,7 +15,5 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  auto_save.interval:
-    global: 15000
-  content.plugins:
-    global: false
+  completion.height:
+    global: 50%

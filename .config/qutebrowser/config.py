@@ -161,7 +161,7 @@ c.content.webgl = True
 
 # Height (in pixels or as percentage of the window) of the completion.
 # Type: PercOrInt
-c.completion.height = '40%'
+c.completion.height = '50%'
 
 # Directory to save downloads to. If unset, a sensible OS-specific
 # default is used.

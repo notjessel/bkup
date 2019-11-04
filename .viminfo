@@ -11,29 +11,41 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sort
+~MSle0/ .mp4$
 
 # Last Substitute Search Pattern:
-~MSle0&alignr
+~MSle0~&PAZTRK
 
 # Last Substitute String:
-$alignc
+$STPTRK
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1572091282,,"wq"
+|2,0,1572857496,,"wq"
 :q!
-|2,0,1572091243,,"q!"
+|2,0,1572857192,,"q!"
 :w
-|2,0,1572086446,,"w"
+|2,0,1572833016,,"w"
+:%s/PAZTRK/STPTRK/g
+|2,0,1572780489,,"%s/PAZTRK/STPTRK/g"
+:set nonumber
+|2,0,1572777998,,"set nonumber"
+:wq!
+|2,0,1572778603,,"wq!"
+:q
+|2,0,1572759005,,"q"
+:%s/oomox-NeoMatrix/NeoMatrix/g
+|2,0,1572605431,,"%s/oomox-NeoMatrix/NeoMatrix/g"
+:wq !sh
+|2,0,1572415776,,"wq !sh"
+:%s/ .mp4$/ .mp5/g
+|2,0,1572415596,,"%s/ .mp4$/ .mp5/g"
+:colorscheme dracula
+|2,0,1572345955,,"colorscheme dracula"
 :q1
 |2,0,1572001919,,"q1"
 :%s/alignr/alignc/g
 |2,0,1571833988,,"%s/alignr/alignc/g"
-:q
-|2,0,1571386413,,"q"
-:wq!
-|2,0,1571278094,,"wq!"
 :!q!
 |2,0,1570996112,,"!q!"
 :qQ
@@ -52,8 +64,6 @@ $alignc
 |2,0,1570354768,,"%s/st -e/urxvt -e"
 :%s/oomox-october-rust/Halloween
 |2,0,1570334779,,"%s/oomox-october-rust/Halloween"
-:set nonumber
-|2,0,1570287799,,"set nonumber"
 :setnonumber
 |2,0,1570286973,,"setnonumber"
 :%s/octoberrust/whateveryouwant
@@ -120,6 +130,18 @@ $alignc
 |2,0,1561297794,,"set modifiable"
 
 # Search String History (newest to oldest):
+?/mpdcnkykill
+|2,1,1572780599,47,"mpdcnkykill"
+? PAZTRK
+|2,1,1572780489,,"PAZTRK"
+? oomox-NeoMatrix
+|2,1,1572605431,,"oomox-NeoMatrix"
+?/x-NeoMatrix/
+|2,1,1572605409,47,"x-NeoMatrix/"
+?/pup
+|2,1,1572536404,47,"pup"
+?  .mp4$
+|2,1,1572415596,," .mp4$"
 ?/sort
 |2,1,1572085884,47,"sort"
 ?/library
@@ -282,8 +304,6 @@ $alignc
 |2,1,1570704764,47,"stext"
 ?/pcmanfm
 |2,1,1570674825,47,"pcmanfm"
-?/pup
-|2,1,1570670476,47,"pup"
 ?/yay
 |2,1,1570640921,47,"yay"
 ?/updat
@@ -1110,16 +1130,6 @@ $alignc
 |2,1,1564421389,47,"grave"
 ?/.dwm
 |2,1,1564420581,47,".dwm"
-?/plugin
-|2,1,1564420099,47,"plugin"
-?/director
-|2,1,1564420057,47,"director"
-?/logout
-|2,1,1564418957,47,"logout"
-?/working
-|2,1,1564418830,47,"working"
-?/xk_a
-|2,1,1564417170,47,"xk_a"
 
 # Expression History (newest to oldest):
 
@@ -1128,274 +1138,800 @@ $alignc
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	if mpc status | grep stopped >/dev/null
-	    then
-	        "$(killall conky)"
-|3,0,0,1,3,0,1571781585,"if mpc status | grep stopped >/dev/null","    then","        \"$(killall conky)\""
+"0	BLOCK	29
+	(${mpd_elapsed}/${mpd_length})
+|3,0,0,2,1,29,1572832716,"(${mpd_elapsed}/${mpd_length})"
 "1	LINE	0
-	%{$fg[white]%}%(!])%{$reset_color%} '
-|3,0,1,1,1,0,1571996801,"%{$fg[white]%}%(!])%{$reset_color%} '"
+	
+|3,0,1,1,1,0,1572832890,""
 "2	LINE	0
-	%{$fg[white]%}%(!.].])%{$reset_color%} '
-|3,0,2,1,1,0,1571996722,"%{$fg[white]%}%(!.].])%{$reset_color%} '"
+	     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },
+	     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },
+	     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },
+	     TAGKEYS(               XK_1,                      0)
+	     TAGKEYS(               XK_2,                      1)
+	     TAGKEYS(               XK_3,                      2)
+	     TAGKEYS(               XK_4,                      3)
+|3,0,2,1,7,0,1572820036,"     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },","     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },","     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },","     TAGKEYS(               XK_1,                      0)","     TAGKEYS(               XK_2,                      1)","     TAGKEYS(               XK_3,                      2)",>59
+|<"     TAGKEYS(               XK_4,                      3)"
 "3	LINE	0
-	%{$fg[red]%}%(!.:.:)%{$reset_color%} '
-|3,0,3,1,1,0,1571996579,"%{$fg[red]%}%(!.:.:)%{$reset_color%} '"
-"4	LINE	0
-	%{$fg[red]%}%(!.)%{$reset_color%} '
-|3,0,4,1,1,0,1571996476,"%{$fg[red]%}%(!.)%{$reset_color%} '"
-"5	LINE	0
 	fi
-|3,0,5,1,1,0,1571781999,"fi"
+|3,0,3,1,1,0,1572780186,"fi"
+"4	LINE	0
+	killall conky 
+|3,0,4,1,1,0,1572780184,"killall conky "
+"5	LINE	0
+	    then
+|3,0,5,1,1,0,1572780184,"    then"
 "6	LINE	0
-	    "$(conky -c ~/.conky/mpd)"
-|3,0,6,1,1,0,1571781998,"    \"$(conky -c ~/.conky/mpd)\""
+	if mpc status | grep stopped >/dev/null      # If mpd is stopped
+|3,0,6,1,1,0,1572780183,"if mpc status | grep stopped >/dev/null      # If mpd is stopped"
 "7	LINE	0
 	else
-|3,0,7,1,1,0,1571781997,"else"
+|3,0,7,1,1,0,1572780183,"else"
 "8	LINE	0
-	        "$(killall conky)"
-|3,0,8,1,1,0,1571781997,"        \"$(killall conky)\""
-"9	LINE	0
-	    then
-|3,0,9,1,1,0,1571781996,"    then"
+	 else
+|3,0,8,1,1,0,1572778427," else"
+"9	CHAR	0
+	g
+	     then
+|3,0,9,0,2,0,1572778330,"g","     then"
 ""-	CHAR	0
-	5
-|3,1,36,0,1,0,1571834307,"5"
+	/
+|3,1,36,0,1,0,1572857089,"/"
 
 # File marks:
-'0  2  3  ~/.scripts/bin/githubbkup
-|4,48,2,3,1572091282,"~/.scripts/bin/githubbkup"
-'1  2  44  /tmp/fcr-7F028Y
-|4,49,2,44,1572091243,"/tmp/fcr-7F028Y"
-'2  1  0  ~/.ssh/id_rsa.pub
-|4,50,1,0,1572089867,"~/.ssh/id_rsa.pub"
-'3  1  0  ~/.ssh/id_rsa.pub
-|4,51,1,0,1572087225,"~/.ssh/id_rsa.pub"
-'4  34  12  ~/.aliases.zsh
-|4,52,34,12,1572086450,"~/.aliases.zsh"
-'5  60  37  ~/.scripts/bin/mpdmenu
-|4,53,60,37,1572085908,"~/.scripts/bin/mpdmenu"
-'6  478  9  ~/.ncmpcpp/bindings
-|4,54,478,9,1572085466,"~/.ncmpcpp/bindings"
-'7  4  7  ~/.oh-my-zsh/themes/jesse2.zsh-theme
-|4,55,4,7,1572070690,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
-'8  4  60  ~/.oh-my-zsh/themes/jesse2.zsh-theme
-|4,56,4,60,1572052345,"~/.oh-my-zsh/themes/jesse2.zsh-theme"
-'9  94  152  ~/.config-git/logs/HEAD
-|4,57,94,152,1572005965,"~/.config-git/logs/HEAD"
+'0  2  194  ~/.scripts/bin/gitbkup
+|4,48,2,194,1572857496,"~/.scripts/bin/gitbkup"
+'1  1  7  ~/.scripts/bin/gitbkup
+|4,49,1,7,1572857391,"~/.scripts/bin/gitbkup"
+'2  1  7  ~/.scripts/bin/gitbkup
+|4,50,1,7,1572857391,"~/.scripts/bin/gitbkup"
+'3  36  0  ~/.aliases.zsh
+|4,51,36,0,1572857365,"~/.aliases.zsh"
+'4  2  0  ~/.scripts/bin/bkup
+|4,52,2,0,1572857192,"~/.scripts/bin/bkup"
+'5  36  63  ~/.aliases.zsh
+|4,53,36,63,1572857186,"~/.aliases.zsh"
+'6  2  0  ~/.scripts/bin/bkup
+|4,54,2,0,1572857094,"~/.scripts/bin/bkup"
+'7  2  0  ~/.scripts/bin/gitbkup
+|4,55,2,0,1572857030,"~/.scripts/bin/gitbkup"
+'8  2  0  ~/.scripts/bin/gitbkup
+|4,56,2,0,1572857030,"~/.scripts/bin/gitbkup"
+'9  2  0  ~/.scripts/bin/gitbkup
+|4,57,2,0,1572857030,"~/.scripts/bin/gitbkup"
 
 # Jumplist (newest first):
--'  2  3  ~/.scripts/bin/githubbkup
-|4,39,2,3,1572091282,"~/.scripts/bin/githubbkup"
--'  2  44  /tmp/fcr-7F028Y
-|4,39,2,44,1572091243,"/tmp/fcr-7F028Y"
--'  2  44  /tmp/fcr-7F028Y
-|4,39,2,44,1572091243,"/tmp/fcr-7F028Y"
--'  1  0  /tmp/fcr-7F028Y
-|4,39,1,0,1572091231,"/tmp/fcr-7F028Y"
--'  1  0  /tmp/fcr-7F028Y
-|4,39,1,0,1572091231,"/tmp/fcr-7F028Y"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572089867,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
--'  1  0  ~/.ssh/id_rsa.pub
-|4,39,1,0,1572087225,"~/.ssh/id_rsa.pub"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
--'  34  12  ~/.aliases.zsh
-|4,39,34,12,1572086450,"~/.aliases.zsh"
+-'  2  194  ~/.scripts/bin/gitbkup
+|4,39,2,194,1572857496,"~/.scripts/bin/gitbkup"
+-'  1  0  ~/.scripts/bin/gitbkup
+|4,39,1,0,1572857430,"~/.scripts/bin/gitbkup"
+-'  1  7  ~/.scripts/bin/gitbkup
+|4,39,1,7,1572857391,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857373,"~/.scripts/bin/gitbkup"
 -'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
+|4,39,36,0,1572857365,"~/.aliases.zsh"
 -'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
+|4,39,36,0,1572857365,"~/.aliases.zsh"
 -'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
+|4,39,36,0,1572857365,"~/.aliases.zsh"
 -'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572086321,"~/.aliases.zsh"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  60  37  ~/.scripts/bin/mpdmenu
-|4,39,60,37,1572085908,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
--'  18  43  ~/.scripts/bin/mpdmenu
-|4,39,18,43,1572085886,"~/.scripts/bin/mpdmenu"
+|4,39,36,0,1572857365,"~/.aliases.zsh"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
+-'  36  63  ~/.aliases.zsh
+|4,39,36,63,1572857186,"~/.aliases.zsh"
+-'  36  63  ~/.aliases.zsh
+|4,39,36,63,1572857186,"~/.aliases.zsh"
+-'  36  63  ~/.aliases.zsh
+|4,39,36,63,1572857186,"~/.aliases.zsh"
+-'  36  63  ~/.aliases.zsh
+|4,39,36,63,1572857186,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  34  0  ~/.aliases.zsh
+|4,39,34,0,1572857154,"~/.aliases.zsh"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/gitbkup
+|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  0  ~/.scripts/bin/bkup
+|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  2  4  ~/.scripts/bin/gitbkup
+|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
 
 # History of marks within files (newest to oldest):
 
+> ~/.scripts/bin/gitbkup
+	*	1572857493	0
+	"	2	194
+	^	2	195
+	.	2	194
+	+	2	0
+	+	1	7
+	+	2	194
+
+> ~/.aliases.zsh
+	*	1572857238	0
+	"	36	0
+	^	36	64
+	.	36	63
+	+	42	27
+	+	67	17
+	+	82	34
+	+	85	9
+	+	69	0
+	+	85	20
+	+	89	63
+	+	34	17
+	+	34	9
+	+	34	22
+	+	34	12
+	+	34	0
+	+	35	13
+	+	36	63
+
+> ~/.scripts/bin/bkup
+	*	1572857145	0
+	"	2	0
+	^	2	5
+	.	2	0
+	+	2	0
+
+> ~/.conky/mpd
+	*	1572833020	0
+	"	43	27
+	^	43	28
+	.	43	28
+	+	41	39
+	+	41	53
+	+	44	12
+	+	31	7
+	+	30	7
+	+	41	40
+	+	41	61
+	+	26	0
+	+	31	7
+	+	41	38
+	+	41	63
+	+	41	51
+	+	31	6
+	+	30	7
+	+	31	6
+	+	30	6
+	+	41	51
+	+	31	7
+	+	41	37
+	+	31	7
+	+	41	51
+	+	31	7
+	+	41	55
+	+	31	8
+	+	30	7
+	+	41	53
+	+	30	8
+	+	41	39
+	+	31	7
+	+	41	46
+	+	44	7
+	+	41	24
+	+	41	39
+	+	41	54
+	+	41	39
+	+	44	35
+	+	41	18
+	+	44	34
+	+	44	14
+	+	41	52
+	+	44	0
+	+	41	39
+	+	41	47
+	+	41	39
+	+	44	46
+	+	41	39
+	+	43	0
+	+	41	26
+	+	41	48
+	+	44	23
+	+	41	24
+	+	41	46
+	+	43	7
+	+	44	7
+	+	29	20
+	+	41	17
+	+	41	39
+	+	43	0
+	+	44	0
+	+	43	0
+	+	44	27
+	+	30	7
+	+	2	34
+	+	44	11
+	+	31	6
+	+	30	6
+	+	29	19
+	+	10	24
+	+	29	18
+	+	30	6
+	+	31	7
+	+	29	18
+	+	44	15
+	+	41	24
+	+	41	40
+	+	43	0
+	+	41	39
+	+	43	1
+	+	44	7
+	+	41	46
+	+	41	80
+	+	41	39
+	+	44	54
+	+	41	0
+	+	44	9
+	+	43	50
+	+	44	9
+	+	43	51
+	+	2	40
+	+	43	21
+	+	44	0
+	+	43	21
+	+	44	0
+	+	43	20
+	+	44	0
+	+	43	21
+	+	43	0
+	+	44	0
+	+	43	28
+
+> ~/.scripts/bin/mpd-conky
+	*	1572828629	0
+	"	6	0
+	.	7	0
+	+	1	0
+	+	5	25
+	+	6	0
+	+	6	63
+	+	6	0
+	+	6	63
+	+	6	12
+	+	6	0
+	+	6	2
+	+	1	1
+	+	6	2
+	+	7	0
+	+	6	0
+	+	6	3
+	+	6	0
+	+	7	1
+	+	6	3
+	+	6	0
+	+	6	61
+	+	6	26
+	+	5	26
+	+	6	0
+	+	7	0
+
+> ~/.config/dwm/config.h
+	*	1572820036	0
+	"	255	5
+	^	170	33
+	.	255	0
+	+	14	68
+	+	13	67
+	+	14	68
+	+	121	28
+	+	123	28
+	+	124	27
+	+	123	10
+	+	124	10
+	+	123	17
+	+	163	0
+	+	171	0
+	+	163	46
+	+	171	0
+	+	164	0
+	+	165	0
+	+	166	0
+	+	164	47
+	+	165	46
+	+	166	46
+	+	165	24
+	+	166	24
+	+	188	63
+	+	190	0
+	+	191	0
+	+	192	0
+	+	190	60
+	+	191	60
+	+	192	60
+	+	190	30
+	+	191	30
+	+	192	30
+	+	122	18
+	+	169	45
+	+	196	31
+	+	163	50
+	+	164	46
+	+	163	27
+	+	164	25
+	+	163	33
+	+	164	33
+	+	188	62
+	+	190	61
+	+	189	28
+	+	191	0
+	+	189	31
+	+	220	39
+	+	221	39
+	+	222	67
+	+	223	30
+	+	13	0
+	+	167	0
+	+	168	0
+	+	167	26
+	+	168	25
+	+	167	33
+	+	168	33
+	+	167	49
+	+	168	48
+	+	193	0
+	+	196	61
+	+	193	37
+	+	192	39
+	+	191	39
+	+	193	40
+	+	196	39
+	+	197	39
+	+	198	39
+	+	199	39
+	+	200	39
+	+	193	30
+	+	126	27
+	+	193	38
+	+	192	39
+	+	191	39
+	+	196	39
+	+	197	39
+	+	198	39
+	+	199	39
+	+	200	39
+	+	194	0
+	+	196	0
+	+	194	61
+	+	169	54
+	+	169	26
+	+	169	32
+	+	169	46
+	+	222	0
+	+	189	59
+	+	189	63
+	+	189	56
+	+	189	63
+	+	189	71
+	+	189	0
+	+	169	0
+	+	170	52
+	+	195	33
+	+	124	0
+	+	195	62
+	+	170	32
+	+	255	0
+
+> ~/.scripts/bin/mpd-conky-kill
+	*	1572780261	0
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> ~/.config/mpd/log
+	*	1572779263	0
+	"	4345872	0
+	.	1	0
+	+	1	0
+
+> ~/.config/dwmblocks/statusbar/mpd
+	*	1572779124	0
+	"	5	0
+	.	7	0
+	+	4	8
+	+	5	28
+	+	11	0
+	+	2	38
+	+	5	28
+	+	6	0
+	+	7	0
+	+	6	3
+	+	7	61
+	+	10	0
+	+	11	1
+	+	3	0
+	+	2	31
+	+	4	0
+	+	5	27
+	+	10	0
+	+	8	8
+	+	10	0
+	+	9	18
+	+	5	12
+	+	9	12
+	+	5	12
+	+	9	12
+	+	5	12
+	+	9	12
+	+	2	0
+	+	7	16
+	+	11	16
+	+	7	20
+	+	11	20
+	+	7	26
+	+	11	65
+	+	7	68
+	+	7	0
+
+> ~/.xinitrc
+	*	1572778851	0
+	"	32	0
+	^	32	1
+	.	32	0
+	+	22	0
+	+	24	0
+	+	22	0
+	+	8	81
+	+	8	0
+	+	8	81
+	+	8	0
+	+	8	119
+	+	8	117
+	+	8	0
+	+	8	81
+	+	8	52
+	+	8	56
+	+	8	46
+	+	8	39
+	+	8	14
+	+	8	39
+	+	8	81
+	+	24	0
+	+	22	0
+	+	20	0
+	+	22	0
+	+	24	0
+	+	23	0
+	+	8	58
+	+	24	10
+	+	24	0
+	+	24	9
+	+	24	10
+	+	24	0
+	+	24	6
+	+	8	161
+	+	24	0
+	+	24	10
+	+	22	10
+	+	23	0
+	+	22	0
+	+	8	168
+	+	8	0
+	+	8	21
+	+	8	170
+	+	22	0
+	+	25	50
+	+	25	9
+	+	18	21
+	+	19	7
+	+	18	0
+	+	19	0
+	+	24	0
+	+	23	0
+	+	21	0
+	+	25	6
+	+	23	9
+	+	24	7
+	+	25	0
+	+	8	0
+	+	8	47
+	+	12	0
+	+	16	0
+	+	8	2
+	+	8	0
+	+	8	167
+	+	8	38
+	+	8	122
+	+	8	167
+	+	8	0
+	+	8	8
+	+	8	139
+	+	8	79
+	+	8	140
+	+	8	9
+	+	8	163
+	+	8	11
+	+	8	56
+	+	8	140
+	+	8	10
+	+	8	141
+	+	8	57
+	+	8	141
+	+	8	9
+	+	8	140
+	+	8	56
+	+	8	0
+	+	8	3
+	+	8	0
+	+	8	4
+	+	8	39
+	+	8	0
+	+	25	50
+	+	35	12
+	+	25	102
+	+	25	50
+	+	25	0
+	+	26	0
+	+	39	0
+	+	43	0
+	+	42	9
+	+	23	22
+	+	27	45
+	+	32	0
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1572759002	0
+	"	1	0
+
+> /tmp/fcr-NYvVui
+	*	1572741961	0
+	"	3	0
+
+> ~/themes/NeoMatrix/index.theme
+	*	1572605431	0
+	"	11	0
+	.	3	0
+	+	3	0
+
+> ~/.xsettingsd
+	*	1572580387	0
+	"	2	0
+	^	2	24
+	.	2	23
+	+	2	23
+
+> ~/.scripts/bin/whenchanged
+	*	1572580198	0
+	"	3	0
+	^	3	47
+	.	3	48
+	+	3	48
+	+	2	52
+	+	3	48
+
+> /usr/share/themes/Ant-Dracula/index.theme
+	*	1572579706	0
+	"	1	0
+
+> /tmp/fcr-nJNZz3
+	*	1572570612	0
+	"	2	40
+	^	2	41
+	.	2	41
+	+	3	0
+	+	2	41
+
 > ~/.scripts/bin/githubbkup
-	*	1572091278	0
-	"	2	3
+	*	1572570517	0
+	"	2	0
 	^	2	4
 	.	2	3
 	+	2	3
+
+> /var/log/pacman.log
+	*	1572536155	0
+	"	23592	0
+
+> ~/Videos/!sh
+	*	1572415802	0
+	"	2	0
+	.	2	44
+	+	1	13
+	+	2	44
+
+> ~/.zshrc
+	*	1572345955	0
+	"	11	0
+	^	11	17
+	.	11	16
+	+	11	15
+	+	86	0
+	+	86	37
+	+	86	0
+	+	86	11
+	+	86	13
+	+	86	18
+	+	86	12
+	+	86	0
+	+	11	16
+
+> ~/.vimrc
+	*	1572341867	0
+	"	1	0
+
+> /etc/udev/rules.d/10-trackpoint.rules
+	*	1572229425	0
+	"	1	99
+	^	1	100
+	.	1	99
+	+	1	99
+
+> ~/.scripts/bin/launchhtop
+	*	1572155709	0
+	"	5	100
+	^	5	101
+	.	5	100
+	+	5	100
 
 > /tmp/fcr-7F028Y
 	*	1572091239	0
@@ -1404,23 +1940,6 @@ $alignc
 > ~/.ssh/id_rsa.pub
 	*	1572089862	0
 	"	1	0
-
-> ~/.aliases.zsh
-	*	1572086446	0
-	"	34	12
-	^	34	13
-	.	36	12
-	+	43	27
-	+	68	17
-	+	83	34
-	+	86	9
-	+	70	0
-	+	86	20
-	+	90	63
-	+	36	17
-	+	34	9
-	+	35	22
-	+	36	12
 
 > ~/.scripts/bin/mpdmenu
 	*	1572085905	0
@@ -1583,26 +2102,6 @@ $alignc
 	+	13	0
 	+	16	0
 
-> /usr/share/vim/vim81/doc/help.txt
-	*	1571997105	0
-	"	1	0
-
-> ~/.zshrc
-	*	1571996401	0
-	"	11	16
-	^	11	17
-	.	11	16
-	+	11	15
-	+	86	0
-	+	86	37
-	+	86	0
-	+	86	11
-	+	86	13
-	+	86	18
-	+	86	12
-	+	86	0
-	+	11	16
-
 > ~/.oh-my-zsh/themes/jesse.zsh-theme
 	*	1571996296	0
 	"	4	7
@@ -1612,213 +2111,6 @@ $alignc
 	+	4	60
 	+	6	36
 	+	4	8
-
-> ~/.config/dwm/config.h
-	*	1571880520	0
-	"	29	0
-	.	169	0
-	+	170	61
-	+	211	6
-	+	217	70
-	+	13	67
-	+	14	68
-	+	13	67
-	+	14	68
-	+	13	67
-	+	14	68
-	+	121	28
-	+	123	28
-	+	124	27
-	+	123	10
-	+	124	10
-	+	123	17
-	+	163	0
-	+	170	0
-	+	163	46
-	+	170	0
-	+	164	0
-	+	165	0
-	+	166	0
-	+	164	47
-	+	165	46
-	+	166	46
-	+	165	24
-	+	166	24
-	+	187	63
-	+	189	0
-	+	190	0
-	+	191	0
-	+	189	60
-	+	190	60
-	+	191	60
-	+	189	30
-	+	190	30
-	+	191	30
-	+	122	18
-	+	169	45
-	+	194	31
-	+	163	50
-	+	164	46
-	+	163	27
-	+	164	25
-	+	163	33
-	+	164	33
-	+	187	62
-	+	189	61
-	+	188	28
-	+	190	0
-	+	188	31
-	+	218	39
-	+	219	39
-	+	220	67
-	+	221	30
-	+	13	0
-	+	167	0
-	+	168	0
-	+	167	26
-	+	168	25
-	+	167	33
-	+	168	33
-	+	167	49
-	+	168	48
-	+	192	0
-	+	194	61
-	+	192	37
-	+	191	39
-	+	190	39
-	+	192	40
-	+	194	39
-	+	195	39
-	+	196	39
-	+	197	39
-	+	198	39
-	+	192	30
-	+	126	27
-	+	192	38
-	+	191	39
-	+	190	39
-	+	194	39
-	+	195	39
-	+	196	39
-	+	197	39
-	+	198	39
-	+	193	0
-	+	194	0
-	+	193	61
-	+	169	54
-	+	169	26
-	+	169	32
-	+	169	46
-	+	220	0
-	+	188	59
-	+	188	63
-	+	188	56
-	+	188	63
-	+	188	71
-	+	188	0
-	+	169	0
-
-> ~/.conky/mpd
-	*	1571834404	0
-	"	31	7
-	^	31	8
-	.	31	7
-	+	13	25
-	+	23	19
-	+	10	24
-	+	14	25
-	+	35	13
-	+	38	0
-	+	41	26
-	+	41	28
-	+	28	7
-	+	38	41
-	+	27	0
-	+	17	15
-	+	38	25
-	+	39	24
-	+	38	42
-	+	38	41
-	+	39	21
-	+	40	9
-	+	17	14
-	+	18	15
-	+	17	13
-	+	2	35
-	+	28	7
-	+	38	37
-	+	28	7
-	+	39	9
-	+	38	45
-	+	38	43
-	+	17	13
-	+	41	59
-	+	13	24
-	+	10	25
-	+	41	26
-	+	14	22
-	+	13	0
-	+	41	26
-	+	13	25
-	+	10	24
-	+	17	13
-	+	41	26
-	+	10	25
-	+	27	6
-	+	28	7
-	+	27	6
-	+	38	39
-	+	23	18
-	+	12	17
-	+	23	19
-	+	12	23
-	+	3	9
-	+	39	7
-	+	40	7
-	+	41	7
-	+	39	7
-	+	40	7
-	+	41	7
-	+	39	35
-	+	3	0
-	+	13	24
-	+	3	0
-	+	14	24
-	+	38	41
-	+	10	24
-	+	43	14
-	+	44	12
-	+	10	25
-	+	41	39
-	+	43	14
-	+	44	12
-	+	31	7
-	+	30	7
-	+	41	40
-	+	42	22
-	+	26	0
-	+	31	7
-	+	41	38
-	+	42	24
-	+	41	51
-	+	31	6
-	+	30	7
-	+	31	6
-	+	30	6
-	+	41	51
-	+	31	7
-	+	41	37
-	+	31	7
-	+	41	51
-	+	31	7
-	+	41	55
-	+	31	8
-	+	30	7
-	+	41	53
-	+	30	8
-	+	42	0
-	+	43	0
-	+	31	7
 
 > /etc/pacman.conf
 	*	1571821702	0
@@ -1848,109 +2140,6 @@ $alignc
 	+	5	0
 	+	4	0
 	+	3	0
-
-> ~/.xinitrc
-	*	1571781999	0
-	"	8	0
-	.	8	0
-	+	13	18
-	+	13	0
-	+	8	165
-	+	18	0
-	+	8	165
-	+	8	85
-	+	8	0
-	+	8	39
-	+	19	0
-	+	18	0
-	+	22	0
-	+	24	0
-	+	22	0
-	+	8	81
-	+	8	0
-	+	8	81
-	+	8	0
-	+	8	119
-	+	8	117
-	+	8	0
-	+	8	81
-	+	8	52
-	+	8	56
-	+	8	46
-	+	8	39
-	+	8	14
-	+	8	39
-	+	8	81
-	+	24	0
-	+	22	0
-	+	20	0
-	+	22	0
-	+	24	0
-	+	23	0
-	+	8	58
-	+	24	10
-	+	24	0
-	+	24	9
-	+	24	10
-	+	24	0
-	+	24	6
-	+	8	161
-	+	24	0
-	+	24	10
-	+	22	10
-	+	23	0
-	+	22	0
-	+	8	168
-	+	8	0
-	+	8	21
-	+	8	170
-	+	22	0
-	+	26	0
-	+	25	9
-	+	18	21
-	+	19	7
-	+	18	0
-	+	19	0
-	+	24	0
-	+	23	0
-	+	21	0
-	+	25	6
-	+	23	9
-	+	24	7
-	+	25	0
-	+	8	0
-	+	8	47
-	+	12	0
-	+	16	0
-	+	8	2
-	+	8	0
-	+	8	167
-	+	8	38
-	+	8	122
-	+	8	167
-	+	8	0
-	+	8	8
-	+	8	139
-	+	8	79
-	+	8	140
-	+	8	9
-	+	8	163
-	+	8	11
-	+	8	56
-	+	8	140
-	+	8	10
-	+	8	141
-	+	8	57
-	+	8	141
-	+	8	9
-	+	8	140
-	+	8	56
-	+	8	0
-	+	8	3
-	+	8	0
-	+	8	4
-	+	8	39
-	+	8	0
 
 > ~/.config/dwmblocks/statusbar/cmus
 	*	1571777627	0
@@ -2071,45 +2260,6 @@ $alignc
 	+	9	0
 	+	7	0
 
-> ~/.config/dwmblocks/statusbar/mpd
-	*	1571774788	0
-	"	7	8
-	.	7	0
-	+	4	8
-	+	5	28
-	+	11	0
-	+	2	38
-	+	5	28
-	+	6	0
-	+	7	0
-	+	6	3
-	+	7	61
-	+	10	0
-	+	11	1
-	+	3	0
-	+	2	31
-	+	4	0
-	+	5	27
-	+	10	0
-	+	8	8
-	+	10	0
-	+	9	18
-	+	5	12
-	+	9	12
-	+	5	12
-	+	9	12
-	+	5	12
-	+	9	12
-	+	2	0
-	+	7	16
-	+	11	16
-	+	7	20
-	+	11	20
-	+	7	26
-	+	11	65
-	+	7	68
-	+	7	0
-
 > ~/.config/dwmblocks/statusbar/battery
 	*	1571774762	0
 	"	5	6
@@ -2210,12 +2360,6 @@ $alignc
 > ~/.conky/wttr
 	*	1571773057	0
 	"	39	30
-
-> ~/.config/mpd/log
-	*	1571748575	0
-	"	1	0
-	.	1	0
-	+	1	0
 
 > ~/.scripts/bin/mpd-seekbk
 	*	1571747062	0
@@ -2779,199 +2923,3 @@ $alignc
 	+	12	0
 	+	10	0
 	+	2	13
-
-> ~/.config/dwm/update-check.txt
-	*	1570757744	0
-	"	1	0
-
-> ~/.scripts/bin/dwmblockskill
-	*	1570757618	0
-	"	3	0
-	^	2	20
-	.	2	19
-	+	2	21
-	+	2	10
-	+	2	19
-
-> /tmp/fcr-96bokI
-	*	1570757513	0
-	"	1	0
-
-> ~/.scripts/bin/pkgupdates
-	*	1570757453	0
-	"	3	0
-	^	3	13
-	.	3	12
-	+	3	2
-	+	2	58
-	+	4	0
-	+	3	28
-	+	4	30
-	+	5	0
-	+	4	0
-	+	1	9
-	+	2	64
-	+	3	12
-
-> ~/.config/config.h
-	*	1570706676	0
-	"	48	0
-
-> ~/.config/dwm/dwm.c.rej
-	*	1570706642	0
-	"	1	0
-
-> ~/.config/dwm/dwm-statuscolors-nopad-20180103-db22360.diff
-	*	1570706032	0
-	"	139	103
-	^	139	104
-	.	139	103
-	+	141	0
-	+	139	103
-
-> ~/config.h
-	*	1570704348	0
-	"	1	0
-
-> ~/.local/share/file-manager/actions/root.desktop
-	*	1570694827	0
-	"	10	59
-	^	10	60
-	.	10	59
-	+	11	12
-	+	10	46
-	+	3	13
-	+	4	10
-	+	10	59
-
-> /etc/profile
-	*	1570673901	0
-	"	32	39
-	^	32	40
-	.	32	39
-	+	32	39
-
-> /sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-LVDS-1/intel_backlight/actual_brightness
-	*	1570671903	0
-	"	1	0
-
-> /sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-LVDS-1/intel_backlight/max_brightness
-	*	1570671838	0
-	"	1	0
-
-> /sys/devices/pci0000:00/0000:00:02.0/drm/card0/card0-LVDS-1/intel_backlight/brightness
-	*	1570671820	0
-	"	1	2
-
-> /tmp/fcr-rZBKhM
-	*	1570670424	0
-	"	3	3
-	^	3	4
-	.	3	3
-	+	3	3
-
-> ~/.scripts/bin/dwm-bar
-	*	1570663481	0
-	"	8	0
-	^	82	29
-	.	79	31
-	+	17	43
-	+	9	0
-	+	18	20
-	+	60	18
-	+	133	16
-	+	76	24
-	+	137	35
-	+	140	41
-	+	137	35
-	+	140	42
-	+	121	26
-	+	60	25
-	+	76	17
-	+	137	23
-	+	18	35
-	+	15	17
-	+	18	35
-	+	18	32
-	+	159	107
-	+	9	22
-	+	9	0
-	+	9	21
-	+	9	18
-	+	159	105
-	+	9	0
-	+	159	82
-	+	18	20
-	+	159	20
-	+	18	19
-	+	16	0
-	+	18	19
-	+	159	20
-	+	25	18
-	+	15	22
-	+	159	41
-	+	25	23
-	+	76	17
-	+	98	24
-	+	137	16
-	+	159	66
-	+	155	0
-	+	20	20
-	+	14	52
-	+	28	18
-	+	30	0
-	+	37	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	23
-	+	34	25
-	+	36	0
-	+	159	96
-	+	14	0
-	+	18	20
-	+	15	23
-	+	145	63
-	+	32	0
-	+	159	91
-	+	153	62
-	+	145	67
-	+	159	93
-	+	34	25
-	+	159	53
-	+	98	18
-	+	76	24
-	+	60	18
-	+	64	23
-	+	98	18
-	+	64	22
-	+	137	18
-	+	66	36
-	+	81	26
-	+	83	26
-	+	85	26
-	+	83	27
-	+	85	27
-	+	81	24
-	+	83	24
-	+	85	20
-	+	83	20
-	+	81	20
-	+	79	30
-	+	81	20
-	+	83	20
-	+	85	28
-	+	83	28
-	+	81	28
-	+	18	27
-	+	7	15
-	+	8	13
-	+	18	35
-	+	7	12
-	+	8	10
-	+	7	0
-	+	18	28
-	+	8	10
-	+	7	10
-	+	18	28
-	+	79	31

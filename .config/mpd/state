@@ -1,8 +1,8 @@
-sw_volume: 98
+sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 2
+current: 4
 random: 0
 repeat: 0
 single: 0
@@ -11,15 +11,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 01 - Mr. Limpet.MP3
-1:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 02 - Timing.MP3
-2:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 03 - It's Ok.MP3
-3:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 04 - Ahr-Skidar.MP3
-4:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 05 - Red Sun.MP3
-5:t/Thin White Rope/In The Spanish Cave/06 munich eunich.mp3
-6:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 07 - Elsie Crashed The Party.mp3
-7:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 08 - Ring.MP3
-8:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 09 - Astronomy.MP3
-9:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 10 - Wand.MP3
-10:t/Thin White Rope/In The Spanish Cave/Thin White Rope - In The Spanish Cave - 11 - July.MP3
+0:t/Thy Art is Murder/Holy War/01 - Absolute Genocide.mp3
+1:t/Thy Art is Murder/Holy War/02 - Light Bearer.mp3
+2:t/Thy Art is Murder/Holy War/03 - Holy War.mp3
+3:t/Thy Art is Murder/Holy War/04 - Coffin Dragger.mp3
+4:t/Thy Art is Murder/Holy War/05 - Fur And Claw.mp3
+5:t/Thy Art is Murder/Holy War/06 - Deliver Us To Evil.mp3
+6:t/Thy Art is Murder/Holy War/07 - Emptiness.mp3
+7:t/Thy Art is Murder/Holy War/08 - Violent Reckoning.mp3
+8:t/Thy Art is Murder/Holy War/09 - Child Of Sorrow.mp3
+9:t/Thy Art is Murder/Holy War/10 - Naked And Cold.mp3
+10:t/Thy Art is Murder/Holy War/11 - Vengeance (Bonus Track).mp3
 playlist_end
