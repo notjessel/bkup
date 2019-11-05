@@ -15,5 +15,5 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  completion.height:
-    global: 50%
+  content.plugins:
+    global: false

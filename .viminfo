@@ -11,21 +11,237 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/ .mp4$
+~MSle0~/num
 
 # Last Substitute Search Pattern:
-~MSle0~&PAZTRK
+~MSle0&PAZTRK
 
 # Last Substitute String:
 $STPTRK
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1572857496,,"wq"
-:q!
-|2,0,1572857192,,"q!"
+:colorscheme darkly
+|2,0,1572924616,,"colorscheme darkly"
+:he cterm-colors
+|2,0,1572924790,,"he cterm-colors"
 :w
-|2,0,1572833016,,"w"
+|2,0,1572924603,,"w"
+:q!
+|2,0,1572923908,,"q!"
+:colorscheme Dark2
+|2,0,1572923108,,"colorscheme Dark2"
+:colorscheme 0x7A69_dark
+|2,0,1572923096,,"colorscheme 0x7A69_dark"
+:colorscheme seti
+|2,0,1572922988,,"colorscheme seti"
+:colorscheme default
+|2,0,1572922955,,"colorscheme default"
+:colorscheme blue
+|2,0,1572922950,,"colorscheme blue"
+:colorscheme darkblue
+|2,0,1572922946,,"colorscheme darkblue"
+:colorscheme delek
+|2,0,1572922936,,"colorscheme delek"
+:colorscheme bigbang
+|2,0,1572922862,,"colorscheme bigbang"
+:colorscheme Default
+|2,0,1572922809,,"colorscheme Default"
+:colorscheme night
+|2,0,1572922798,,"colorscheme night"
+:colorscheme oceanblack
+|2,0,1572922757,,"colorscheme oceanblack"
+:colorscheme tolerable
+|2,0,1572922739,,"colorscheme tolerable"
+:wq
+|2,0,1572922567,,"wq"
+:colorscheme anotherdark
+|2,0,1572922551,,"colorscheme anotherdark"
+:colorscheme astronaut
+|2,0,1572922541,,"colorscheme astronaut"
+:colorscheme astroboy
+|2,0,1572922536,,"colorscheme astroboy"
+:colorscheme darkspectrum
+|2,0,1572922476,,"colorscheme darkspectrum"
+:colorscheme gentooish
+|2,0,1572922465,,"colorscheme gentooish"
+:colorscheme colorer
+|2,0,1572922343,,"colorscheme colorer"
+:colorscheme candy
+|2,0,1572922336,,"colorscheme candy"
+:colorscheme clarity
+|2,0,1572922324,,"colorscheme clarity"
+:colorscheme cleanphp
+|2,0,1572922314,,"colorscheme cleanphp"
+:colorscheme camo
+|2,0,1572922284,,"colorscheme camo"
+:colorscheme calmar256-dark
+|2,0,1572922271,,"colorscheme calmar256-dark"
+:colorscheme blackbeauty
+|2,0,1572922233,,"colorscheme blackbeauty"
+:colorscheme asu1dark
+|2,0,1572922222,,"colorscheme asu1dark"
+:colorscheme anokha
+|2,0,1572922214,,"colorscheme anokha"
+:colorscheme aiseered
+|2,0,1572922210,,"colorscheme aiseered"
+:colorscheme adrian
+|2,0,1572922207,,"colorscheme adrian"
+:colorscheme adaryn
+|2,0,1572922202,,"colorscheme adaryn"
+:colorscheme Mustang
+|2,0,1572922188,,"colorscheme Mustang"
+:colorscheme Dark
+|2,0,1572921932,,"colorscheme Dark"
+:colorscheme DarkDefault
+|2,0,1572921899,,"colorscheme DarkDefault"
+:colorscheme 256_adaryn
+|2,0,1572921886,,"colorscheme 256_adaryn"
+:colorscheme darkdevel
+|2,0,1572921867,,"colorscheme darkdevel"
+:colorscheme darkeclipse
+|2,0,1572921847,,"colorscheme darkeclipse"
+:colorscheme darkrobot
+|2,0,1572921833,,"colorscheme darkrobot"
+:colorscheme darkbone
+|2,0,1572921823,,"colorscheme darkbone"
+:colorscheme darkblack
+|2,0,1572921808,,"colorscheme darkblack"
+:colorscheme darkBlue
+|2,0,1572921792,,"colorscheme darkBlue"
+:colorscheme dark
+|2,0,1572921779,,"colorscheme dark"
+:colorscheme BlackSea
+|2,0,1572921773,,"colorscheme BlackSea"
+:colorscheme Black
+|2,0,1572921765,,"colorscheme Black"
+:colorscheme brogrammer
+|2,0,1572921758,,"colorscheme brogrammer"
+:colorscheme PistachioWarrior
+|2,0,1572921695,,"colorscheme PistachioWarrior"
+:colorscheme ashen
+|2,0,1572921669,,"colorscheme ashen"
+:colorscheme VIvid
+|2,0,1572921623,,"colorscheme VIvid"
+:colorscheme CodeFactoryv3
+|2,0,1572921589,,"colorscheme CodeFactoryv3"
+:colorscheme Chasing_Logic
+|2,0,1572921560,,"colorscheme Chasing_Logic"
+:colorscheme vim-material 
+|2,0,1572921500,,"colorscheme vim-material "
+:colorscheme xcode
+|2,0,1572921474,,"colorscheme xcode"
+:colorscheme nofrils-dark
+|2,0,1572921414,,"colorscheme nofrils-dark"
+:colorscheme nightshade
+|2,0,1572921387,,"colorscheme nightshade"
+:colorscheme revolutions
+|2,0,1572921356,,"colorscheme revolutions"
+:colorscheme py-darcula
+|2,0,1572921328,,"colorscheme py-darcula"
+:colorscheme python3.0
+|2,0,1572921306,,"colorscheme python3.0"
+:colorscheme rdark-terminal
+|2,0,1572921280,,"colorscheme rdark-terminal"
+:colorscheme saturn
+|2,0,1572921255,,"colorscheme saturn"
+:colorscheme skittles_dark
+|2,0,1572921233,,"colorscheme skittles_dark"
+:colorscheme solarized8_dark_low
+|2,0,1572921205,,"colorscheme solarized8_dark_low"
+:colorscheme solo_dark
+|2,0,1572921186,,"colorscheme solo_dark"
+:colorscheme spartan
+|2,0,1572921166,,"colorscheme spartan"
+:colorscheme space-vim-dark
+|2,0,1572921149,,"colorscheme space-vim-dark"
+:colorscheme strange
+|2,0,1572921131,,"colorscheme strange"
+:colorscheme tigrana-256-dark
+|2,0,1572921104,,"colorscheme tigrana-256-dark"
+:colorscheme tir_black
+|2,0,1572921088,,"colorscheme tir_black"
+:colorscheme tabular-patterns 
+|2,0,1572921020,,"colorscheme tabular-patterns "
+:colorscheme tango
+|2,0,1572920995,,"colorscheme tango"
+:colorscheme trogdor
+|2,0,1572920961,,"colorscheme trogdor"
+:colorscheme true-monochrome
+|2,0,1572920945,,"colorscheme true-monochrome"
+:colorscheme vice
+|2,0,1572920924,,"colorscheme vice"
+:colorscheme vim-material
+|2,0,1572920893,,"colorscheme vim-material"
+:colorscheme vimbrains
+|2,0,1572920880,,"colorscheme vimbrains"
+:colorscheme vimhut
+|2,0,1572920862,,"colorscheme vimhut"
+:colorscheme vimicks
+|2,0,1572920846,,"colorscheme vimicks"
+:colorscheme vimrc
+|2,0,1572920827,,"colorscheme vimrc"
+:colorscheme vimshell
+|2,0,1572920771,,"colorscheme vimshell"
+:colorscheme twilight
+|2,0,1572920746,,"colorscheme twilight"
+:colorscheme understated
+|2,0,1572920736,,"colorscheme understated"
+:colorscheme underword
+|2,0,1572920724,,"colorscheme underword"
+:colorscheme vrunchbang-dark
+|2,0,1572920699,,"colorscheme vrunchbang-dark"
+:colorscheme vydark
+|2,0,1572920561,,"colorscheme vydark"
+:colorscheme void
+|2,0,1572920546,,"colorscheme void"
+:colorscheme win9xblueback 
+|2,0,1572920515,,"colorscheme win9xblueback "
+:colorscheme wonka-dark
+|2,0,1572920499,,"colorscheme wonka-dark"
+:colorscheme xterm16
+|2,0,1572920458,,"colorscheme xterm16"
+:colorscheme zenesque
+|2,0,1572920443,,"colorscheme zenesque"
+:colorscheme zendnb
+|2,0,1572920430,,"colorscheme zendnb"
+:colorscheme zenburn
+|2,0,1572920420,,"colorscheme zenburn"
+:colorscheme zen
+|2,0,1572920406,,"colorscheme zen"
+:colorscheme zephyr
+|2,0,1572920393,,"colorscheme zephyr"
+:colorscheme ChocolateLiquor
+|2,0,1572920333,,"colorscheme ChocolateLiquor"
+:colorscheme 1989
+|2,0,1572920275,,"colorscheme 1989"
+:colorscheme base16-darktooth
+|2,0,1572920159,,"colorscheme base16-darktooth"
+:colorscheme darcula
+|2,0,1572920033,,"colorscheme darcula"
+:colorscheme PerfectDark
+|2,0,1572919979,,"colorscheme PerfectDark"
+:colorscheme Tomorrow-Night
+|2,0,1572919930,,"colorscheme Tomorrow-Night"
+:colorscheme DimBlue
+|2,0,1572919871,,"colorscheme DimBlue"
+:colorscheme Dim2
+|2,0,1572919862,,"colorscheme Dim2"
+:colorscheme Dim
+|2,0,1572919850,,"colorscheme Dim"
+:colorscheme 256-jungle
+|2,0,1572919685,,"colorscheme 256-jungle"
+:colorscheme 256-grayvim
+|2,0,1572919644,,"colorscheme 256-grayvim"
+:colorscheme BusyBee
+|2,0,1572919603,,"colorscheme BusyBee"
+:colorscheme CandyPaper
+|2,0,1572919541,,"colorscheme CandyPaper"
+:colorscheme C64
+|2,0,1572919527,,"colorscheme C64"
+:colorscheme Blue
+|2,0,1572919509,,"colorscheme Blue"
+:colorscheme Atelier_DuneDark
+|2,0,1572919458,,"colorscheme Atelier_DuneDark"
 :%s/PAZTRK/STPTRK/g
 |2,0,1572780489,,"%s/PAZTRK/STPTRK/g"
 :set nonumber
@@ -90,12 +306,8 @@ $STPTRK
 |2,0,1566425749,,"WQ"
 :st nonumber
 |2,0,1565900589,,"st nonumber"
-:colorscheme default
-|2,0,1565053394,,"colorscheme default"
 :colorscheme Atelier_SulphurpoolDark
 |2,0,1565053381,,"colorscheme Atelier_SulphurpoolDark"
-:colorscheme 1989
-|2,0,1565053364,,"colorscheme 1989"
 :colorscheme 256_blackdust
 |2,0,1565053356,,"colorscheme 256_blackdust"
 :231
@@ -130,6 +342,40 @@ $STPTRK
 |2,0,1561297794,,"set modifiable"
 
 # Search String History (newest to oldest):
+?/bg=1
+|2,1,1572924716,47,"bg=1"
+?/white
+|2,1,1572924583,47,"white"
+?/comment
+|2,1,1572924460,47,"comment"
+?/lightblue
+|2,1,1572924101,47,"lightblue"
+? \<reverse\>
+|2,1,1572923914,,"\\<reverse\\>"
+?/user
+|2,1,1572923860,47,"user"
+?/red
+|2,1,1572923846,47,"red"
+?/blue
+|2,1,1572923756,47,"blue"
+?/yellow
+|2,1,1572923574,47,"yellow"
+?/search
+|2,1,1572923433,47,"search"
+?/color
+|2,1,1572923292,47,"color"
+?/silent
+|2,1,1572923090,47,"silent"
+?/purple
+|2,1,1572922719,47,"purple"
+?/colorscheme
+|2,1,1572921976,47,"colorscheme"
+?/line
+|2,1,1572919383,47,"line"
+?/number
+|2,1,1572919374,47,"number"
+?/num
+|2,1,1572917806,47,"num"
 ?/mpdcnkykill
 |2,1,1572780599,47,"mpdcnkykill"
 ? PAZTRK
@@ -192,16 +438,10 @@ $STPTRK
 |2,1,1571329340,47,"album"
 ?/$6
 |2,1,1571327933,47,"$6"
-?/color
-|2,1,1571327837,47,"color"
-?/red
-|2,1,1571327823,47,"red"
 ?/background
 |2,1,1571327604,47,"background"
 ?/prefix
 |2,1,1571327399,47,"prefix"
-?/white
-|2,1,1571327340,47,"white"
 ?/sync
 |2,1,1571315379,47,"sync"
 ?/delay
@@ -218,8 +458,6 @@ $STPTRK
 |2,1,1571301754,47,"progressbar"
 ?/find
 |2,1,1571297751,47,"find"
-?/search
-|2,1,1571297733,47,"search"
 ?/enter
 |2,1,1571297567,47,"enter"
 ?/clear
@@ -244,10 +482,6 @@ $STPTRK
 |2,1,1571286047,47,"start"
 ?/p
 |2,1,1571285957,47,"p"
-?/blue
-|2,1,1571285640,47,"blue"
-?/yellow
-|2,1,1571285625,47,"yellow"
 ?/"n"
 |2,1,1571286666,47,"\"n\""
 ?/"t"
@@ -950,8 +1184,6 @@ $STPTRK
 |2,1,1565017355,47,"def"
 ?/238
 |2,1,1565016405,47,"238"
-?/line
-|2,1,1565016192,47,"line"
 ?/extern char
 |2,1,1565016031,47,"extern char"
 ?/include
@@ -1110,26 +1342,6 @@ $STPTRK
 |2,1,1564477565,47,"volume"
 ?/kill
 |2,1,1564474148,47,"kill"
-?/bspw
-|2,1,1564473861,47,"bspw"
-?/resi
-|2,1,1564473449,47,"resi"
-?/terminal
-|2,1,1564473341,47,"terminal"
-?/scratch
-|2,1,1564460059,47,"scratch"
-?/logo
-|2,1,1564447189,47,"logo"
-?/move
-|2,1,1564446014,47,"move"
-?/xk_q
-|2,1,1564445924,47,"xk_q"
-?/xk_e
-|2,1,1564445836,47,"xk_e"
-?/grave
-|2,1,1564421389,47,"grave"
-?/.dwm
-|2,1,1564420581,47,".dwm"
 
 # Expression History (newest to oldest):
 
@@ -1142,9 +1354,15 @@ $STPTRK
 	(${mpd_elapsed}/${mpd_length})
 |3,0,0,2,1,29,1572832716,"(${mpd_elapsed}/${mpd_length})"
 "1	LINE	0
-	
-|3,0,1,1,1,0,1572832890,""
+	0 0 * * * root /home/jll/.scripts/bin/gitbkup
+|3,0,1,1,1,0,1572857778,"0 0 * * * root /home/jll/.scripts/bin/gitbkup"
 "2	LINE	0
+	0 0 * * * /home/jll/.scripts/bin/gitbkup
+|3,0,2,1,1,0,1572857751,"0 0 * * * /home/jll/.scripts/bin/gitbkup"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1572832890,""
+"4	LINE	0
 	     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },
 	     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },
 	     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },
@@ -1152,259 +1370,526 @@ $STPTRK
 	     TAGKEYS(               XK_2,                      1)
 	     TAGKEYS(               XK_3,                      2)
 	     TAGKEYS(               XK_4,                      3)
-|3,0,2,1,7,0,1572820036,"     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },","     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },","     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },","     TAGKEYS(               XK_1,                      0)","     TAGKEYS(               XK_2,                      1)","     TAGKEYS(               XK_3,                      2)",>59
+|3,0,4,1,7,0,1572820036,"     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },","     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },","     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },","     TAGKEYS(               XK_1,                      0)","     TAGKEYS(               XK_2,                      1)","     TAGKEYS(               XK_3,                      2)",>59
 |<"     TAGKEYS(               XK_4,                      3)"
-"3	LINE	0
-	fi
-|3,0,3,1,1,0,1572780186,"fi"
-"4	LINE	0
-	killall conky 
-|3,0,4,1,1,0,1572780184,"killall conky "
 "5	LINE	0
-	    then
-|3,0,5,1,1,0,1572780184,"    then"
+	fi
+|3,0,5,1,1,0,1572780186,"fi"
 "6	LINE	0
-	if mpc status | grep stopped >/dev/null      # If mpd is stopped
-|3,0,6,1,1,0,1572780183,"if mpc status | grep stopped >/dev/null      # If mpd is stopped"
+	killall conky 
+|3,0,6,1,1,0,1572780184,"killall conky "
 "7	LINE	0
-	else
-|3,0,7,1,1,0,1572780183,"else"
+	    then
+|3,0,7,1,1,0,1572780184,"    then"
 "8	LINE	0
-	 else
-|3,0,8,1,1,0,1572778427," else"
-"9	CHAR	0
-	g
-	     then
-|3,0,9,0,2,0,1572778330,"g","     then"
+	if mpc status | grep stopped >/dev/null      # If mpd is stopped
+|3,0,8,1,1,0,1572780183,"if mpc status | grep stopped >/dev/null      # If mpd is stopped"
+"9	LINE	0
+	else
+|3,0,9,1,1,0,1572780183,"else"
 ""-	CHAR	0
-	/
-|3,1,36,0,1,0,1572857089,"/"
+	)
+|3,1,36,0,1,0,1572923801,")"
 
 # File marks:
-'0  2  194  ~/.scripts/bin/gitbkup
-|4,48,2,194,1572857496,"~/.scripts/bin/gitbkup"
-'1  1  7  ~/.scripts/bin/gitbkup
-|4,49,1,7,1572857391,"~/.scripts/bin/gitbkup"
-'2  1  7  ~/.scripts/bin/gitbkup
-|4,50,1,7,1572857391,"~/.scripts/bin/gitbkup"
-'3  36  0  ~/.aliases.zsh
-|4,51,36,0,1572857365,"~/.aliases.zsh"
-'4  2  0  ~/.scripts/bin/bkup
-|4,52,2,0,1572857192,"~/.scripts/bin/bkup"
-'5  36  63  ~/.aliases.zsh
-|4,53,36,63,1572857186,"~/.aliases.zsh"
-'6  2  0  ~/.scripts/bin/bkup
-|4,54,2,0,1572857094,"~/.scripts/bin/bkup"
-'7  2  0  ~/.scripts/bin/gitbkup
-|4,55,2,0,1572857030,"~/.scripts/bin/gitbkup"
-'8  2  0  ~/.scripts/bin/gitbkup
-|4,56,2,0,1572857030,"~/.scripts/bin/gitbkup"
-'9  2  0  ~/.scripts/bin/gitbkup
-|4,57,2,0,1572857030,"~/.scripts/bin/gitbkup"
+'0  16  0  ~/.xinitrc
+|4,48,16,0,1572924813,"~/.xinitrc"
+'1  22  2  ~/.xinitrc
+|4,49,22,2,1572924812,"~/.xinitrc"
+'2  4872  33  /usr/share/vim/vim81/doc/syntax.txt
+|4,50,4872,33,1572924809,"/usr/share/vim/vim81/doc/syntax.txt"
+'3  15  0  ~/.xinitrc
+|4,51,15,0,1572924606,"~/.xinitrc"
+'4  15  0  ~/.xinitrc
+|4,52,15,0,1572924606,"~/.xinitrc"
+'5  1  0  ~/.xinitrc
+|4,53,1,0,1572924232,"~/.xinitrc"
+'6  1  0  ~/.xinitrc
+|4,54,1,0,1572924232,"~/.xinitrc"
+'7  1  0  ~/.xinitrc
+|4,55,1,0,1572924232,"~/.xinitrc"
+'8  1  0  ~/.xinitrc
+|4,56,1,0,1572924232,"~/.xinitrc"
+'9  138  5  ~/.vimrc
+|4,57,138,5,1572924213,"~/.vimrc"
 
 # Jumplist (newest first):
--'  2  194  ~/.scripts/bin/gitbkup
-|4,39,2,194,1572857496,"~/.scripts/bin/gitbkup"
--'  1  0  ~/.scripts/bin/gitbkup
-|4,39,1,0,1572857430,"~/.scripts/bin/gitbkup"
--'  1  7  ~/.scripts/bin/gitbkup
-|4,39,1,7,1572857391,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857373,"~/.scripts/bin/gitbkup"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572857365,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572857365,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572857365,"~/.aliases.zsh"
--'  36  0  ~/.aliases.zsh
-|4,39,36,0,1572857365,"~/.aliases.zsh"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857192,"~/.scripts/bin/bkup"
--'  36  63  ~/.aliases.zsh
-|4,39,36,63,1572857186,"~/.aliases.zsh"
--'  36  63  ~/.aliases.zsh
-|4,39,36,63,1572857186,"~/.aliases.zsh"
--'  36  63  ~/.aliases.zsh
-|4,39,36,63,1572857186,"~/.aliases.zsh"
--'  36  63  ~/.aliases.zsh
-|4,39,36,63,1572857186,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  34  0  ~/.aliases.zsh
-|4,39,34,0,1572857154,"~/.aliases.zsh"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857094,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/gitbkup
-|4,39,2,0,1572857030,"~/.scripts/bin/gitbkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  0  ~/.scripts/bin/bkup
-|4,39,2,0,1572857019,"~/.scripts/bin/bkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
--'  2  4  ~/.scripts/bin/gitbkup
-|4,39,2,4,1572856975,"~/.scripts/bin/gitbkup"
+-'  16  0  ~/.xinitrc
+|4,39,16,0,1572924813,"~/.xinitrc"
+-'  22  2  ~/.xinitrc
+|4,39,22,2,1572924812,"~/.xinitrc"
+-'  4872  33  /usr/share/vim/vim81/doc/syntax.txt
+|4,39,4872,33,1572924809,"/usr/share/vim/vim81/doc/syntax.txt"
+-'  1  0  /usr/share/vim/vim81/doc/syntax.txt
+|4,39,1,0,1572924790,"/usr/share/vim/vim81/doc/syntax.txt"
+-'  102  28  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,102,28,1572924719,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  82  38  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,82,38,1572924718,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  26  30  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,26,30,1572924716,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  24  30  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,24,30,1572924694,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  84  29  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,84,29,1572924693,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  83  32  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,83,32,1572924693,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  72  23  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,72,23,1572924691,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  32  16  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,32,16,1572924691,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  15  0  ~/.xinitrc
+|4,39,15,0,1572924607,"~/.xinitrc"
+-'  15  0  ~/.xinitrc
+|4,39,15,0,1572924606,"~/.xinitrc"
+-'  116  3  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,116,3,1572924583,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  66  3  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,66,3,1572924461,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  113  0  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,113,0,1572924460,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  103  3  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,103,3,1572924433,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1572924362,"~/.xinitrc"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1572924362,"~/.xinitrc"
+-'  89  23  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,89,23,1572924239,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  1  0  ~/.xinitrc
+|4,39,1,0,1572924232,"~/.xinitrc"
+-'  16  0  ~/.xinitrc
+|4,39,16,0,1572924217,"~/.xinitrc"
+-'  16  0  ~/.xinitrc
+|4,39,16,0,1572924217,"~/.xinitrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  138  5  ~/.vimrc
+|4,39,138,5,1572924213,"~/.vimrc"
+-'  50  17  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,50,17,1572924110,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  25  30  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,25,30,1572924108,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  22  24  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,22,24,1572924101,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  135  0  ~/.vimrc
+|4,39,135,0,1572924090,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1572924084,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  141  0  ~/.vimrc
+|4,39,141,0,1572924042,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924033,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924031,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  137  0  ~/.vimrc
+|4,39,137,0,1572924006,"~/.vimrc"
+-'  91  19  /usr/share/vim/vimfiles/colors/darkly.vim
+|4,39,91,19,1572923993,"/usr/share/vim/vimfiles/colors/darkly.vim"
 
 # History of marks within files (newest to oldest):
+
+> /usr/share/vim/vim81/doc/syntax.txt
+	*	1572924807	0
+	"	4872	33
+
+> /usr/share/vim/vimfiles/colors/darkly.vim
+	*	1572924779	0
+	"	103	27
+	^	26	24
+	.	26	0
+	+	83	48
+	+	84	45
+	+	25	0
+	+	103	3
+	+	34	0
+	+	26	34
+	+	22	24
+	+	89	0
+	+	99	19
+	+	103	0
+	+	26	0
+
+> ~/.xinitrc
+	*	1572924622	0
+	"	16	0
+	^	32	1
+	.	32	0
+	+	22	0
+	+	24	0
+	+	22	0
+	+	8	81
+	+	8	0
+	+	8	81
+	+	8	0
+	+	8	119
+	+	8	117
+	+	8	0
+	+	8	81
+	+	8	52
+	+	8	56
+	+	8	46
+	+	8	39
+	+	8	14
+	+	8	39
+	+	8	81
+	+	24	0
+	+	22	0
+	+	20	0
+	+	22	0
+	+	24	0
+	+	23	0
+	+	8	58
+	+	24	10
+	+	24	0
+	+	24	9
+	+	24	10
+	+	24	0
+	+	24	6
+	+	8	161
+	+	24	0
+	+	24	10
+	+	22	10
+	+	23	0
+	+	22	0
+	+	8	168
+	+	8	0
+	+	8	21
+	+	8	170
+	+	22	0
+	+	25	50
+	+	25	9
+	+	18	21
+	+	19	7
+	+	18	0
+	+	19	0
+	+	24	0
+	+	23	0
+	+	21	0
+	+	25	6
+	+	23	9
+	+	24	7
+	+	25	0
+	+	8	0
+	+	8	47
+	+	12	0
+	+	16	0
+	+	8	2
+	+	8	0
+	+	8	167
+	+	8	38
+	+	8	122
+	+	8	167
+	+	8	0
+	+	8	8
+	+	8	139
+	+	8	79
+	+	8	140
+	+	8	9
+	+	8	163
+	+	8	11
+	+	8	56
+	+	8	140
+	+	8	10
+	+	8	141
+	+	8	57
+	+	8	141
+	+	8	9
+	+	8	140
+	+	8	56
+	+	8	0
+	+	8	3
+	+	8	0
+	+	8	4
+	+	8	39
+	+	8	0
+	+	25	50
+	+	35	12
+	+	25	102
+	+	25	50
+	+	25	0
+	+	26	0
+	+	39	0
+	+	43	0
+	+	42	9
+	+	23	22
+	+	27	45
+	+	32	0
+
+> ~/.vimrc
+	*	1572924090	0
+	"	138	5
+	^	138	0
+	.	138	4
+	+	140	10
+	+	45	0
+	+	137	12
+	+	319	0
+	+	137	17
+	+	138	4
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1572923905	0
+	"	1	0
+
+> ~/.config/st/config.h
+	*	1572922866	0
+	"	109	0
+	^	8	53
+	.	9	0
+	+	119	3
+	+	120	3
+	+	121	3
+	+	122	3
+	+	123	3
+	+	124	3
+	+	114	17
+	+	113	17
+	+	112	17
+	+	111	17
+	+	110	17
+	+	109	17
+	+	108	17
+	+	107	17
+	+	117	18
+	+	118	18
+	+	119	18
+	+	120	18
+	+	121	18
+	+	122	18
+	+	123	18
+	+	124	18
+	+	126	14
+	+	129	17
+	+	130	14
+	+	131	14
+	+	139	27
+	+	130	14
+	+	109	25
+	+	119	25
+	+	111	25
+	+	113	25
+	+	121	25
+	+	123	25
+	+	109	25
+	+	112	25
+	+	122	25
+	+	11	51
+	+	12	0
+	+	11	86
+	+	12	81
+	+	31	25
+	+	12	0
+	+	31	25
+	+	12	81
+	+	31	25
+	+	12	81
+	+	9	0
+	+	191	25
+	+	192	26
+	+	9	21
+	+	192	33
+	+	191	1
+	+	192	0
+	+	9	81
+	+	29	25
+	+	100	16
+	+	9	87
+	+	8	82
+	+	9	54
+	+	8	92
+	+	9	1
+	+	8	95
+	+	9	74
+	+	100	16
+	+	9	87
+	+	8	95
+	+	9	0
+	+	8	84
+	+	9	1
+	+	8	87
+	+	9	0
+	+	155	0
+	+	29	25
+	+	9	88
+	+	11	0
+	+	9	87
+	+	8	87
+	+	9	0
+	+	100	17
+	+	101	0
+	+	100	17
+	+	111	21
+	+	111	0
+	+	109	21
+	+	119	21
+	+	100	17
+	+	110	26
+	+	120	23
+	+	110	26
+	+	120	23
+	+	9	66
+	+	11	0
+	+	9	99
+	+	119	0
+	+	9	38
+	+	106	26
+	+	9	81
+	+	10	0
+	+	9	0
+
+> ~/.vim_runtime/vimrcs/basic.vim
+	*	1572917691	0
+	"	139	17
+	^	140	18
+	.	140	17
+	+	140	17
+
+> ~/.vim_runtime/install_basic_vimrc.sh
+	*	1572917614	0
+	"	1	0
+
+> /tmp/fcr-qtVuCB
+	*	1572857857	0
+	"	2	39
+	^	2	40
+	.	2	39
+	+	2	39
+
+> /tmp/fcr-Qeo01j
+	*	1572857759	0
+	"	2	0
+	.	2	0
+	+	5	0
+	+	2	0
 
 > ~/.scripts/bin/gitbkup
 	*	1572857493	0
@@ -1416,7 +1901,7 @@ $STPTRK
 	+	2	194
 
 > ~/.aliases.zsh
-	*	1572857238	0
+	*	1572857462	0
 	"	36	0
 	^	36	64
 	.	36	63
@@ -1733,116 +2218,6 @@ $STPTRK
 	+	7	68
 	+	7	0
 
-> ~/.xinitrc
-	*	1572778851	0
-	"	32	0
-	^	32	1
-	.	32	0
-	+	22	0
-	+	24	0
-	+	22	0
-	+	8	81
-	+	8	0
-	+	8	81
-	+	8	0
-	+	8	119
-	+	8	117
-	+	8	0
-	+	8	81
-	+	8	52
-	+	8	56
-	+	8	46
-	+	8	39
-	+	8	14
-	+	8	39
-	+	8	81
-	+	24	0
-	+	22	0
-	+	20	0
-	+	22	0
-	+	24	0
-	+	23	0
-	+	8	58
-	+	24	10
-	+	24	0
-	+	24	9
-	+	24	10
-	+	24	0
-	+	24	6
-	+	8	161
-	+	24	0
-	+	24	10
-	+	22	10
-	+	23	0
-	+	22	0
-	+	8	168
-	+	8	0
-	+	8	21
-	+	8	170
-	+	22	0
-	+	25	50
-	+	25	9
-	+	18	21
-	+	19	7
-	+	18	0
-	+	19	0
-	+	24	0
-	+	23	0
-	+	21	0
-	+	25	6
-	+	23	9
-	+	24	7
-	+	25	0
-	+	8	0
-	+	8	47
-	+	12	0
-	+	16	0
-	+	8	2
-	+	8	0
-	+	8	167
-	+	8	38
-	+	8	122
-	+	8	167
-	+	8	0
-	+	8	8
-	+	8	139
-	+	8	79
-	+	8	140
-	+	8	9
-	+	8	163
-	+	8	11
-	+	8	56
-	+	8	140
-	+	8	10
-	+	8	141
-	+	8	57
-	+	8	141
-	+	8	9
-	+	8	140
-	+	8	56
-	+	8	0
-	+	8	3
-	+	8	0
-	+	8	4
-	+	8	39
-	+	8	0
-	+	25	50
-	+	35	12
-	+	25	102
-	+	25	50
-	+	25	0
-	+	26	0
-	+	39	0
-	+	43	0
-	+	42	9
-	+	23	22
-	+	27	45
-	+	32	0
-
-> /usr/share/vim/vim81/doc/help.txt
-	*	1572759002	0
-	"	1	0
-
 > /tmp/fcr-NYvVui
 	*	1572741961	0
 	"	3	0
@@ -1914,10 +2289,6 @@ $STPTRK
 	+	86	12
 	+	86	0
 	+	11	16
-
-> ~/.vimrc
-	*	1572341867	0
-	"	1	0
 
 > /etc/udev/rules.d/10-trackpoint.rules
 	*	1572229425	0
@@ -2506,112 +2877,6 @@ $STPTRK
 	.	2	8
 	+	2	8
 
-> ~/.config/st/config.h
-	*	1571480113	0
-	"	9	0
-	^	8	53
-	.	9	0
-	+	119	3
-	+	120	3
-	+	121	3
-	+	122	3
-	+	123	3
-	+	124	3
-	+	114	17
-	+	113	17
-	+	112	17
-	+	111	17
-	+	110	17
-	+	109	17
-	+	108	17
-	+	107	17
-	+	117	18
-	+	118	18
-	+	119	18
-	+	120	18
-	+	121	18
-	+	122	18
-	+	123	18
-	+	124	18
-	+	126	14
-	+	129	17
-	+	130	14
-	+	131	14
-	+	139	27
-	+	130	14
-	+	109	25
-	+	119	25
-	+	111	25
-	+	113	25
-	+	121	25
-	+	123	25
-	+	109	25
-	+	112	25
-	+	122	25
-	+	11	51
-	+	12	0
-	+	11	86
-	+	12	81
-	+	31	25
-	+	12	0
-	+	31	25
-	+	12	81
-	+	31	25
-	+	12	81
-	+	9	0
-	+	191	25
-	+	192	26
-	+	9	21
-	+	192	33
-	+	191	1
-	+	192	0
-	+	9	81
-	+	29	25
-	+	100	16
-	+	9	87
-	+	8	82
-	+	9	54
-	+	8	92
-	+	9	1
-	+	8	95
-	+	9	74
-	+	100	16
-	+	9	87
-	+	8	95
-	+	9	0
-	+	8	84
-	+	9	1
-	+	8	87
-	+	9	0
-	+	155	0
-	+	29	25
-	+	9	88
-	+	11	0
-	+	9	87
-	+	8	87
-	+	9	0
-	+	100	17
-	+	101	0
-	+	100	17
-	+	111	21
-	+	111	0
-	+	109	21
-	+	119	21
-	+	100	17
-	+	110	26
-	+	120	23
-	+	110	26
-	+	120	23
-	+	9	66
-	+	11	0
-	+	9	99
-	+	119	0
-	+	9	38
-	+	106	26
-	+	9	81
-	+	10	0
-	+	9	0
-
 > ~/README.md
 	*	1571432046	0
 	"	14	0
@@ -2878,48 +3143,3 @@ $STPTRK
 > /etc/locale.conf
 	*	1570942967	0
 	"	1	0
-
-> ~/.scripts/bin/voldec
-	*	1570815526	0
-	"	2	30
-	.	2	30
-	+	3	0
-	+	2	30
-
-> ~/.scripts/bin/bldec
-	*	1570815509	0
-	"	2	13
-	.	2	13
-	+	3	0
-	+	2	13
-
-> ~/.scripts/bin/blinc
-	*	1570815502	0
-	"	2	13
-	.	2	13
-	+	2	17
-	+	3	0
-	+	2	13
-
-> ~/.scripts/bin/volinc
-	*	1570815492	0
-	"	2	30
-	.	2	30
-	+	3	20
-	+	3	0
-	+	2	30
-
-> /usr/bin/checkupdates+aur
-	*	1570770680	0
-	"	1	0
-
-> /etc/X11/xorg.conf.d/10-monitor.conf
-	*	1570758271	0
-	"	2	13
-	.	2	13
-	+	12	27
-	+	12	4
-	+	12	20
-	+	12	0
-	+	10	0
-	+	2	13
