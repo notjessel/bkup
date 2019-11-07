@@ -11,23 +11,29 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/num
+~MSle0/tags
 
 # Last Substitute Search Pattern:
-~MSle0&PAZTRK
+~MSle0~&dmenu -pa
 
 # Last Substitute String:
-$STPTRK
+$dmenu -p
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1573052339,,"q!"
+:wq
+|2,0,1573049694,,"wq"
+:%s/dmenu -pa/dmenu -p/g
+|2,0,1573040202,,"%s/dmenu -pa/dmenu -p/g"
+:%s/dmenu -p/dmenu -pa/g
+|2,0,1573040148,,"%s/dmenu -p/dmenu -pa/g"
+:w
+|2,0,1573029296,,"w"
 :colorscheme darkly
 |2,0,1572924616,,"colorscheme darkly"
 :he cterm-colors
 |2,0,1572924790,,"he cterm-colors"
-:w
-|2,0,1572924603,,"w"
-:q!
-|2,0,1572923908,,"q!"
 :colorscheme Dark2
 |2,0,1572923108,,"colorscheme Dark2"
 :colorscheme 0x7A69_dark
@@ -52,8 +58,6 @@ $STPTRK
 |2,0,1572922757,,"colorscheme oceanblack"
 :colorscheme tolerable
 |2,0,1572922739,,"colorscheme tolerable"
-:wq
-|2,0,1572922567,,"wq"
 :colorscheme anotherdark
 |2,0,1572922551,,"colorscheme anotherdark"
 :colorscheme astronaut
@@ -342,6 +346,34 @@ $STPTRK
 |2,0,1561297794,,"set modifiable"
 
 # Search String History (newest to oldest):
+? dmenu -pa
+|2,1,1573040202,,"dmenu -pa"
+? dmenu -p
+|2,1,1573040148,,"dmenu -p"
+?/tags
+|2,1,1573028740,47,"tags"
+?/alttag
+|2,1,1573028734,47,"alttag"
+?/tagmon
+|2,1,1573028500,47,"tagmon"
+?/w = textw(tags
+|2,1,1573028300,47,"w = textw(tags"
+?/for (i = 0
+|2,1,1573028236,47,"for (i = 0"
+?/const layout
+|2,1,1573028181,47,"const layout"
+?/cursor
+|2,1,1572959969,47,"cursor"
+?/config.def.h
+|2,1,1572959760,47,"config.def.h"
+?/Default colour and shape
+|2,1,1572959787,47,"Default colour and shape"
+?/flash
+|2,1,1572958940,47,"flash"
+?/snowman
+|2,1,1572941809,47,"snowman"
+?/font
+|2,1,1572941644,47,"font"
 ?/bg=1
 |2,1,1572924716,47,"bg=1"
 ?/white
@@ -428,8 +460,6 @@ $STPTRK
 |2,1,1571485412,47,"word"
 ?/the
 |2,1,1571485363,47,"the"
-?/font
-|2,1,1571471160,47,"font"
 ?/30
 |2,1,1571362634,47,"30"
 ?/playlist
@@ -520,8 +550,6 @@ $STPTRK
 |2,1,1570705731,47,"drw_setscheme"
 ?/0);
 |2,1,1570705582,47,"0);"
-?/tags
-|2,1,1570705563,47,"tags"
 ?/selmon->sel->tags
 |2,1,1570705529,47,"selmon->sel->tags"
 ?/selmon->sel
@@ -1194,8 +1222,6 @@ $STPTRK
 |2,1,1565013775,47,"termmod"
 ?/blink
 |2,1,1565013424,47,"blink"
-?/cursor
-|2,1,1565013413,47,"cursor"
 ? \<sxhkdwm\>
 |2,1,1564999403,,"\\<sxhkdwm\\>"
 ?/mod
@@ -1280,8 +1306,6 @@ $STPTRK
 |2,1,1564747479,47,"resizehin"
 ?/focusmon
 |2,1,1564747000,47,"focusmon"
-?/tagmon
-|2,1,1564746964,47,"tagmon"
 ?/setlayout
 |2,1,1564746399,47,"setlayout"
 ?/layout layou
@@ -1312,8 +1336,6 @@ $STPTRK
 |2,1,1564589699,47,"57"
 ?/if (m->sel
 |2,1,1564580946,47,"if (m->sel"
-?/config.def.h
-|2,1,1564578986,47,"config.def.h"
 ?/12
 |2,1,1564578100,47,"12"
 ?/col_cyan
@@ -1324,24 +1346,6 @@ $STPTRK
 |2,1,1564576969,47,"switch(ev.type)"
 ?/scrat
 |2,1,1564566625,47,"scrat"
-?/xk_i
-|2,1,1564564850,47,"xk_i"
-?/termcmd
-|2,1,1564564786,47,"termcmd"
-? \<else\>
-|2,1,1564560932,,"\\<else\\>"
-?/#define ISDELIM
-|2,1,1564555752,47,"#define ISDELIM"
-?/autostart
-|2,1,1564547755,47,"autostart"
-?/restart
-|2,1,1564536189,47,"restart"
-?/resiz
-|2,1,1564524744,47,"resiz"
-?/volume
-|2,1,1564477565,47,"volume"
-?/kill
-|2,1,1564474148,47,"kill"
 
 # Expression History (newest to oldest):
 
@@ -1350,297 +1354,281 @@ $STPTRK
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	BLOCK	29
-	(${mpd_elapsed}/${mpd_length})
-|3,0,0,2,1,29,1572832716,"(${mpd_elapsed}/${mpd_length})"
+"0	LINE	0
+	+static char* mouseshape = "xterm";
+|3,0,0,1,1,0,1572959874,"+static char* mouseshape = \"xterm\";"
 "1	LINE	0
-	0 0 * * * root /home/jll/.scripts/bin/gitbkup
-|3,0,1,1,1,0,1572857778,"0 0 * * * root /home/jll/.scripts/bin/gitbkup"
+			drw_text(drw, x, 0, w, bh, lrpad / 2, tags[i], urg & 1 << i);
+|3,0,1,1,1,0,1573028368,"		drw_text(drw, x, 0, w, bh, lrpad / 2, tags[i], urg & 1 << i);"
 "2	LINE	0
-	0 0 * * * /home/jll/.scripts/bin/gitbkup
-|3,0,2,1,1,0,1572857751,"0 0 * * * /home/jll/.scripts/bin/gitbkup"
+	static unsigned int mousebg = 0;
+|3,0,2,1,1,0,1572959884,"static unsigned int mousebg = 0;"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1572832890,""
+	static unsigned int mousebg = 0;
+|3,0,3,1,1,0,1572959883,"static unsigned int mousebg = 0;"
 "4	LINE	0
-	     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },
-	     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },
-	     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },
-	     TAGKEYS(               XK_1,                      0)
-	     TAGKEYS(               XK_2,                      1)
-	     TAGKEYS(               XK_3,                      2)
-	     TAGKEYS(               XK_4,                      3)
-|3,0,4,1,7,0,1572820036,"     { MODKEY,              XK_minus,  setgaps,        {.i = -5 } },","     { MODKEY,              XK_equal,  setgaps,        {.i = +5 } },","     { MODKEY|ShiftMask,    XK_equal,  setgaps,        {.i =  0 } },","     TAGKEYS(               XK_1,                      0)","     TAGKEYS(               XK_2,                      1)","     TAGKEYS(               XK_3,                      2)",>59
-|<"     TAGKEYS(               XK_4,                      3)"
+	static unsigned int mousefg = 7;
+|3,0,4,1,1,0,1572959842,"static unsigned int mousefg = 7;"
 "5	LINE	0
-	fi
-|3,0,5,1,1,0,1572780186,"fi"
+	static unsigned int mousefg = 7;
+|3,0,5,1,1,0,1572959842,"static unsigned int mousefg = 7;"
 "6	LINE	0
-	killall conky 
-|3,0,6,1,1,0,1572780184,"killall conky "
+	static unsigned int mouseshape = XC_xterm;
+|3,0,6,1,1,0,1572959841,"static unsigned int mouseshape = XC_xterm;"
 "7	LINE	0
-	    then
-|3,0,7,1,1,0,1572780184,"    then"
+	0 0 * * * root /home/jll/.scripts/bin/gitbkup
+|3,0,7,1,1,0,1572857778,"0 0 * * * root /home/jll/.scripts/bin/gitbkup"
 "8	LINE	0
-	if mpc status | grep stopped >/dev/null      # If mpd is stopped
-|3,0,8,1,1,0,1572780183,"if mpc status | grep stopped >/dev/null      # If mpd is stopped"
+	0 0 * * * /home/jll/.scripts/bin/gitbkup
+|3,0,8,1,1,0,1572857751,"0 0 * * * /home/jll/.scripts/bin/gitbkup"
 "9	LINE	0
-	else
-|3,0,9,1,1,0,1572780183,"else"
+	
+|3,0,9,1,1,0,1572832890,""
 ""-	CHAR	0
-	)
-|3,1,36,0,1,0,1572923801,")"
+	#
+|3,1,36,0,1,0,1573049690,"#"
 
 # File marks:
-'0  16  0  ~/.xinitrc
-|4,48,16,0,1572924813,"~/.xinitrc"
-'1  22  2  ~/.xinitrc
-|4,49,22,2,1572924812,"~/.xinitrc"
-'2  4872  33  /usr/share/vim/vim81/doc/syntax.txt
-|4,50,4872,33,1572924809,"/usr/share/vim/vim81/doc/syntax.txt"
-'3  15  0  ~/.xinitrc
-|4,51,15,0,1572924606,"~/.xinitrc"
-'4  15  0  ~/.xinitrc
-|4,52,15,0,1572924606,"~/.xinitrc"
-'5  1  0  ~/.xinitrc
-|4,53,1,0,1572924232,"~/.xinitrc"
-'6  1  0  ~/.xinitrc
-|4,54,1,0,1572924232,"~/.xinitrc"
-'7  1  0  ~/.xinitrc
-|4,55,1,0,1572924232,"~/.xinitrc"
-'8  1  0  ~/.xinitrc
-|4,56,1,0,1572924232,"~/.xinitrc"
-'9  138  5  ~/.vimrc
-|4,57,138,5,1572924213,"~/.vimrc"
+'0  138  0  ~/.vimrc
+|4,48,138,0,1573053497,"~/.vimrc"
+'1  3  0  ~/.xinitrc
+|4,49,3,0,1573052339,"~/.xinitrc"
+'2  5  0  ~/.zprofile
+|4,50,5,0,1573049694,"~/.zprofile"
+'3  195  16  ~/.config/dwm/config.h
+|4,51,195,16,1573047126,"~/.config/dwm/config.h"
+'4  194  1950  ~/.config/dwm/config.h
+|4,52,194,1950,1573046974,"~/.config/dwm/config.h"
+'5  56  40  ~/.config/st/config.h
+|4,53,56,40,1573045428,"~/.config/st/config.h"
+'6  30  4  ~/.scripts/bin/mpdmenu
+|4,54,30,4,1573040208,"~/.scripts/bin/mpdmenu"
+'7  30  4  ~/.scripts/bin/mpdmenu
+|4,55,30,4,1573040153,"~/.scripts/bin/mpdmenu"
+'8  18  0  /etc/pacman.conf
+|4,56,18,0,1573035319,"/etc/pacman.conf"
+'9  61  34  ~/.config/dwm/config.h
+|4,57,61,34,1573030115,"~/.config/dwm/config.h"
 
 # Jumplist (newest first):
--'  16  0  ~/.xinitrc
-|4,39,16,0,1572924813,"~/.xinitrc"
--'  22  2  ~/.xinitrc
-|4,39,22,2,1572924812,"~/.xinitrc"
--'  4872  33  /usr/share/vim/vim81/doc/syntax.txt
-|4,39,4872,33,1572924809,"/usr/share/vim/vim81/doc/syntax.txt"
--'  1  0  /usr/share/vim/vim81/doc/syntax.txt
-|4,39,1,0,1572924790,"/usr/share/vim/vim81/doc/syntax.txt"
--'  102  28  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,102,28,1572924719,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  82  38  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,82,38,1572924718,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  26  30  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,26,30,1572924716,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  24  30  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,24,30,1572924694,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  84  29  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,84,29,1572924693,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  83  32  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,83,32,1572924693,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  72  23  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,72,23,1572924691,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  32  16  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,32,16,1572924691,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  15  0  ~/.xinitrc
-|4,39,15,0,1572924607,"~/.xinitrc"
--'  15  0  ~/.xinitrc
-|4,39,15,0,1572924606,"~/.xinitrc"
--'  116  3  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,116,3,1572924583,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  66  3  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,66,3,1572924461,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  113  0  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,113,0,1572924460,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  103  3  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,103,3,1572924433,"/usr/share/vim/vimfiles/colors/darkly.vim"
+-'  138  0  ~/.vimrc
+|4,39,138,0,1573053497,"~/.vimrc"
+-'  3  0  ~/.xinitrc
+|4,39,3,0,1573052339,"~/.xinitrc"
+-'  3  0  ~/.xinitrc
+|4,39,3,0,1573052339,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1572924362,"~/.xinitrc"
+|4,39,1,0,1573052335,"~/.xinitrc"
 -'  1  0  ~/.xinitrc
-|4,39,1,0,1572924362,"~/.xinitrc"
--'  89  23  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,89,23,1572924239,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  1  0  ~/.xinitrc
-|4,39,1,0,1572924232,"~/.xinitrc"
--'  16  0  ~/.xinitrc
-|4,39,16,0,1572924217,"~/.xinitrc"
--'  16  0  ~/.xinitrc
-|4,39,16,0,1572924217,"~/.xinitrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  138  5  ~/.vimrc
-|4,39,138,5,1572924213,"~/.vimrc"
--'  50  17  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,50,17,1572924110,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  25  30  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,25,30,1572924108,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  22  24  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,22,24,1572924101,"/usr/share/vim/vimfiles/colors/darkly.vim"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  135  0  ~/.vimrc
-|4,39,135,0,1572924090,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  138  0  ~/.vimrc
-|4,39,138,0,1572924084,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  141  0  ~/.vimrc
-|4,39,141,0,1572924042,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924033,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924031,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  137  0  ~/.vimrc
-|4,39,137,0,1572924006,"~/.vimrc"
--'  91  19  /usr/share/vim/vimfiles/colors/darkly.vim
-|4,39,91,19,1572923993,"/usr/share/vim/vimfiles/colors/darkly.vim"
+|4,39,1,0,1573052335,"~/.xinitrc"
+-'  5  0  ~/.zprofile
+|4,39,5,0,1573049694,"~/.zprofile"
+-'  5  0  ~/.zprofile
+|4,39,5,0,1573049694,"~/.zprofile"
+-'  5  0  ~/.zprofile
+|4,39,5,0,1573049694,"~/.zprofile"
+-'  5  0  ~/.zprofile
+|4,39,5,0,1573049694,"~/.zprofile"
+-'  3  0  ~/.zprofile
+|4,39,3,0,1573049686,"~/.zprofile"
+-'  3  0  ~/.zprofile
+|4,39,3,0,1573049686,"~/.zprofile"
+-'  3  0  ~/.zprofile
+|4,39,3,0,1573049686,"~/.zprofile"
+-'  3  0  ~/.zprofile
+|4,39,3,0,1573049686,"~/.zprofile"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  195  16  ~/.config/dwm/config.h
+|4,39,195,16,1573047126,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  27  ~/.config/dwm/config.h
+|4,39,194,27,1573047054,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  194  1950  ~/.config/dwm/config.h
+|4,39,194,1950,1573046974,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  61  0  ~/.config/dwm/config.h
+|4,39,61,0,1573046790,"~/.config/dwm/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  56  40  ~/.config/st/config.h
+|4,39,56,40,1573045428,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
+-'  476  1  ~/.config/st/config.h
+|4,39,476,1,1573045082,"~/.config/st/config.h"
 
 # History of marks within files (newest to oldest):
 
-> /usr/share/vim/vim81/doc/syntax.txt
-	*	1572924807	0
-	"	4872	33
-
-> /usr/share/vim/vimfiles/colors/darkly.vim
-	*	1572924779	0
-	"	103	27
-	^	26	24
-	.	26	0
-	+	83	48
-	+	84	45
-	+	25	0
-	+	103	3
-	+	34	0
-	+	26	34
-	+	22	24
-	+	89	0
-	+	99	19
-	+	103	0
-	+	26	0
+> ~/.vimrc
+	*	1573052612	0
+	"	138	0
+	^	138	0
+	.	138	4
+	+	140	10
+	+	45	0
+	+	137	12
+	+	319	0
+	+	137	17
+	+	138	4
 
 > ~/.xinitrc
-	*	1572924622	0
-	"	16	0
+	*	1573052338	0
+	"	3	0
 	^	32	1
 	.	32	0
 	+	22	0
@@ -1744,41 +1732,130 @@ $STPTRK
 	+	27	45
 	+	32	0
 
-> ~/.vimrc
-	*	1572924090	0
-	"	138	5
-	^	138	0
-	.	138	4
-	+	140	10
-	+	45	0
-	+	137	12
-	+	319	0
-	+	137	17
-	+	138	4
+> ~/.zprofile
+	*	1573049690	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	4	0
+	+	3	0
+	+	4	0
+	+	5	0
 
-> /usr/share/vim/vim81/doc/help.txt
-	*	1572923905	0
-	"	1	0
+> ~/.config/dwm/config.h
+	*	1573047103	0
+	"	195	16
+	^	195	15
+	.	195	16
+	+	193	61
+	+	192	28
+	+	194	0
+	+	192	31
+	+	195	1857
+	+	195	1921
+	+	195	2013
+	+	196	30
+	+	13	0
+	+	170	0
+	+	171	0
+	+	170	26
+	+	171	25
+	+	170	33
+	+	171	33
+	+	170	49
+	+	171	48
+	+	195	72
+	+	195	330
+	+	195	105
+	+	195	39
+	+	194	39
+	+	195	108
+	+	195	308
+	+	195	371
+	+	195	438
+	+	195	503
+	+	195	567
+	+	195	98
+	+	129	27
+	+	195	106
+	+	195	39
+	+	194	39
+	+	195	308
+	+	195	371
+	+	195	438
+	+	195	503
+	+	195	567
+	+	195	139
+	+	195	273
+	+	195	196
+	+	172	54
+	+	172	26
+	+	172	32
+	+	172	46
+	+	195	1950
+	+	192	59
+	+	192	63
+	+	192	56
+	+	192	63
+	+	192	71
+	+	192	0
+	+	172	0
+	+	173	52
+	+	195	235
+	+	125	0
+	+	195	264
+	+	173	32
+	+	229	0
+	+	61	79
+	+	228	31
+	+	61	34
+	+	101	19
+	+	103	8
+	+	61	34
+	+	128	27
+	+	195	72
+	+	195	139
+	+	195	206
+	+	195	273
+	+	195	336
+	+	195	403
+	+	195	468
+	+	195	532
+	+	195	595
+	+	195	661
+	+	195	725
+	+	195	789
+	+	195	852
+	+	195	918
+	+	195	983
+	+	195	1045
+	+	195	1109
+	+	195	1174
+	+	195	1237
+	+	195	1300
+	+	195	1364
+	+	195	1428
+	+	195	1494
+	+	195	1560
+	+	195	1626
+	+	195	1692
+	+	195	1758
+	+	195	1822
+	+	195	1886
+	+	195	1950
+	+	196	0
+	+	127	17
+	+	194	16
+	+	195	16
 
 > ~/.config/st/config.h
-	*	1572922866	0
-	"	109	0
-	^	8	53
-	.	9	0
-	+	119	3
-	+	120	3
-	+	121	3
-	+	122	3
-	+	123	3
-	+	124	3
-	+	114	17
-	+	113	17
-	+	112	17
-	+	111	17
-	+	110	17
-	+	109	17
-	+	108	17
-	+	107	17
+	*	1573045086	0
+	"	56	40
+	^	58	39
+	.	58	38
 	+	117	18
 	+	118	18
 	+	119	18
@@ -1813,12 +1890,12 @@ $STPTRK
 	+	31	25
 	+	12	81
 	+	9	0
-	+	191	25
-	+	192	26
+	+	190	25
+	+	191	26
 	+	9	21
-	+	192	33
-	+	191	1
-	+	192	0
+	+	191	33
+	+	190	1
+	+	191	0
 	+	9	81
 	+	29	25
 	+	100	16
@@ -1865,6 +1942,124 @@ $STPTRK
 	+	9	81
 	+	10	0
 	+	9	0
+	+	148	34
+	+	8	0
+	+	9	80
+	+	8	87
+	+	9	0
+	+	148	36
+	+	148	34
+	+	158	11
+	+	160	0
+	+	163	0
+	+	160	0
+	+	161	33
+	+	58	38
+
+> ~/.scripts/bin/mpdmenu
+	*	1573040206	0
+	"	30	4
+	^	7	40
+	.	7	0
+	+	62	53
+	+	60	38
+	+	7	0
+
+> /etc/pacman.conf
+	*	1573035318	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/.config/dwm/dwm-alternativetags-6.2.diff
+	*	1573028491	0
+	"	35	0
+
+> ~/.config/dwm/dwm.c
+	*	1573028386	0
+	"	825	103
+	^	825	104
+	.	825	103
+	+	287	34
+	+	794	65
+	+	65	66
+	+	63	32
+	+	1716	0
+	+	63	0
+	+	65	40
+	+	808	116
+	+	811	57
+	+	802	21
+	+	808	75
+	+	802	23
+	+	808	60
+	+	802	23
+	+	808	104
+	+	65	92
+	+	796	49
+	+	797	86
+	+	65	93
+	+	808	117
+	+	809	57
+	+	65	92
+	+	808	102
+	+	65	93
+	+	796	30
+	+	139	23
+	+	823	81
+	+	825	103
+
+> ~/.config/dwm/dwm.c.rej
+	*	1573028386	0
+	"	21	5
+
+> ~/.Xresources
+	*	1572960195	0
+	"	55	29
+	^	55	30
+	.	55	30
+	+	55	30
+
+> ~/.config/st/st-themed_cursor-0.8.1.diff
+	*	1572959874	0
+	"	15	0
+
+> ~/.config/st/config.mk
+	*	1572959732	0
+	"	19	66
+	^	19	67
+	.	19	66
+	+	19	66
+
+> ~/.config/st/config.mk.rej
+	*	1572959696	0
+	"	8	0
+
+> /usr/share/vim/vim81/doc/syntax.txt
+	*	1572924807	0
+	"	4872	33
+
+> /usr/share/vim/vimfiles/colors/darkly.vim
+	*	1572924779	0
+	"	103	27
+	^	26	24
+	.	26	0
+	+	83	48
+	+	84	45
+	+	25	0
+	+	103	3
+	+	34	0
+	+	26	34
+	+	22	24
+	+	89	0
+	+	99	19
+	+	103	0
+	+	26	0
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1572923905	0
+	"	1	0
 
 > ~/.vim_runtime/vimrcs/basic.vim
 	*	1572917691	0
@@ -2060,112 +2255,6 @@ $STPTRK
 	+	6	0
 	+	7	0
 
-> ~/.config/dwm/config.h
-	*	1572820036	0
-	"	255	5
-	^	170	33
-	.	255	0
-	+	14	68
-	+	13	67
-	+	14	68
-	+	121	28
-	+	123	28
-	+	124	27
-	+	123	10
-	+	124	10
-	+	123	17
-	+	163	0
-	+	171	0
-	+	163	46
-	+	171	0
-	+	164	0
-	+	165	0
-	+	166	0
-	+	164	47
-	+	165	46
-	+	166	46
-	+	165	24
-	+	166	24
-	+	188	63
-	+	190	0
-	+	191	0
-	+	192	0
-	+	190	60
-	+	191	60
-	+	192	60
-	+	190	30
-	+	191	30
-	+	192	30
-	+	122	18
-	+	169	45
-	+	196	31
-	+	163	50
-	+	164	46
-	+	163	27
-	+	164	25
-	+	163	33
-	+	164	33
-	+	188	62
-	+	190	61
-	+	189	28
-	+	191	0
-	+	189	31
-	+	220	39
-	+	221	39
-	+	222	67
-	+	223	30
-	+	13	0
-	+	167	0
-	+	168	0
-	+	167	26
-	+	168	25
-	+	167	33
-	+	168	33
-	+	167	49
-	+	168	48
-	+	193	0
-	+	196	61
-	+	193	37
-	+	192	39
-	+	191	39
-	+	193	40
-	+	196	39
-	+	197	39
-	+	198	39
-	+	199	39
-	+	200	39
-	+	193	30
-	+	126	27
-	+	193	38
-	+	192	39
-	+	191	39
-	+	196	39
-	+	197	39
-	+	198	39
-	+	199	39
-	+	200	39
-	+	194	0
-	+	196	0
-	+	194	61
-	+	169	54
-	+	169	26
-	+	169	32
-	+	169	46
-	+	222	0
-	+	189	59
-	+	189	63
-	+	189	56
-	+	189	63
-	+	189	71
-	+	189	0
-	+	169	0
-	+	170	52
-	+	195	33
-	+	124	0
-	+	195	62
-	+	170	32
-	+	255	0
-
 > ~/.scripts/bin/mpd-conky-kill
 	*	1572780261	0
 	"	3	0
@@ -2311,14 +2400,6 @@ $STPTRK
 > ~/.ssh/id_rsa.pub
 	*	1572089862	0
 	"	1	0
-
-> ~/.scripts/bin/mpdmenu
-	*	1572085905	0
-	"	60	37
-	^	60	38
-	.	60	38
-	+	62	53
-	+	60	38
 
 > ~/.ncmpcpp/bindings
 	*	1572085444	0
@@ -2483,13 +2564,6 @@ $STPTRK
 	+	6	36
 	+	4	8
 
-> /etc/pacman.conf
-	*	1571821702	0
-	"	18	14
-	^	18	26
-	.	18	14
-	+	18	14
-
 > /etc/makepkg.conf
 	*	1571821682	0
 	"	89	0
@@ -2500,17 +2574,6 @@ $STPTRK
 > ~/yay/PKGBUILD
 	*	1571821661	0
 	"	10	14
-
-> ~/.zprofile
-	*	1571782015	0
-	"	3	0
-	^	5	1
-	.	3	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	4	0
-	+	3	0
 
 > ~/.config/dwmblocks/statusbar/cmus
 	*	1571777627	0
@@ -3069,77 +3132,3 @@ $STPTRK
 	.	4	28
 	+	2	37
 	+	4	28
-
-> ~/.config/dwm/dwm.c
-	*	1571021924	0
-	"	795	30
-	^	795	31
-	.	795	30
-	+	286	34
-	+	793	65
-	+	65	66
-	+	63	32
-	+	1714	0
-	+	63	0
-	+	65	40
-	+	807	116
-	+	810	57
-	+	801	21
-	+	807	75
-	+	801	23
-	+	807	60
-	+	801	23
-	+	807	104
-	+	65	92
-	+	795	49
-	+	796	86
-	+	65	93
-	+	807	117
-	+	808	57
-	+	65	92
-	+	807	102
-	+	65	93
-	+	795	30
-
-> ~/.config/dwmblocks/statusbar/wttr
-	*	1570999839	0
-	"	2	8
-	^	2	12
-	.	2	8
-	+	2	8
-
-> ~/.config/dwmblocks/NERD_tree_1
-	*	1570996393	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/.ideskrc
-	*	1570959972	0
-	"	30	0
-	^	12	19
-	.	8	27
-	+	2	30
-	+	3	13
-	+	4	19
-	+	5	21
-	+	6	38
-	+	7	27
-	+	8	27
-
-> /tmp/fcr-K4I0d3
-	*	1570948931	0
-	"	3	4
-	^	3	5
-	.	3	0
-	+	3	0
-
-> ~/option-window
-	*	1570948245	0
-	"	174	0
-	.	1004	0
-	+	1004	0
-
-> /etc/locale.conf
-	*	1570942967	0
-	"	1	0

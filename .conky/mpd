@@ -1,5 +1,5 @@
 use_xft yes
-xftfont UbuntuCondensed Nerd Font:size=18:weight=medium
+xftfont FantasqueSansMono Nerd Font:size=18:weight=medium
 xftalpha 0.1
 update_interval 1
 total_run_times 0
@@ -34,11 +34,11 @@ uppercase no
 cpu_avg_samples 2
 net_avg_samples 1
 override_utf8_locale yes
-use_spacer no 
+use_spacer no
 pad_percents 0
 
 TEXT
 ${alignr}${mpd_artist}
 ${alignr}${mpd_album} (${mpd_date})
-${mpd_elapsed}/${mpd_length}${alignr}${mpd_title} 
-${alignr}${mpd_bar 25,600}
+${mpd_elapsed}/${mpd_length}${alignr}${mpd_title}
+${alignr}${color #FF7700}${mpd_bar 10,600}

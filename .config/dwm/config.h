@@ -124,6 +124,7 @@ static const Layout layouts[] = {
 #define STPTRK    0x1008ff15
 #define SEEKFWD   0x1008ff27
 #define SEEKBK    0x1008ff26
+#define FUNCTN    0x1008ff2b
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
@@ -190,8 +191,8 @@ static Key keys[] = {
      { NOMOD,               STPTRK,    spawn,    {.v = mpdstopcmd }  },
      { NOMOD,               NXTTRK,    spawn,    {.v = mpdnxtcmd }  },
      { NOMOD,               PRVTRK,    spawn,    {.v = mpdprvcmd }  },
-     { MOD4,                SEEKFWD,   spawn,    {.v = mpdskfwdcmd }  },
-     { MOD4,                SEEKBK,    spawn,    {.v = mpdskbkcmd }  },
+     { MODKEY,              SEEKFWD,   spawn,    {.v = mpdskfwdcmd }  },
+     { MODKEY,              SEEKBK,    spawn,    {.v = mpdskbkcmd }  },
      { NOMOD,               STPTRK,    spawn,    {.v = mpdcnkycmd }  },
      { MOD4,                XK_m,      spawn,    {.v = mpdmenucmd }  },
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },

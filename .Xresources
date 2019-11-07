@@ -52,3 +52,4 @@ URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
 URxvt.keysym.C-Down:          resize-font:smaller
 URxvt.keysym.C-Up:            resize-font:bigger
+XTerm*cursorBlink:            true

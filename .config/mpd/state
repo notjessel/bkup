@@ -2,6 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
+current: 0
 random: 0
 repeat: 0
 single: 0
@@ -10,5 +11,6 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:m/Morbid Angel/Blessed Are The Sick/Morbid Angel - Blessed Are The Sick - 11 - Desolate Ways.mp3
+0:p/Pantera/Vulgar Display Of Power/Pantera - Vulgar Display Of Power - 06 - Rise.mp3
+1:p/Pantera/Vulgar Display Of Power/Pantera - Vulgar Display Of Power - 09 - Regular People (Conceit).mp3
 playlist_end
