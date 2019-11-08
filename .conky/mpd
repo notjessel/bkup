@@ -1,5 +1,5 @@
 use_xft yes
-xftfont FantasqueSansMono Nerd Font:size=18:weight=medium
+xftfont UbuntuCondensed Nerd Font:size=24:weight=medium
 xftalpha 0.1
 update_interval 1
 total_run_times 0
@@ -14,8 +14,8 @@ own_window_argb_visual yes
 own_window_argb_value 165
 
 double_buffer yes
-minimum_size 0 
-maximum_width 2000
+#minimum_size 0 
+maximum_width 1588
 minimum_width 0
 maximum_height 2000
 minimum_height 0
@@ -38,7 +38,6 @@ use_spacer no
 pad_percents 0
 
 TEXT
-${alignr}${mpd_artist}
-${alignr}${mpd_album} (${mpd_date})
-${mpd_elapsed}/${mpd_length}${alignr}${mpd_title}
-${alignr}${color #FF7700}${mpd_bar 10,600}
+${alignr}${mpd_artist} - ${mpd_album} (${mpd_date})
+${color #FF7700}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
+${alignc}${mpd_bar 16,940}

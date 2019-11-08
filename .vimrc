@@ -139,7 +139,7 @@ syntax enable
 " Set colors!
 colorscheme darkly 
 
-" Enable line numbers
+" Enable relative line numbers
 set number relativenumber
 
 " Set utf8 as standard encoding and en_US as the standard language
