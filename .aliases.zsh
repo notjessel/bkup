@@ -41,7 +41,6 @@ alias trashlist=trash-list
 alias trashrestore=trash-restore
 alias sudo='dbus-launch sudo'
 #if hash nvim >/dev/null 2>&1; then
-alias vim='nvim'
 #    alias v='nvim'
 #    alias sv='sudo nvim'
 #else

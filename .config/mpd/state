@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 1
+current: 0
 random: 0
 repeat: 0
 single: 0
@@ -11,12 +11,21 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:m/Meshuggah/Chaosphere/01 - Concatenation.ogg
-1:m/Meshuggah/Chaosphere/02 - New Millenium Cyanide Christ.ogg
-2:m/Meshuggah/Chaosphere/03 - Corridor Of Chameleons.ogg
-3:m/Meshuggah/Chaosphere/04 - Neurotica.ogg
-4:m/Meshuggah/Chaosphere/05 - The Mouth Licking What You've Bled.ogg
-5:m/Meshuggah/Chaosphere/06 - Sane.ogg
-6:m/Meshuggah/Chaosphere/07 - The Exquisite Machinery Of Torture.ogg
-7:m/Meshuggah/Chaosphere/08 - Elastic.ogg
+0:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 01 - Back In The U.S.S.R.mp3
+1:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 02 - Dear Prudence.mp3
+2:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 03 - Glass Onion.mp3
+3:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 04 - Ob-La-Di, Ob-La-Da.mp3
+4:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 05 - Wild Honey Pie.mp3
+5:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 06 - The Continuing Story Of Bungalow Bill.mp3
+6:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 07 - While My Guitar Gently Weeps.mp3
+7:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 08 - Happiness Is A Warm Gun.mp3
+8:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 09 - Martha My Dear.mp3
+9:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 10 - I'm So Tired.mp3
+10:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 11 - Blackbird.mp3
+11:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 12 - Piggies.mp3
+12:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 13 - Rocky Raccoon.mp3
+13:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 14 - Don't Pass Me By.mp3
+14:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 15 - Why Don't We Do It In The Road.mp3
+15:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 16 - I Will.mp3
+16:b/The Beatles/The Beatles (Disc 1)/The Beatles - The Beatles (Disc 1) - 17 - Julia.mp3
 playlist_end
