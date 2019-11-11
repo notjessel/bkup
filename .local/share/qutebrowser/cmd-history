@@ -1,12 +1,3 @@
-:open if then statements killall
-:open ncmpcpp execute command on specific state
-:open using killall in if statement
-:open killall not working in if statement
-:open "if then statement" "killall"
-/command
-:open myfreecams.com
-:open https://www.myfreecams.com/#Homepage
-:hc
 :open the phantom pain better ground zeroes
 :open facebook.com
 :open myfreecams.com
@@ -98,3 +89,12 @@
 :open weather.com
 :open https://weather.com/
 :open https://github.com/notjessel/bkup
+:hc
+:quickmark-del Torrents
+:open thepiratebay.org
+:open userstyles.org
+:open https://thepiratebay.org/
+:open kickasstorrents
+:open https://userstyles.org/
+:open https://kickasstorrents.to/
+:open Acacia Strain

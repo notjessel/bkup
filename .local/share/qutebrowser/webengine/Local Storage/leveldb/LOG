@@ -1,3 +1,6 @@
-2019/11/10-20:59:05.009 2dffb2 Reusing MANIFEST leveldb/MANIFEST-000001
-2019/11/10-20:59:05.009 2dffb2 Recovering log #744
-2019/11/10-20:59:05.009 2dffb2 Reusing old log leveldb/000744.log 
+2019/11/10-22:15:26.750 e8f5a Reusing MANIFEST leveldb/MANIFEST-000001
+2019/11/10-22:15:26.751 e8f5a Recovering log #744
+2019/11/10-22:15:26.752 e8f5a Reusing old log leveldb/000744.log 
+2019/11/10-22:16:26.759 e8f5a Level-0 table #747: started
+2019/11/10-22:16:26.778 e8f5a Level-0 table #747: 634676 bytes OK
+2019/11/10-22:16:26.782 e8f5a Delete type=0 #744
