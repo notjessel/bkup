@@ -1,0 +1,3 @@
+#!/bin/sh
+export BLSTAT="$(blstat)"
+printf "🔆%s " "$BLSTAT%" 

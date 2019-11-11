@@ -1,0 +1,5 @@
+#!/bin/sh
+CHKUPD=$(cat ~/.config/dwm/update-check.txt)
+if [ "$CHKUPD" -gt 0 ]; then
+    printf "📦%s update(s) " "$CHKUPD"
+fi
