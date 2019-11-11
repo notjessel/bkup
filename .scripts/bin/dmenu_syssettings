@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RET=$(echo -e "Update-System\nWallpaper\nAppearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nSystem-Updates\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
+RET=$(echo -e "Update-System\nNetwork-Manager\nWallpaper\nAppearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nSystem-Updates\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
 
 case $RET in
-    Update-System) urxvt -e yay -Syyuu ;; Wallpaper) nitrogen ;; Appearance) urxvt -e nvim ~/.xsettingsd ;; Mouse/Touchpad) urxvt -e sudo nvim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) urxvt -e sudo nvim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) urxvt -e sudo nvim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) urxvt -e nvim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) urxvt -e fcrontab -e ;; Autostart) urxvt -e nvim ~/.xinitrc ;; zsh-profile) urxvt -e nvim ~/.zprofile ;; System-Updates) urxvt -e yay -Syyuu ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
+    Update-System) urxvt -e yay -Syyuu ;; Network-Manager) urxvt -e nmtui;; Wallpaper) nitrogen ;; Appearance) urxvt -e vim ~/.xsettingsd ;; Mouse/Touchpad) urxvt -e sudo vim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) urxvt -e sudo vim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) urxvt -e sudo vim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) urxvt -e vim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) urxvt -e fcrontab -e ;; Autostart) urxvt -e vim ~/.xinitrc ;; zsh-profile) urxvt -e vim ~/.zprofile ;; System-Updates) urxvt -e yay -Syyuu ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
 esac

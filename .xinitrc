@@ -29,7 +29,6 @@ xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
 amixer set channel 0% mute &
 unclutter --timeout 2 &
-#conky -c ~/.conky/mpd &
 rfkill block bluetooth
 nitrogen --restore &
 whenchanged &
@@ -39,7 +38,7 @@ dwmblocks &
 compton &
 xset -b
 sleep 3 &&
-dwm-wttr &
 pkgupdates &
+dwm-wttr &
 
 exec dwm

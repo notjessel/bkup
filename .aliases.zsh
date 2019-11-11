@@ -40,6 +40,7 @@ alias trashempty='sudo trash-empty'
 alias trashlist=trash-list
 alias trashrestore=trash-restore
 alias sudo='dbus-launch sudo'
+alias crontab='sudo crontab'
 #if hash nvim >/dev/null 2>&1; then
 #    alias v='nvim'
 #    alias sv='sudo nvim'
