@@ -6,6 +6,7 @@ static const Block blocks[] = {
     {"", "~/.config/dwmblocks/statusbar/pulse",						 5,		1},
     {"", "~/.config/dwmblocks/statusbar/mpd",						 1,		1},
     {"", "~/.config/dwmblocks/statusbar/date",					     60,	1},
+    {"", "~/.config/dwmblocks/statusbar/wttr",					     60,	1},
     {"", "~/.config/dwmblocks/statusbar/backlight",                  5,     1},
     {"", "~/.config/dwmblocks/statusbar/battery",					 10,	1},
 };
