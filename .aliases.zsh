@@ -31,6 +31,7 @@ alias dmconf='vim ~/.config/dmenu/config.h'
 alias dwc='~/.config/dwm/ && sudo make clean install && cd ~/ && clear'
 alias stconf='vim ~/.config/st/config.h'
 alias stwc='~/.config/st/ && sudo make clean install && cd ~/ && clear'
+alias speedtest='speedtest-cli --server 18376'
 alias baliasRC='vim ~/.bash/aliases.bash'
 #GIT ALIASES#
 alias bkup='/usr/bin/git --git-dir=$HOME/.bkup --work-tree=$HOME'
