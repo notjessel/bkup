@@ -1,6 +1,6 @@
 ##Theme##
-Net/ThemeName "Halloween"
-Net/IconThemeName "Halloween"
+Net/ThemeName "dracula"
+Net/IconThemeName "dracula"
 Gtk/DecorationLayout "close,minimize,maximize:menu"
 Gtk/ButtonImages 1
 Gtk/EnableEventSounds 0

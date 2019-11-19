@@ -12,15 +12,15 @@ static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "Fantasque Sans Mono:size=13:style=normal:antialias=true:autohint=true" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
-static const char col_gray1[]       = "#000000";
+static const char col_gray1[]       = "#17181F";
 static const char col_gray2[]       = "#111111";
-static const char col_gray3[]       = "#D6D6D6";
+static const char col_gray3[]       = "#F8F8F2";
 static const char col_gray4[]       = "#1F292E";
 static const char col_gray5[]       = "#35413F";
-static const char col_cyan[]        = "#FF7700";
-static const char col_black[]       = "#000000";
-static const char col_red[]         = "#FF003A";
-static const char col_yellow[]      = "#FFFA44";
+static const char col_cyan[]        = "#BD93F9";
+static const char col_black[]       = "#17181F";
+static const char col_red[]         = "#FF5555";
+static const char col_yellow[]      = "#F1FA8C";
 static const char col_white[]       = "#00FF62";
 static const char col_blue[]        = "#00D7FF";
 static const char col_inactive[]    = "#757575";
@@ -29,12 +29,12 @@ static const char col_inactive[]    = "#757575";
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int baralpha = 0xA6;
-static const unsigned int borderalpha = 0xA6;
-static const unsigned int warnalpha = 0xA6;
-static const unsigned int urgentalpha = 0xA6;
-static const unsigned int calmalpha = 0xA6;
-static const unsigned int inactivealpha = 0xA6;
+static const unsigned int baralpha = 0xBF;
+static const unsigned int borderalpha = 0xBF;
+static const unsigned int warnalpha = 0xBF;
+static const unsigned int urgentalpha = 0xBF;
+static const unsigned int calmalpha = 0xBF;
+static const unsigned int inactivealpha = 0xBF;
 static const char *colors[][3]      = {
 	/*                   fg          bg          border   */
 	[SchemeNorm]     = { col_gray3,    col_gray1,  col_gray2 },
@@ -67,7 +67,6 @@ static const Rule rules[] = {
 	/* class                  instance     title      tags mask      isfloating   monitor */
     { "Nitrogen",               NULL,       NULL,       0,              1,           -1 },
     { "Skype",                  NULL,       NULL,       0,              1,           -1 },
-    { "Whatsie",                NULL,       NULL,       0,              1,           -1 },
     { "Pavucontrol",            NULL,       NULL,       0,              1,           -1 },
     { "Grsync",                 NULL,       NULL,       0,              1,           -1 },
     { "GParted",                NULL,       NULL,       0,              1,           -1 },
@@ -80,10 +79,8 @@ static const Rule rules[] = {
     { "Gcolor2",                NULL,       NULL,       0,              1,           -1 },
     { "Python3",                NULL,       NULL,       0,              1,           -1 },
     { "Gufw.py",                NULL,       NULL,       0,              1,           -1 },
-    { "URxvt",                  NULL,       NULL,       0,              1,           -1 },
     { "Chromium",               NULL,       NULL,       0,              1,           -1 },
     { "Asunder",                NULL,       NULL,       0,              1,           -1 },
-    { "Xfce4-settings-manager", NULL,       NULL,       0,              1,           -1 },
 };
 
 /* layout(s) */
@@ -144,11 +141,11 @@ static const char *filemancmd[]  =  { "pcmanfm-qt", NULL };
 static const char *musiccmd[]    =  { "dwm-music", NULL };
 static const char *wttrcmd[]     =  { "wttr", NULL };
 static const char *niccmd[]      =  { "nicotine", NULL };
-static const char *netmancmd[]   =  { "dwm-netman", NULL };
 static const char *textcmd[]     =  { "dwm-text", NULL };
 static const char *calccmd[]     =  { "gnome-calculator", NULL };
 static const char *calcmd[]      =  { "gsimplecal", NULL };
 static const char *dmenucmd[]    =  { "dmenu_run", NULL };
+static const char *netmancmd[]   =  { "networkmanager_dmenu", NULL };
 static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
 static const char *dpasscmd[]    =  { "dmenu_pass", NULL };
 static const char *j4cmd[]       =  { "j4-dmenu-desktop", NULL };
@@ -200,7 +197,7 @@ static Key keys[] = {
      { MODKEY,              XK_m,      spawn,    {.v = musiccmd }  },
      { MODKEY|ShiftMask,    XK_w,      spawn,    {.v = wttrcmd }  },
      { MODKEY,              XK_n,      spawn,    {.v = niccmd }  },
-     { MODKEY|ShiftMask,    XK_n,      spawn,    {.v = netmancmd }  },
+     { MOD4,                XK_n,      spawn,    {.v = netmancmd }  },
      { MODKEY,              XK_p,      spawn,    {.v = textcmd }  },
      { MODKEY,              XK_c,      spawn,    {.v = calccmd }  },
      { MODKEY|ShiftMask,    XK_c,      spawn,    {.v = calcmd }  },

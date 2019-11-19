@@ -28,6 +28,7 @@ when-changed -r1q ~/.config/mpd/log mpd-conky &
 xmodmap -e "keycode 135 = Super_R"
 xsetroot -cursor_name left_ptr
 amixer set channel 0% mute &
+notification-daemon -r &
 unclutter --timeout 2 &
 rfkill block bluetooth
 nitrogen --restore &

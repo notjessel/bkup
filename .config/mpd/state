@@ -1,7 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
-state: stop
+state: pause
+current: 5
+time: 269.361000
 random: 0
 repeat: 0
 single: 0
@@ -10,15 +12,10 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:a/The Acacia Strain/ ...And Life Is Very Long/01 Cable Ready Techno Slut.mp3
-1:a/The Acacia Strain/ ...And Life Is Very Long/02 ...And Life Is Very Long.mp3
-2:a/The Acacia Strain/ ...And Life Is Very Long/03 Roadhead Road.mp3
-3:a/The Acacia Strain/ ...And Life Is Very Long/04 The Widowmaker.mp3
-4:a/The Acacia Strain/ ...And Life Is Very Long/05 All She Wrote.mp3
-5:a/The Acacia Strain/ ...And Life Is Very Long/06 Why Is A Raven Like A Writing Desk.mp3
-6:a/The Acacia Strain/ ...And Life Is Very Long/07 Killing On Empty.mp3
-7:a/The Acacia Strain/ ...And Life Is Very Long/08 Noah Will Be Your Grave.mp3
-8:a/The Acacia Strain/ ...And Life Is Very Long/09 Doppleganger.mp3
-9:a/The Acacia Strain/ ...And Life Is Very Long/10 Sloth Loves Chunk.mp3
-10:a/The Acacia Strain/Gravebloom/02.Plague Doctor.mp3
+0:r/Rage Against The Machine/Rage Against The Machine/Rage Against the Machine - Rage Against the Machine - 05 - Bullet in the Head.mp3
+1:c/Cannibal Corpse/Tomb Of The Mutilated/Cannibal Corpse - Tomb of the Mutilated - 01 - Hammer Smashed Face.mp3
+2:k/Korn/[1994] Korn (Australia-US Limited Edition)/Korn - Korn (Australia-Us Limited Edition) - 02 - Ball Tongue.mp3
+3:t/Tool/Ænima/Tool - Ænima - 05 - Forty Six & 2.mp3
+4:s/Suffocation/Pierced From Within/Suffocation - Pierced From Within - 03 - Depths Of Depravity.mp3
+5:c/Cannibal Corpse/The Wretched Spawn/Cannibal Corpse - The Wretched Spawn - 13 - They Deserve To Die.mp3
 playlist_end

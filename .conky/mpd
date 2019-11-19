@@ -1,5 +1,5 @@
 use_xft yes
-xftfont UbuntuCondensed Nerd Font:size=24:weight=medium
+xftfont UbuntuCondensed Nerd Font:size=21:weight=medium
 xftalpha 0.1
 update_interval 1
 total_run_times 0
@@ -9,9 +9,9 @@ own_window_class Conky
 own_window_type override
 own_window_transparent no
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_colour 000000
+own_window_colour 16181F
 own_window_argb_visual yes
-own_window_argb_value 165
+own_window_argb_value 190
 
 double_buffer yes
 #minimum_size 0 
@@ -23,7 +23,7 @@ draw_shades no
 draw_outline no
 draw_borders no
 draw_graph_borders no
-#default_color d6d6d6
+default_color F8F8F2
 default_shade_color red
 default_outline_color green
 alignment top_right 
@@ -39,5 +39,5 @@ pad_percents 0
 
 TEXT
 ${alignr}${mpd_artist} - ${mpd_album} (${mpd_date})
-${color #FF7700}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
-${alignc}${mpd_bar 16,940}
+${color #BD93F9}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
+${alignc}${mpd_bar 16,702}

@@ -1,7 +1,11 @@
 #!/bin/bash
+#System Settings panel via dmenu
+#Written by: Jesse Limerick 2019
+#License: none, freely use and mess with this all you want
+#Dependencies: dmenu, st (change instances of st in the script to your personal term emulator or choice
 
-RET=$(echo -e "Update-System\nNetwork-Manager\nWallpaper\nAppearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nSystem-Updates\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
+RET=$(echo -e "Update-System\nNetwork-Manager\nWallpaper\nAppearance\nQT5-Appearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nSystem-Updates\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
 
 case $RET in
-    Update-System) urxvt -e yay -Syyuu ;; Network-Manager) urxvt -e nmtui;; Wallpaper) nitrogen ;; Appearance) urxvt -e vim ~/.xsettingsd ;; Mouse/Touchpad) urxvt -e sudo vim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) urxvt -e sudo vim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) urxvt -e sudo vim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) urxvt -e vim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) urxvt -e fcrontab -e ;; Autostart) urxvt -e vim ~/.xinitrc ;; zsh-profile) urxvt -e vim ~/.zprofile ;; System-Updates) urxvt -e yay -Syyuu ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
+    Update-System) st -e yay -Syyuu ;; Network-Manager) st -e nmtui;; Wallpaper) nitrogen ;; Appearance) st -e vim ~/.xsettingsd ;; QT5-Appearance) st -e sudo vim ~/.config/qt5ct/qt5ct.conf ;; Mouse/Touchpad) st -e sudo vim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) st -e sudo vim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) st -e sudo vim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) st -e vim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) st -e fcrontab -e ;; Autostart) st -e vim ~/.xinitrc ;; zsh-profile) st -e vim ~/.zprofile ;; System-Updates) st -e yay -Syyuu ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
 esac
