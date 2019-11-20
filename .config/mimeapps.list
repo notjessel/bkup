@@ -5,3 +5,5 @@ x-scheme-handler/trash=exo-file-manager.desktop;
 
 [Default Applications]
 video/mp4=mpv.desktop
+application/x-bittorrent=rtorrent.desktop
+x-scheme-handler/magnet=rtorrent.desktop

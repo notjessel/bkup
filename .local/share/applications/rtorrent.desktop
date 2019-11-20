@@ -2,4 +2,3 @@
 Version=1.0
 Name=rtorrent
 Exec=st -e rtorrent
-
