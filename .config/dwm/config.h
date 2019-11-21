@@ -12,18 +12,7 @@ static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "Fantasque Sans Mono:size=13:style=normal:antialias=true:autohint=true" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
-static const char col_gray1[]       = "#17181F";
-static const char col_gray2[]       = "#111111";
-static const char col_gray3[]       = "#F8F8F2";
-static const char col_gray4[]       = "#1F292E";
-static const char col_gray5[]       = "#35413F";
-static const char col_cyan[]        = "#BD93F9";
-static const char col_black[]       = "#17181F";
-static const char col_red[]         = "#FF5555";
-static const char col_yellow[]      = "#F1FA8C";
-static const char col_white[]       = "#00FF62";
-static const char col_blue[]        = "#00D7FF";
-static const char col_inactive[]    = "#757575";
+#include "/home/jll/.cache/wal/colors-wal-dwm.h"
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
@@ -35,16 +24,6 @@ static const unsigned int warnalpha = 0xBF;
 static const unsigned int urgentalpha = 0xBF;
 static const unsigned int calmalpha = 0xBF;
 static const unsigned int inactivealpha = 0xBF;
-static const char *colors[][3]      = {
-	/*                   fg          bg          border   */
-	[SchemeNorm]     = { col_gray3,    col_gray1,  col_gray2 },
-	[SchemeSel]      = { col_gray4,    col_cyan,   col_cyan  },
-	[SchemeTitle]    = { col_gray3,    col_gray1,  col_gray2 },
-    [SchemeWarn]     = { col_yellow,   col_black,  col_red   },
-    [SchemeUrgent]   = { col_red,      col_gray1, col_gray1  },
-    [SchemeCalm]     = { col_blue,     col_gray1, col_gray1  },
-    [SchemeInactive] = { col_inactive, col_gray1, col_gray1  },
-};
 static const unsigned int alphas[][3]      = {
 	/*                   fg       bg        border     */
 	[SchemeNorm]      = { OPAQUE, baralpha, borderalpha },
@@ -102,6 +81,7 @@ static const Layout layouts[] = {
     { "HHH",      grid },
     { "[\\]",     dwindle },
     { "[M]",      monocle },
+    { NULL,       NULL },
 };
 
 /* key definitions */
