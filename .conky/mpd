@@ -40,4 +40,4 @@ pad_percents 0
 TEXT
 ${alignr}${mpd_artist} - ${mpd_album} (${mpd_date})
 ${color #BD93F9}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
-${alignc}${mpd_bar 16,702}
+${alignc}${mpd_bar 16,720}
