@@ -9,6 +9,7 @@ parcellite -n &
 start-pulseaudio-x11
 lxqt-policykit-agent &
 [ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
+xset +fp /usr/share/fonts/
 export XDG_CONFIG_HOME="$HOME/.config"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export XDG_RUNTIME_DIR=/var/run/user/1000
