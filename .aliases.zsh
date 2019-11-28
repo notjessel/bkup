@@ -65,7 +65,6 @@ alias gpo='git push origin HEAD'
 alias gwch='git whatchanged -p --abbrev-commit --pretty=medium'
 
 #aliases
-alias grep=egrep make=gmake
 #alias pin='sudo pacman -S'    # install
 #alias pun='sudo pacman -Rs'   # remove
 #alias pcc='sudo pacman -Scc'  # clear cache

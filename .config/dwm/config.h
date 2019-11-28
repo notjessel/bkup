@@ -42,8 +42,6 @@ static const char *colors[][3]      = {
 	[SchemeTitle]    = { col_gray3,    col_gray1,  col_gray2 },
     [SchemeWarn]     = { col_yellow,   col_black,  col_red   },
     [SchemeUrgent]   = { col_red,      col_gray1, col_gray1  },
-    [SchemeCalm]     = { col_blue,     col_gray1, col_gray1  },
-    [SchemeInactive] = { col_inactive, col_gray1, col_gray1  },
 };
 static const unsigned int alphas[][3]      = {
 	/*                   fg       bg        border     */
@@ -52,8 +50,6 @@ static const unsigned int alphas[][3]      = {
     [SchemeTitle]     = { OPAQUE, baralpha, borderalpha },
     [SchemeWarn]      = { OPAQUE, warnalpha, warnalpha },
     [SchemeUrgent]    = { OPAQUE, urgentalpha, urgentalpha },
-    [SchemeCalm]      = { OPAQUE, calmalpha, calmalpha },
-    [SchemeInactive]  = { OPAQUE, inactivealpha, inactivealpha },
 };
 
 /* tagging */

@@ -2,7 +2,6 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 28
 random: 0
 repeat: 0
 single: 0
@@ -11,48 +10,14 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 01 - The Forbidden Words I.mp3
-1:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 02 - The Forbidden Words II.mp3
-2:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 03 - Incantation I.mp3
-3:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 04 - Incantation II.mp3
-4:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 05 - Incantation III.mp3
-5:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 06 - Incantation IV.mp3
-6:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 07 - Incantation V.mp3
-7:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 08 - Incantation VI.mp3
-8:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 09 - Passage of Time I.mp3
-9:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 10 - Passage of Time II.mp3
-10:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 11 - Passage of Time III.mp3
-11:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 12 - Passage of Time IV.mp3
-12:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 13 - Passage of Time V.mp3
-13:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 14 - Passage of Time VI.mp3
-14:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 15 - Passage of Time VII.mp3
-15:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 16 - Passage of Time VIII.mp3
-16:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 17 - Passage of Time IX.mp3
-17:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 18 - Passage of Time X.mp3
-18:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 19 - The Silent Threat I.mp3
-19:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 20 - The Silent Threat II.mp3
-20:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 21 - The Silent Threat III.mp3
-21:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 22 - The Silent Threat IV.mp3
-22:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 23 - Achilles Heel I.mp3
-23:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 24 - Achilles Heel II.mp3
-24:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 25 - Achilles Heel III.mp3
-25:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 26 - Covenant of Souls I.mp3
-26:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 27 - Covenant of Souls II.mp3
-27:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 28 - Covenant of Souls III.mp3
-28:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 29 - Covenant of Souls IV.mp3
-29:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 30 - Covenant of Souls V.mp3
-30:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 31 - Covenant of Souls VI.mp3
-31:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 32 - Face to Face I.mp3
-32:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 33 - Face to Face II.mp3
-33:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 34 - Face to Face III.mp3
-34:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 35 - Face to Face IV.mp3
-35:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 36 - Face to Face V.mp3
-36:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 37 - Disintegration I.mp3
-37:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 38 - Disintegration II.mp3
-38:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 39 - Disintegration III.mp3
-39:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 40 - Aftermath I.mp3
-40:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 41 - Aftermath II.mp3
-41:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 42 - Aftermath III.mp3
-42:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 43 - Aftermath IV.mp3
-43:e/Edge of Sanity/Crimson I I/Edge of Sanity - Crimson I I - 44 - Aftermath V.mp3
+0:a/The Acacia Strain/Death Is the Only Mortal/01. Doomblade.mp3
+1:a/The Acacia Strain/Death Is the Only Mortal/02. Our Lady Of Perpetual Sorrow.mp3
+2:a/The Acacia Strain/Death Is the Only Mortal/03. Go To Sleep.mp3
+3:a/The Acacia Strain/Death Is the Only Mortal/04. Brain Death.mp3
+4:a/The Acacia Strain/Death Is the Only Mortal/05. The Mouth Of The River.mp3
+5:a/The Acacia Strain/Death Is the Only Mortal/06. Dust & The Helix.mp3
+6:a/The Acacia Strain/Death Is the Only Mortal/07. Victims Of The Cave.mp3
+7:a/The Acacia Strain/Death Is the Only Mortal/08. Time & Death & God.mp3
+8:a/The Acacia Strain/Death Is the Only Mortal/09. The Chambered Nautilus.mp3
+9:a/The Acacia Strain/Death Is the Only Mortal/10. House Of Abandon.mp3
 playlist_end
