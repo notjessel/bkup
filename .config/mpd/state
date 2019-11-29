@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 7
+current: 5
 random: 0
 repeat: 0
 single: 0
@@ -11,15 +11,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:z/Rob Zombie/Educated Horses/01.Sawdust In The Blood.flac
-1:z/Rob Zombie/Educated Horses/02.American Witch.flac
-2:z/Rob Zombie/Educated Horses/03.Foxy Foxy.flac
-3:z/Rob Zombie/Educated Horses/04.17 Year Locust.flac
-4:z/Rob Zombie/Educated Horses/05.The Scorpion Sleeps.flac
-5:z/Rob Zombie/Educated Horses/06.100 Ways.flac
-6:z/Rob Zombie/Educated Horses/07.Let It All Bleed Out.flac
-7:z/Rob Zombie/Educated Horses/08.Death Of It All.flac
-8:z/Rob Zombie/Educated Horses/09.Ride.flac
-9:z/Rob Zombie/Educated Horses/10.The Devil's Rejects.flac
-10:z/Rob Zombie/Educated Horses/11.The Lords Of Salem.flac
+0:a/The Acacia Strain/Coma Witch/01 Human Disaster.mp3
+1:a/The Acacia Strain/Coma Witch/02 Cauterizer.mp3
+2:a/The Acacia Strain/Coma Witch/03 Send Help.mp3
+3:a/The Acacia Strain/Coma Witch/04 Holy Walls of the Vatican.mp3
+4:a/The Acacia Strain/Coma Witch/05 VVorld Demise.mp3
+5:a/The Acacia Strain/Coma Witch/06 Nailgun.mp3
+6:a/The Acacia Strain/Coma Witch/07 Graveyard Shift.mp3
+7:a/The Acacia Strain/Coma Witch/08 Bridgepainter.mp3
+8:a/The Acacia Strain/Coma Witch/09 Whale Shark.mp3
+9:a/The Acacia Strain/Coma Witch/10 Delusionalisphere.mp3
+10:a/The Acacia Strain/Coma Witch/11 Observer.mp3
 playlist_end
