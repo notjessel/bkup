@@ -38,7 +38,7 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class                  instance     title      tags mask      isfloating   monitor */
-    { "Nitrogen",               NULL,       NULL,       0,              1,           -1 },
+    { "Sxiv",                   NULL,       NULL,       0,              1,           -1 },
     { "Skype",                  NULL,       NULL,       0,              1,           -1 },
     { "Pavucontrol",            NULL,       NULL,       0,              1,           -1 },
     { "Grsync",                 NULL,       NULL,       0,              1,           -1 },
@@ -110,10 +110,10 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *termcmd[]     =  { "st", NULL };
 static const char *lockcmd[]     =  { "slimlock", NULL };
 static const char *webcmd[]      =  { "qutebrowser", NULL };
+static const char *walcmd[]      =  { "wallpaper", NULL };
 static const char *altwebcmd[]   =  { "chromium", NULL };
 static const char *filemancmd[]  =  { "pcmanfm", NULL };
 static const char *musiccmd[]    =  { "dwm-music", NULL };
-static const char *wttrcmd[]     =  { "wttr", NULL };
 static const char *niccmd[]      =  { "nicotine", NULL };
 static const char *textcmd[]     =  { "dwm-text", NULL };
 static const char *calccmd[]     =  { "gnome-calculator", NULL };
@@ -169,7 +169,7 @@ static Key keys[] = {
      { MODKEY,              XK_w,      spawn,    {.v = webcmd }  },
      { MODKEY,              XK_f,      spawn,    {.v = filemancmd }  },
      { MODKEY,              XK_m,      spawn,    {.v = musiccmd }  },
-     { MODKEY|ShiftMask,    XK_w,      spawn,    {.v = wttrcmd }  },
+     { MODKEY|ShiftMask,    XK_w,      spawn,    {.v = walcmd }  },
      { MODKEY,              XK_n,      spawn,    {.v = niccmd }  },
      { MOD4,                XK_n,      spawn,    {.v = netmancmd }  },
      { MODKEY,              XK_p,      spawn,    {.v = textcmd }  },

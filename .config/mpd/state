@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 2
+current: 7
 random: 0
 repeat: 0
 single: 0
@@ -11,17 +11,15 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:s/Suicide Silence/The Cleansing/01-suicide_silence-revelations_(intro).mp3
-1:s/Suicide Silence/The Cleansing/02-suicide_silence-unanswered.mp3
-2:s/Suicide Silence/The Cleansing/03-suicide_silence-hands_of_a_killer.mp3
-3:s/Suicide Silence/The Cleansing/04-suicide_silence-the_price_of_beauty.mp3
-4:s/Suicide Silence/The Cleansing/05-suicide_silence-the_fallen.mp3
-5:s/Suicide Silence/The Cleansing/06-suicide_silence-no_pity_for_a_coward.mp3
-6:s/Suicide Silence/The Cleansing/07-suicide_silence-the_disease.mp3
-7:s/Suicide Silence/The Cleansing/08-suicide_silence-bludgeoned_to_death.mp3
-8:s/Suicide Silence/The Cleansing/09-suicide_silence-girl_of_glass.mp3
-9:s/Suicide Silence/The Cleansing/10-suicide_silence-in_a_photograph.mp3
-10:s/Suicide Silence/The Cleansing/11-suicide_silence-eyes_sewn_shut.mp3
-11:s/Suicide Silence/The Cleansing/12-suicide_silence-green_monster.mp3
-12:s/Suicide Silence/The Cleansing/13-suicide_silence-destruction_of_a_statue_(hidden_track).mp3
+0:z/Rob Zombie/Educated Horses/01.Sawdust In The Blood.flac
+1:z/Rob Zombie/Educated Horses/02.American Witch.flac
+2:z/Rob Zombie/Educated Horses/03.Foxy Foxy.flac
+3:z/Rob Zombie/Educated Horses/04.17 Year Locust.flac
+4:z/Rob Zombie/Educated Horses/05.The Scorpion Sleeps.flac
+5:z/Rob Zombie/Educated Horses/06.100 Ways.flac
+6:z/Rob Zombie/Educated Horses/07.Let It All Bleed Out.flac
+7:z/Rob Zombie/Educated Horses/08.Death Of It All.flac
+8:z/Rob Zombie/Educated Horses/09.Ride.flac
+9:z/Rob Zombie/Educated Horses/10.The Devil's Rejects.flac
+10:z/Rob Zombie/Educated Horses/11.The Lords Of Salem.flac
 playlist_end

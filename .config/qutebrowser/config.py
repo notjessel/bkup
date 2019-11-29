@@ -373,7 +373,7 @@ c.url.default_page = '~/.html/newtab.html'
 # used by prepending the search engine name to the search term, e.g.
 # `:open google qutebrowser`.
 # Type: Dict
-c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}', 'ma': 'https://www.metal-archives.com/search?searchString={}&type=band_name'}
+c.url.searchengines = {'DEFAULT': 'https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}', 'ma': 'https://www.metal-archives.com/search?searchString={}&type=band_name', 'wiki': 'https://en.wikipedia.org/w/index.php?cirrusUserTesting=control&search={}&title=Special%3ASearch&go=Go&ns0=1'}
 
 # Page(s) to open at the start.
 # Type: List of FuzzyUrl, or FuzzyUrl
