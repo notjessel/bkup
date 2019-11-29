@@ -32,13 +32,13 @@ amixer set channel 0% mute &
 notification-daemon -r &
 unclutter --timeout 2 &
 rfkill block bluetooth
-nitrogen --restore &
 whenchanged &
 xsettingsd &
 beep -l 0 &
 dwmblocks &
 compton &
 xset -b
+wal -R
 sleep 3 &&
 pkgupdates &
 dwm-wttr &

@@ -194,7 +194,7 @@ visualizer_look = 𝅘𝅥𝅘𝅥
 #
 #alternative_header_second_line_format = {{$4$b%a$/b$9}{ - $7%b$9}{ ($4%y$9)}}|{%D}
 #
-current_item_prefix = $b$(black_green)$r
+current_item_prefix = $b$(magenta_white)$r
 #
 current_item_suffix = $/r$(end)
 #
@@ -512,7 +512,7 @@ search_engine_default_search_mode = 2
 #
 #colors_enabled = yes
 #
-empty_tag_color = cyan
+empty_tag_color = magenta
 #
 #header_window_color = default
 #

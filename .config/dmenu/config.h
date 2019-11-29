@@ -8,12 +8,8 @@ static const char *fonts[] = {
 	"Fantasque Sans Mono:size=13:style=medium:antialias=true:autohint=true"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
-static const char *colors[SchemeLast][2] = {
-	          /*     fg         bg       */
-	[SchemeNorm] = { "#D6D6D6", "#282A36" },
-	[SchemeSel] = { "#282A36", "#BD93F9" },
-	[SchemeOut] = { "#282A36", "#00ffff" },
-};
+/* Colors */
+#include "/home/jll/.cache/wal/colors-wal-dmenu.h"
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 

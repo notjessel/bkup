@@ -15,7 +15,37 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
+  colors.completion.even.bg:
+    global: '#121022'
+  colors.completion.odd.bg:
+    global: '#121022'
+  colors.completion.scrollbar.fg:
+    global: '#121022'
+  colors.prompts.bg:
+    global: '#121022'
+  colors.statusbar.caret.bg:
+    global: '#121022'
+  colors.statusbar.command.bg:
+    global: '#121022'
+  colors.statusbar.command.private.bg:
+    global: '#121022'
+  colors.statusbar.insert.bg:
+    global: '#121022'
+  colors.statusbar.normal.bg:
+    global: '#121022'
+  colors.statusbar.passthrough.bg:
+    global: '#121022'
+  colors.statusbar.private.bg:
+    global: '#121022'
+  colors.tabs.bar.bg:
+    global: '#121022'
+  colors.tabs.even.bg:
+    global: '#121022'
+  colors.tabs.odd.bg:
+    global: '#121022'
   colors.tabs.selected.even.bg:
-    global: '#6D7180'
+    global: '#4d5169'
   colors.tabs.selected.odd.bg:
-    global: '#6D7180'
+    global: '#4d5169'
+  colors.webpage.bg:
+    global: '#121022'

@@ -1,5 +1,5 @@
 ##Theme##
-Net/ThemeName "dracula"
+Net/ThemeName "solar"
 Net/IconThemeName "dracula"
 Gtk/DecorationLayout "close,minimize,maximize:menu"
 Gtk/ButtonImages 1

@@ -396,11 +396,11 @@ c.colors.completion.fg = ['white', 'white', 'white']
 
 # Background color of the completion widget for odd rows.
 # Type: QssColor
-c.colors.completion.odd.bg = '#282A36'
+c.colors.completion.odd.bg = '#18162E'
 
 # Background color of the completion widget for even rows.
 # Type: QssColor
-c.colors.completion.even.bg = '#282A36'
+c.colors.completion.even.bg = '#18162E'
 
 # Foreground color of completion widget category headers.
 # Type: QtColor
@@ -444,7 +444,7 @@ c.colors.completion.match.fg = '#4BACB7'
 
 # Color of the scrollbar handle in the completion view.
 # Type: QssColor
-c.colors.completion.scrollbar.fg = '#282A36'
+c.colors.completion.scrollbar.fg = '#18162E'
 
 # Color of the scrollbar in the completion view.
 # Type: QssColor
@@ -460,7 +460,7 @@ c.colors.prompts.border = '1px #f8f8f2'
 
 # Background color for prompts.
 # Type: QssColor
-c.colors.prompts.bg = '#282A36'
+c.colors.prompts.bg = '#18162E'
 
 # Background color for the selected item in filename prompts.
 # Type: QssColor
@@ -472,7 +472,7 @@ c.colors.statusbar.normal.fg = '#f8f8f2'
 
 # Background color of the statusbar.
 # Type: QssColor
-c.colors.statusbar.normal.bg = '#282A36'
+c.colors.statusbar.normal.bg = '#18162E'
 
 # Foreground color of the statusbar in insert mode.
 # Type: QssColor
@@ -480,7 +480,7 @@ c.colors.statusbar.insert.fg = '#f8f8f2'
 
 # Background color of the statusbar in insert mode.
 # Type: QssColor
-c.colors.statusbar.insert.bg = '#282A36'
+c.colors.statusbar.insert.bg = '#18162E'
 
 # Foreground color of the statusbar in passthrough mode.
 # Type: QssColor
@@ -488,7 +488,7 @@ c.colors.statusbar.passthrough.fg = '#f8f8f2'
 
 # Background color of the statusbar in passthrough mode.
 # Type: QssColor
-c.colors.statusbar.passthrough.bg = '#282A36'
+c.colors.statusbar.passthrough.bg = '#18162E'
 
 # Foreground color of the statusbar in private browsing mode.
 # Type: QssColor
@@ -496,7 +496,7 @@ c.colors.statusbar.private.fg = '#f8f8f2'
 
 # Background color of the statusbar in private browsing mode.
 # Type: QssColor
-c.colors.statusbar.private.bg = '#282A36'
+c.colors.statusbar.private.bg = '#18162E'
 
 # Foreground color of the statusbar in command mode.
 # Type: QssColor
@@ -504,7 +504,7 @@ c.colors.statusbar.command.fg = '#f8f8f2'
 
 # Background color of the statusbar in command mode.
 # Type: QssColor
-c.colors.statusbar.command.bg = '#282A36'
+c.colors.statusbar.command.bg = '#18162E'
 
 # Foreground color of the statusbar in private browsing + command mode.
 # Type: QssColor
@@ -512,7 +512,7 @@ c.colors.statusbar.command.private.fg = '#f8f8f2'
 
 # Background color of the statusbar in private browsing + command mode.
 # Type: QssColor
-c.colors.statusbar.command.private.bg = '#282A36'
+c.colors.statusbar.command.private.bg = '#18162E'
 
 # Foreground color of the statusbar in caret mode.
 # Type: QssColor
@@ -520,7 +520,7 @@ c.colors.statusbar.caret.fg = '#f8f8f2'
 
 # Background color of the statusbar in caret mode.
 # Type: QssColor
-c.colors.statusbar.caret.bg = '#282A36'
+c.colors.statusbar.caret.bg = '#18162E'
 
 # Foreground color of the statusbar in caret mode with a selection.
 # Type: QssColor
@@ -541,7 +541,7 @@ c.colors.statusbar.url.success.http.fg = '#f8f8f2'
 
 # Background color of the tab bar.
 # Type: QssColor
-c.colors.tabs.bar.bg = '#282A36'
+c.colors.tabs.bar.bg = '#18162E'
 
 # Foreground color of unselected odd tabs.
 # Type: QtColor
@@ -549,7 +549,7 @@ c.colors.tabs.odd.fg = '#f8f8f2'
 
 # Background color of unselected odd tabs.
 # Type: QtColor
-c.colors.tabs.odd.bg = '#282A36'
+c.colors.tabs.odd.bg = '#18162E'
 
 # Foreground color of unselected even tabs.
 # Type: QtColor
@@ -557,7 +557,7 @@ c.colors.tabs.even.fg = '#f8f8f2'
 
 # Background color of unselected even tabs.
 # Type: QtColor
-c.colors.tabs.even.bg = '#282A36'
+c.colors.tabs.even.bg = '#18162E'
 
 # Foreground color of selected odd tabs.
 # Type: QtColor
@@ -565,7 +565,7 @@ c.colors.tabs.selected.odd.fg = '#f8f8f2'
 
 # Background color of selected odd tabs.
 # Type: QtColor
-c.colors.tabs.selected.odd.bg = '#6D7180'
+c.colors.tabs.selected.odd.bg = '#4d5169'
 
 # Foreground color of selected even tabs.
 # Type: QtColor
@@ -573,7 +573,7 @@ c.colors.tabs.selected.even.fg = '#f8f8f2'
 
 # Background color of selected even tabs.
 # Type: QtColor
-c.colors.tabs.selected.even.bg = '#6D7180'
+c.colors.tabs.selected.even.bg = '#4d5169'
 
 # Foreground color of pinned unselected even tabs.
 # Type: QtColor
@@ -582,7 +582,7 @@ c.colors.tabs.pinned.even.fg = 'white'
 # Background color for webpages if unset (or empty to use the theme's
 # color).
 # Type: QtColor
-c.colors.webpage.bg = '#282A36'
+c.colors.webpage.bg = '#18162E'
 
 # Default monospace fonts. Whenever "monospace" is used in a font
 # setting, it's replaced with the fonts listed here.
