@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jll/.wallpaper/Ou3Oksx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#121022",
+        "foreground": "#e288d9",
+        "cursor": "#e288d9"
+    },
+    "colors": {
+        "color0": "#121022",
+        "color1": "#7120E0",
+        "color2": "#E51CB6",
+        "color3": "#CD3ABE",
+        "color4": "#911DD1",
+        "color5": "#AF1CC8",
+        "color6": "#8822E4",
+        "color7": "#e288d9",
+        "color8": "#9e5f97",
+        "color9": "#7120E0",
+        "color10": "#E51CB6",
+        "color11": "#CD3ABE",
+        "color12": "#911DD1",
+        "color13": "#AF1CC8",
+        "color14": "#8822E4",
+        "color15": "#e288d9"
+    }
+}

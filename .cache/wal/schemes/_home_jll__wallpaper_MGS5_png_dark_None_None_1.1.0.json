@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jll/.wallpaper/MGS5.png",
+    "alpha": "100",
+    "special": {
+        "background": "#110414",
+        "foreground": "#bd92cd",
+        "cursor": "#bd92cd"
+    },
+    "colors": {
+        "color0": "#110414",
+        "color1": "#5F2966",
+        "color2": "#512E74",
+        "color3": "#AB3040",
+        "color4": "#D2A25D",
+        "color5": "#5D3C8D",
+        "color6": "#8D2583",
+        "color7": "#bd92cd",
+        "color8": "#84668f",
+        "color9": "#5F2966",
+        "color10": "#512E74",
+        "color11": "#AB3040",
+        "color12": "#D2A25D",
+        "color13": "#5D3C8D",
+        "color14": "#8D2583",
+        "color15": "#bd92cd"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jll/.wallpaper/pyramids-minimalist-4k-33.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#140024",
+        "foreground": "#90c9ea",
+        "cursor": "#90c9ea"
+    },
+    "colors": {
+        "color0": "#140024",
+        "color1": "#590F97",
+        "color2": "#2A50B5",
+        "color3": "#350CD0",
+        "color4": "#2E65CD",
+        "color5": "#5A40CD",
+        "color6": "#9D12AF",
+        "color7": "#90c9ea",
+        "color8": "#648ca3",
+        "color9": "#590F97",
+        "color10": "#2A50B5",
+        "color11": "#350CD0",
+        "color12": "#2E65CD",
+        "color13": "#5A40CD",
+        "color14": "#9D12AF",
+        "color15": "#90c9ea"
+    }
+}

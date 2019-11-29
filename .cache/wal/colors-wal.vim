@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/jll/.wallpaper/Ou3Oksx.jpg"
+let background = "#121022"
+let foreground = "#f8f8f2"
+let cursor     = "#f8f8f2"
+
+" Colors
+let color0  = "#121022"
+let color1  = "#DA0098"
+let color2  = "#E51CB6"
+let color3  = "#CD3ABE"
+let color4  = "#BD93F9"
+let color5  = "#AF1CC8"
+let color6  = "#8822E4"
+let color7  = "#f8f8f2"
+let color8  = "#9e5f97"
+let color9  = "#DA0098"
+let color10 = "#E51CB6"
+let color11 = "#CD3ABE"
+let color12 = "#BD93F9"
+let color13 = "#AF1CC8"
+let color14 = "#8822E4"
+let color15 = "#f8f8f2"
