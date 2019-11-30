@@ -5,14 +5,14 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   done
   unset f
 fi
-parcellite -n &
+clipster -d &
 start-pulseaudio-x11
 lxqt-policykit-agent &
-[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 xset +fp /usr/share/fonts/
 export XDG_CONFIG_HOME="$HOME/.config"
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export XDG_RUNTIME_DIR=/var/run/user/1000
+[ -f ~/.Xresources ] && xrdb -merge ~/.Xresources
 [ -d /sbin ] && PATH="$PATH:/sbin"
 [ -d /usr/sbin ] && PATH="$PATH:/usr/sbin"
 [ -d "$HOME/.bin" ] && PATH="$HOME/bin:$PATH"
@@ -32,7 +32,6 @@ amixer set channel 0% mute &
 notification-daemon -r &
 unclutter --timeout 2 &
 rfkill block bluetooth
-parcellite -ncp &
 whenchanged &
 xsettingsd &
 beep -l 0 &
