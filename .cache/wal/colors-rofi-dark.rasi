@@ -3,7 +3,7 @@
     active-foreground: @foreground;
     normal-background: @background;
     normal-foreground: @foreground;
-    urgent-background: #DA0098;
+    urgent-background: #da0098;
     urgent-foreground: @foreground;
 
     alternate-active-background: @background;
@@ -13,7 +13,7 @@
     alternate-urgent-background: @background;
     alternate-urgent-foreground: @foreground;
 
-    selected-active-background: #DA0098;
+    selected-active-background: #da0098;
     selected-active-foreground: @foreground;
     selected-normal-background: #E51CB6;
     selected-normal-foreground: @foreground;

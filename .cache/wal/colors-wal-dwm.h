@@ -3,8 +3,8 @@ static const char norm_bg[] = "#121022";
 static const char norm_border[] = "#121022";
 
 static const char sel_fg[] = "#121022";
-static const char sel_bg[] = "#BD93F9";
-static const char sel_border[] = "#BD93F9";
+static const char sel_bg[] = "#bd93f9";
+static const char sel_border[] = "#bd93f9";
 
 static const char tit_fg[] = "#f8f8f2";
 static const char tit_bg[] = "#121022";
@@ -14,7 +14,7 @@ static const char war_fg[] = "#CD3ABE";
 static const char war_bg[] = "#121022";
 static const char war_border[] = "#121022";
 
-static const char urg_fg[] = "#DA0098";
+static const char urg_fg[] = "#da0098";
 static const char urg_bg[] = "#121022";
 static const char urg_border[] = "#121022";
 

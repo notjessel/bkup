@@ -20,14 +20,14 @@ URxvt*borderColor:  [100]#121022
 ! Colors 0-15.
 *.color0: #121022
 *color0:  #121022
-*.color1: #DA0098
-*color1:  #DA0098
+*.color1: #da0098
+*color1:  #da0098
 *.color2: #E51CB6
 *color2:  #E51CB6
 *.color3: #CD3ABE
 *color3:  #CD3ABE
-*.color4: #BD93F9
-*color4:  #BD93F9
+*.color4: #bd93f9
+*color4:  #bd93f9
 *.color5: #AF1CC8
 *color5:  #AF1CC8
 *.color6: #8822E4
@@ -36,14 +36,14 @@ URxvt*borderColor:  [100]#121022
 *color7:  #f8f8f2
 *.color8: #9e5f97
 *color8:  #9e5f97
-*.color9: #DA0098
-*color9:  #DA0098
+*.color9: #da0098
+*color9:  #da0098
 *.color10: #E51CB6
 *color10:  #E51CB6
 *.color11: #CD3ABE
 *color11:  #CD3ABE
-*.color12: #BD93F9
-*color12:  #BD93F9
+*.color12: #bd93f9
+*color12:  #bd93f9
 *.color13: #AF1CC8
 *color13:  #AF1CC8
 *.color14: #8822E4
