@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 0
+current: 7
 random: 0
 repeat: 0
 single: 0
@@ -11,5 +11,12 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:a/The Acacia Strain/3750/08 - Halcyon.mp3
+0:g/Gravitational Distortion/The Void Between Worlds/01 Preemptive Mass Suicide.mp3
+1:g/Gravitational Distortion/The Void Between Worlds/02 The Void Between Worlds.mp3
+2:g/Gravitational Distortion/The Void Between Worlds/03 Exospheric Decomposition.mp3
+3:g/Gravitational Distortion/The Void Between Worlds/04 Electromagnetic Bombardment.mp3
+4:g/Gravitational Distortion/The Void Between Worlds/05 Imploding Planetary Masses.mp3
+5:g/Gravitational Distortion/The Void Between Worlds/06 Induced Photoevaporation.mp3
+6:g/Gravitational Distortion/The Void Between Worlds/07 Crushing Interstellar Solitude.mp3
+7:g/Gravitational Distortion/The Void Between Worlds/08 Cosmogyral Incineration.mp3
 playlist_end
