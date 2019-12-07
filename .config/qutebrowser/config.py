@@ -579,6 +579,10 @@ c.colors.tabs.selected.even.bg = '#4d5169'
 # Type: QtColor
 c.colors.tabs.pinned.even.fg = 'white'
 
+# Background color of pinned selected odd tabs.
+# Type: QtColor
+c.colors.tabs.pinned.selected.odd.bg = 'black'
+
 # Background color for webpages if unset (or empty to use the theme's
 # color).
 # Type: QtColor

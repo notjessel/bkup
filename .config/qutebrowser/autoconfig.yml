@@ -6,10 +6,16 @@
 
 config_version: 2
 settings:
-  tabs.title.format_pinned:
-    global: '{index}'
-  url.searchengines:
+  aliases:
     global:
-      DEFAULT: https://www.google.com/search?source=hp&ei=ClaVXfakAsfv5gLb-afgDQ&q={}
-      ma: https://www.metal-archives.com/search?searchString={}&type=band_name
-      wiki: https://en.wikipedia.org/w/index.php?cirrusUserTesting=control&search={}&title=Special%3ASearch&go=Go&ns0=1
+      hc: history-clear
+      q: close
+      qa: quit
+      w: session-save
+      wc: config-write-py --force
+      wq: quit --save
+      wqa: quit --save
+  colors.tabs.pinned.selected.odd.bg:
+    global: black
+  completion.height:
+    global: 50%
