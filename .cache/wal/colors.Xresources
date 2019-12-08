@@ -58,11 +58,11 @@ URxvt*borderColor:  [100]#121022
 ! Xclock colors.
 XClock*foreground: #f8f8f2
 XClock*background: #121022
-XClock*majorColor:  rgba:f8/f8/f2/ff
-XClock*minorColor:  rgba:f8/f8/f2/ff
-XClock*hourColor:   rgba:f8/f8/f2/ff
-XClock*minuteColor: rgba:f8/f8/f2/ff
-XClock*secondColor: rgba:f8/f8/f2/ff
+XClock*majorColor:  rgba:e2/88/d9/ff
+XClock*minorColor:  rgba:e2/88/d9/ff
+XClock*hourColor:   rgba:e2/88/d9/ff
+XClock*minuteColor: rgba:e2/88/d9/ff
+XClock*secondColor: rgba:e2/88/d9/ff
 
 ! Set depth to make transparency work.
 URxvt*depth: 32
