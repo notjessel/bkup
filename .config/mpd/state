@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 0
+current: 4
 random: 0
 repeat: 0
 single: 0
@@ -11,13 +11,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 01 - Odens Ride Over Nordland.mp3
-1:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 02 - A Fine Day to Die.mp3
-2:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 03 - The Golden Walls of Heaven.mp3
-3:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 04 - Pace 'Til Death.mp3
-4:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 05 - Holocaust.mp3
-5:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 06 - For All Those Who Died.mp3
-6:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 07 - Dies Irae.mp3
-7:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 08 - Blood Fire Death.mp3
-8:b/Bathory/Blood Fire Death/Bathory - Blood Fire Death - 09 - Untitled.mp3
+0:j/Job For a Cowboy/Sun Eater/01_job_for_a_cowboy-eating_the_visions_of_god-utp.mp3
+1:j/Job For a Cowboy/Sun Eater/02_job_for_a_cowboy-sun_of_nihility-utp.mp3
+2:j/Job For a Cowboy/Sun Eater/03_job_for_a_cowboy-the_stone_cross-utp.mp3
+3:j/Job For a Cowboy/Sun Eater/04_job_for_a_cowboy-the_synthetic_sea-utp.mp3
+4:j/Job For a Cowboy/Sun Eater/05_job_for_a_cowboy-a_global_shift-utp.mp3
+5:j/Job For a Cowboy/Sun Eater/06_job_for_a_cowboy-the_celestial_antidote-utp.mp3
+6:j/Job For a Cowboy/Sun Eater/07_job_for_a_cowboy-encircled_by_mirrors-utp.mp3
+7:j/Job For a Cowboy/Sun Eater/08_job_for_a_cowboy-buried_monuments-utp.mp3
+8:j/Job For a Cowboy/Sun Eater/09_job_for_a_cowboy-worming_nightfall-utp.mp3
 playlist_end
