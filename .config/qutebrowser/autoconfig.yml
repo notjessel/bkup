@@ -15,7 +15,12 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  colors.tabs.pinned.selected.odd.bg:
-    global: black
-  completion.height:
-    global: 50%
+  bindings.key_mappings:
+    global:
+      <Ctrl+Enter>: <Ctrl+Return>
+      <Ctrl+[>: <Escape>
+      <Ctrl+j>: <Return>
+      <Ctrl+m>: <Return>
+      <Enter>: <Return>
+      <Shift+Enter>: <Return>
+      <Shift+Return>: <Return>
