@@ -6,6 +6,8 @@ if [ -d /etc/X11/xinit/xinitrc.d ]; then
   unset f
 fi
 clipster -d &
+xbacklight -set 63
+xbacklight -time 1
 start-pulseaudio-x11
 lxqt-policykit-agent &
 xset +fp /usr/share/fonts/

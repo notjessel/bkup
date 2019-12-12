@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 11
+current: 8
 random: 0
 repeat: 0
 single: 0
@@ -11,17 +11,18 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:w/The Weirdos/Destroy All Music/01 Teenage (demo).mp3
-1:w/The Weirdos/Destroy All Music/02 Destroy All Music (demo).mp3
-2:w/The Weirdos/Destroy All Music/03 A Life of Crime (demo).mp3
-3:w/The Weirdos/Destroy All Music/04 Why Do You Exist (demo).mp3
-4:w/The Weirdos/Destroy All Music/05 Destroy All Music.mp3
-5:w/The Weirdos/Destroy All Music/06 A Life of Crime.mp3
-6:w/The Weirdos/Destroy All Music/07 Why Do You Exist.mp3
-7:w/The Weirdos/Destroy All Music/08 Happy People.mp3
-8:w/The Weirdos/Destroy All Music/09 Big Shot.mp3
-9:w/The Weirdos/Destroy All Music/10 Jungle Rock.mp3
-10:w/The Weirdos/Destroy All Music/11 Hit Man.mp3
-11:w/The Weirdos/Destroy All Music/12 Idle Life.mp3
-12:w/The Weirdos/Destroy All Music/13 Fort U.S.A.mp3
+0:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 01 - Too Young To Die.mp3
+1:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 02 - Everything Turns Grey.mp3
+2:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 03 - Miserlou.mp3
+3:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 04 - The Last Goodbye.mp3
+4:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 05 - No Such Thing.mp3
+5:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 06 - A Cry For Help In A World Gone Mad.mp3
+6:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 07 - Bloodstains.mp3
+7:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 08 - Living In Darkness.mp3
+8:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 09 - Pipeline.mp3
+9:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 10 - Breakdown.mp3
+10:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 11 - Mr. Moto.mp3
+11:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 13 - America.mp3
+12:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 14 - Bored Of You.mp3
+13:a/Agent Orange/Living in Darkness/Agent Orange - Living In Darkness - 15 - El Dorado.mp3
 playlist_end
