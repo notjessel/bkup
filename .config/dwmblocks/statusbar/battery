@@ -4,7 +4,7 @@ STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
 printf "%s" #"$SEP"#
 if [ "$STATUS" = "Charging" ]; then
-     printf "%s%%" "$CHARGE"
+     printf "%s%%" "$CHARGE"
 else
      printf "🔋%s%%" "$CHARGE"
      fi
