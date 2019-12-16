@@ -1,7 +1,5 @@
 [Added Associations]
 video/mp4=mpv.desktop;
-inode/directory=exo-file-manager.desktop;
-x-scheme-handler/trash=exo-file-manager.desktop;
 application/octet-stream=nvim.desktop;
 application/x-mimearchive=org.qutebrowser.qutebrowser.desktop;
 
@@ -11,3 +9,4 @@ application/x-bittorrent=rtorrent.desktop
 x-scheme-handler/magnet=rtorrent.desktop
 application/octet-stream=nvim.desktop
 application/x-mimearchive=org.qutebrowser.qutebrowser.desktop
+
