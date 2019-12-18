@@ -37,12 +37,11 @@ rfkill block bluetooth
 whenchanged &
 xsettingsd &
 beep -l 0 &
-dwmblocks &
 compton &
 xset -b
 wal -R
-sleep 3 &&
-pkgupdates &
+sleep 4 &&
 dwm-wttr &
+dwmblocks &
 
 exec dwm
