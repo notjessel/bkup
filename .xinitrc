@@ -36,12 +36,12 @@ unclutter --timeout 2 &
 rfkill block bluetooth
 whenchanged &
 xsettingsd &
+dwmblocks &
 beep -l 0 &
 compton &
 xset -b
 wal -R
-sleep 4 &&
+sleep 5 &&
 dwm-wttr &
-dwmblocks &
 
 exec dwm
