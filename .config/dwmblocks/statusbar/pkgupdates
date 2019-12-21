@@ -1,5 +1,5 @@
 #!/bin/sh
-CHKUPD=$(cat ~/.config/dwm/update-check.txt)
+CHKUPD=$(cat ~/.config/dwmblocks/statusbar/updates.txt)
 if [ "$CHKUPD" -gt 0 ]; then
-    printf "📦%s update(s) " "$CHKUPD"
+    printf "📦%s update(s) 🞄" "$CHKUPD"
 fi

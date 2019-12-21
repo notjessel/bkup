@@ -1,3 +1,0 @@
-#!/bin/sh
-checkupdates+aur | grep . -c > ~/.config/dwm/update-check.txt &&
-dwmblockskill

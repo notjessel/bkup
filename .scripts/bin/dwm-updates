@@ -1,2 +1,3 @@
 #!/bin/sh
-exec /etc/cron.hourly/dwm-updates
+checkupdates+aur | sed '/^$/d'| awk '{print NR}'| sort -nr| sed -n '1p' > /home/jll/.config/dwmblocks/statusbar/updates.txt &&
+dwmblockskill &
