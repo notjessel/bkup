@@ -43,6 +43,7 @@ xset -b
 wal -R
 sleep 5 &&
 dwm-wttr &
-dwm-updates &
+nm-applet &
+pk-update-icon -c st -e yay -Syu &
 
 exec dwm 

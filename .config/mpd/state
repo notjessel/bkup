@@ -2,8 +2,8 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: play
-current: 3
-time: 4.006000
+current: 5
+time: 4.097000
 random: 0
 repeat: 0
 single: 0
@@ -12,11 +12,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:d/Disfiguring the Goddess/Black Earth Child/01-disfiguring_the_goddess-black_earth_child.flac
-1:d/Disfiguring the Goddess/Black Earth Child/02-disfiguring_the_goddess-admiration_of_anger.flac
-2:d/Disfiguring the Goddess/Black Earth Child/03-disfiguring_the_goddess-the_mothers_hand_sixteen.flac
-3:d/Disfiguring the Goddess/Black Earth Child/04-disfiguring_the_goddess-lead_to_the_desert.flac
-4:d/Disfiguring the Goddess/Black Earth Child/05-disfiguring_the_goddess-suffer_square.flac
-5:d/Disfiguring the Goddess/Black Earth Child/06-disfiguring_the_goddess-all_that_is_flesh.flac
-6:d/Disfiguring the Goddess/Black Earth Child/07-disfiguring_the_goddess-phantasmal_tempest.flac
+0:z/Rob Zombie/Hellbilly Deluxe/01 - Rob Zombie - Call Of The Zombie.flac
+1:z/Rob Zombie/Hellbilly Deluxe/02 - Rob Zombie - Superbeast.flac
+2:z/Rob Zombie/Hellbilly Deluxe/03 - Rob Zombie - Dragula.flac
+3:z/Rob Zombie/Hellbilly Deluxe/04 - Rob Zombie - Living Dead Girl.flac
+4:z/Rob Zombie/Hellbilly Deluxe/05 - Rob Zombie - Perversion 99.flac
+5:z/Rob Zombie/Hellbilly Deluxe/06 - Rob Zombie - Demonoid Phenomenon.flac
+6:z/Rob Zombie/Hellbilly Deluxe/07 - Rob Zombie - Spookshow Baby.flac
+7:z/Rob Zombie/Hellbilly Deluxe/08 - Rob Zombie - How To Make A Monster.flac
+8:z/Rob Zombie/Hellbilly Deluxe/09 - Rob Zombie - Meet The Creeper.flac
+9:z/Rob Zombie/Hellbilly Deluxe/10 - Rob Zombie - The Ballad Of Resurrection Joe.flac
+10:z/Rob Zombie/Hellbilly Deluxe/11 - Rob Zombie - What Lurks On Channel X.flac
+11:z/Rob Zombie/Hellbilly Deluxe/12 - Rob Zombie - Return Of The Phantom Stranger.flac
+12:z/Rob Zombie/Hellbilly Deluxe/13 - Rob Zombie - The Beginning Of The End.flac
 playlist_end
