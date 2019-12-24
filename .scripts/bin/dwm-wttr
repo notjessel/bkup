@@ -1,3 +1,3 @@
 #!/bin/sh
-curl -s wttr.in/22485 | sed -n '4{s/\d27\[[0-9;]*m//g;s/^..//;s/ *$//;p}' | grep -o "[0-9].*" > ~/.config/dwm/dwm-wttr.txt &&
+curl -s "wttr.in/22485?u" | sed -n '4{s/\d27\[[0-9;]*m//g;s/^..//;s/ *$//;p}' | grep -o "[0-9].*" > ~/.config/dwm/dwm-wttr.txt &&
     dwmblockskill

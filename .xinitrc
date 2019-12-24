@@ -43,7 +43,7 @@ xset -b
 wal -R
 sleep 5 &&
 dwm-wttr &
+wifi-scan &
 nm-applet &
-pk-update-icon -c st -e yay -Syu &
 
 exec dwm 

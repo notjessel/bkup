@@ -43,6 +43,7 @@ static const Rule rules[] = {
 	 */
 	/* class                  instance     title      tags mask      isfloating   monitor */
     { "Sxiv",                   NULL,       NULL,       0,              1,           -1 },
+    { "flameshot",              NULL,       NULL,       0,              1,           -1 },
     { "Skype",                  NULL,       NULL,       0,              1,           -1 },
     { "Pavucontrol",            NULL,       NULL,       0,              1,           -1 },
     { "Grsync",                 NULL,       NULL,       0,              1,           -1 },
@@ -127,7 +128,7 @@ static const char *netmancmd[]   =  { "networkmanager_dmenu", NULL };
 static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
 static const char *dpasscmd[]    =  { "dmenu_pass", NULL };
 static const char *j4cmd[]       =  { "j4-dmenu-desktop", NULL };
-static const char *scrotcmd[]    =  { "dwm-scrot", NULL };
+static const char *sshotcmd[]    =  { "dwm-sshot", NULL };
 static const char *volinccmd[]   =  { "volinc", NULL };
 static const char *voldeccmd[]   =  { "voldec", NULL };
 static const char *mutecmd[]     =  { "mute", NULL };
@@ -154,7 +155,7 @@ static Key keys[] = {
      /* PROGRAM LAUNCHERS */
      { NOMOD,               XK_grave,  spawn,    {.v = termcmd }  },
      { NOMOD,               LAUNCH,    spawn,    {.v = lockcmd }  },
-     { NOMOD,               XK_Print,  spawn,    {.v = scrotcmd }  },
+     { NOMOD,               XK_Print,  spawn,    {.v = sshotcmd }  },
      { NOMOD,               VOLINC,    spawn,    {.v = volinccmd }  },
      { NOMOD,               VOLDEC,    spawn,    {.v = voldeccmd }  },
      { MODKEY,              VOLINC,    spawn,    {.v = d100cmd }  },
