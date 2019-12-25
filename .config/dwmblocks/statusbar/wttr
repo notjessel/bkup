@@ -1,2 +1,2 @@
 #!/bin/sh
-printf "🌡%s%s " "$(cat ~/.config/dwm/dwm-wttr.txt)"
+printf "%s%s " "$(cat ~/.config/dwm/dwm-wttr.txt)🌡"

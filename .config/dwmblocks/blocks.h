@@ -7,7 +7,8 @@ static const Block blocks[] = {
     {"", "~/.config/dwmblocks/statusbar/date",					     60,	1},
     {"", "~/.config/dwmblocks/statusbar/wttr",					     60,	1},
     {"", "~/.config/dwmblocks/statusbar/backlight",                  1,     1},
-    {"", "~/.config/dwmblocks/statusbar/battery",					 10,	1},
+    {"", "~/.config/dwmblocks/statusbar/charge",				     10,	1},
+    {"", "~/.config/dwmblocks/statusbar/battery",				     10,	1},
 };
 
 //sets delimiter between status commands. NULL character ('\0') means no delimeter.
