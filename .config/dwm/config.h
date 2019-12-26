@@ -14,7 +14,7 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
-static const char *fonts[]          = { "ProFontWindows Nerd Font:size=14:style=normal:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Hack Nerd Font:size=11:style=normal:antialias=true:autohint=true" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
 #include "/home/jll/.cache/wal/colors-wal-dwm.h"
 /* alpha values and approximate opacity 
@@ -22,8 +22,8 @@ static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=norm
 75% — 0xBF, 70% — 0xB3, 65% — 0xA6, 60% — 0x99, 55% — 0x8C, 
 50% — 0x80, 45% — 0x73, 40% — 0x66, 35% — 0x59, 30% — 0x4D, 
 25% — 0x40, 20% — 0x33, 15% — 0x26, 10% — 0x1A, 5% — 0x0D, 0% — 0x00 */
-static const unsigned int alpha = 0xCC;
-static const unsigned int borderalpha = 0xCC;
+static const unsigned int alpha = 0xE6;
+static const unsigned int borderalpha = 0xE6;
 static const unsigned int alphas[][5]      = {
 	/*                   fg       bg        border     */
 	[SchemeNorm]      = { OPAQUE, alpha, borderalpha },
@@ -51,6 +51,7 @@ static const Rule rules[] = {
     { "Gnome-disks",            NULL,       NULL,       0,              1,           -1 },
     { "Gsimplecal",             NULL,       NULL,       0,              1,           -1 },
     { "Gnome-calculator",       NULL,       NULL,       0,              1,           -1 },
+    { "Nm-connection-editor",   NULL,       NULL,       0,              1,           -1 },
     { "File-roller",            NULL,       NULL,       0,              1,           -1 },
     { "Deluge-gtk",             NULL,       NULL,       0,              1,           -1 },
     { "Python3",                NULL,       NULL,       0,              1,           -1 },

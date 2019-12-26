@@ -15,12 +15,3 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
-  bindings.key_mappings:
-    global:
-      <Ctrl+Enter>: <Ctrl+Return>
-      <Ctrl+[>: <Escape>
-      <Ctrl+j>: <Return>
-      <Ctrl+m>: <Return>
-      <Enter>: <Return>
-      <Shift+Enter>: <Return>
-      <Shift+Return>: <Return>

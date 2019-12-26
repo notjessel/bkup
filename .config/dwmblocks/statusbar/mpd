@@ -4,10 +4,10 @@ TRKPOS=$(mpc status | awk 'NR==2' | awk '{print $3}')
 TRKPERC=$(mpc status | awk 'NR==2' | awk '{print $4}')
 if mpc status | grep playing >/dev/null      # If mpd is playing
     then
-        printf " ▶ %s %s%s " "$TRKNO" "$TRKPOS" "$TRKPERC 🎜"
-else
+        printf "[▶]%s %s%s " "$TRKNO" "$TRKPOS" "$TRKPERC🎜"
+    else
 if mpc status | grep paused >/dev/null      # If mpd is paused
     then
-        printf " ⏸ %s %s%s " "$TRKNO" "$TRKPOS" "$TRKPERC 🎜"
+        printf "[⏸]%s %s%s " "$TRKNO" "$TRKPOS" "$TRKPERC🎜"
 fi
 fi
