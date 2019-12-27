@@ -2,7 +2,6 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 0
 random: 0
 repeat: 0
 single: 0
@@ -11,14 +10,14 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 01 - When The Sun Burns Red.mp3
-1:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 02 - Coma Of Souls.mp3
-2:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 03 - People Of The Lie.mp3
-3:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 04 - World Beyond.mp3
-4:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 05 - Terror Zone.mp3
-5:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 06 - Agents Of Brutality.mp3
-6:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 07 - Material World Paranoia.mp3
-7:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 08 - Twisted Urges.mp3
-8:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 09 - Hidden Dictator.mp3
-9:k/Kreator/Coma Of Souls/Kreator - Coma Of Souls - 10 - Mental Slavery.mp3
+0:j/Job For a Cowboy/Ruination/01 Unfurling A Darkened Gospel.mp3
+1:j/Job For a Cowboy/Ruination/02 Summon The Hounds.mp3
+2:j/Job For a Cowboy/Ruination/03 Constitutional Masturbation.mp3
+3:j/Job For a Cowboy/Ruination/04 Regurgitated Disinformation.mp3
+4:j/Job For a Cowboy/Ruination/05 March To Global Enslavement.mp3
+5:j/Job For a Cowboy/Ruination/06 Butchering The Enlightened.mp3
+6:j/Job For a Cowboy/Ruination/07 Lords of Chaos.mp3
+7:j/Job For a Cowboy/Ruination/08 Psychological Immorality.mp3
+8:j/Job For a Cowboy/Ruination/09 To Detonate And Exterminate.mp3
+9:j/Job For a Cowboy/Ruination/10 Ruination.mp3
 playlist_end

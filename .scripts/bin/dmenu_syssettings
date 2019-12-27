@@ -4,8 +4,8 @@
 #License: none, freely use and mess with this all you want
 #Dependencies: dmenu, st (change instances of st in the script to your personal term emulator or choice
 
-RET=$(echo -e "Update-System\nNetwork-Manager\nWallpaper\nAppearance\nQT5-Appearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
+RET=$(echo -e "Update-System\nUltrabay-Mount-Unmount\nNetwork-Manager\nWallpaper\nAppearance\nQT5-Appearance\nMouse/Touchpad\nDisplay\nTrackpoint\nDefault-Apps\nDisks\nTask-Scheduler\nAutostart\nzsh-profile\nGenerate-Mirrorlist\nCancel" | dmenu -i -p "System Management:")
 
 case $RET in
-    Update-System) st -e yay ;; Network-Manager) st -e nmtui;; Wallpaper) nitrogen ;; Appearance) st -e vim ~/.xsettingsd ;; QT5-Appearance) st -e sudo vim ~/.config/qt5ct/qt5ct.conf ;; Mouse/Touchpad) st -e sudo vim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) st -e sudo vim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) st -e sudo vim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) st -e vim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) st -e fcrontab -e ;; Autostart) st -e vim ~/.xinitrc ;; zsh-profile) st -e vim ~/.zprofile ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
+    Update-System) st -e yay ;; Ultrabay-Mount-Unmount) dmenu_mount ;; Network-Manager) st -e nmtui;; Wallpaper) nitrogen ;; Appearance) st -e vim ~/.xsettingsd ;; QT5-Appearance) st -e sudo vim ~/.config/qt5ct/qt5ct.conf ;; Mouse/Touchpad) st -e sudo vim /etc/X11/xorg.conf.d/70-synaptics.conf ;; Display) st -e sudo vim /etc/X11/xorg.conf.d/10-monitor.conf ;;Trackpoint) st -e sudo vim /etc/udev/rules.d/10-trackpoint.rules ;; Default-Apps) st -e vim ~/.config/mimeapps.list ;; Disks) gnome-disks ;; Task-Scheduler) st -e fcrontab -e ;; Autostart) st -e vim ~/.xinitrc ;; zsh-profile) st -e vim ~/.zprofile ;; Generate-Mirrorlist) mirrorlist-generator ;; *) ;; 
 esac

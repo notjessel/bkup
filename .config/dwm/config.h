@@ -9,12 +9,12 @@ static const unsigned int borderpx  = 3;    /* border pixel of windows */
 static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 10;   /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
-static const unsigned int systrayspacing = 2;   /* systray spacing */
+static const unsigned int systrayspacing = 0;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
-static const char *fonts[]          = { "Hack Nerd Font:size=11:style=normal:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Hack Nerd Font:size=11:style=regular:antialias=true:autohint=true" };
 static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
 #include "/home/jll/.cache/wal/colors-wal-dwm.h"
 /* alpha values and approximate opacity 
@@ -127,6 +127,7 @@ static const char *calcmd[]      =  { "gsimplecal", NULL };
 static const char *dmenucmd[]    =  { "dmenu_run", NULL };
 static const char *netmancmd[]   =  { "networkmanager_dmenu", NULL };
 static const char *dwebcmd[]     =  { "dmenu_websearch", NULL };
+static const char *dmntcmd[]     =  { "dmenu_mount", NULL };
 static const char *dpasscmd[]    =  { "dmenu_pass", NULL };
 static const char *j4cmd[]       =  { "j4-dmenu-desktop", NULL };
 static const char *sshotcmd[]    =  { "dwm-sshot", NULL };
@@ -184,7 +185,8 @@ static Key keys[] = {
      { MOD4,                XK_w,      spawn,    {.v = altwebcmd }  },
      { MOD4,                XK_d,      spawn,    {.v = dmenucmd }  },
      { MOD4,                XK_space,  spawn,    {.v = j4cmd }  },
-     { MOD4,                XK_u,      spawn,    {.v = dwebcmd }  },
+     { MOD4|ShiftMask,      XK_u,      spawn,    {.v = dwebcmd }  },
+     { MOD4,                XK_u,      spawn,    {.v = dmntcmd }  },
      { MOD4,                XK_p,      spawn,    {.v = dpasscmd }  },
      { NOMOD,               BLINC,     spawn,    {.v = blinccmd} },
      { NOMOD,               BLDEC,     spawn,    {.v = bldeccmd} },

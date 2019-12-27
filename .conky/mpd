@@ -11,7 +11,7 @@ own_window_transparent no
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 own_window_colour 121022
 own_window_argb_visual yes
-own_window_argb_value 205
+own_window_argb_value 230
 
 double_buffer yes
 #minimum_size 0 
@@ -40,4 +40,4 @@ pad_percents 0
 TEXT
 ${alignr}${mpd_artist} - ${mpd_album} (${mpd_date})
 ${color #BD93F9}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
-${alignc}${mpd_bar 16,760}
+${alignc}${mpd_bar 16,800}
