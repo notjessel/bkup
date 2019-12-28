@@ -9,7 +9,7 @@ own_window_class Conky
 own_window_type override
 own_window_transparent no
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_colour 121022
+own_window_colour 0a0807
 own_window_argb_visual yes
 own_window_argb_value 230
 
@@ -23,7 +23,7 @@ draw_shades no
 draw_outline no
 draw_borders no
 draw_graph_borders no
-default_color F8F8F2
+default_color f7f7f7
 default_shade_color red
 default_outline_color green
 alignment top_right 
@@ -39,5 +39,5 @@ pad_percents 0
 
 TEXT
 ${alignr}${mpd_artist} - ${mpd_album} (${mpd_date})
-${color #BD93F9}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
+${color #f85c8e}${mpd_elapsed}/${mpd_length}${alignr}${mpd_track}) ${mpd_title}
 ${alignc}${mpd_bar 16,800}

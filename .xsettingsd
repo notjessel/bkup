@@ -1,6 +1,6 @@
 ##Theme##
-Net/ThemeName "solar"
-Net/IconThemeName "dracula"
+Net/ThemeName "landing"
+Net/IconThemeName "landing"
 Gtk/DecorationLayout "close,minimize,maximize:menu"
 Gtk/ButtonImages 1
 Gtk/EnableEventSounds 0

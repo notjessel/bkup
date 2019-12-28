@@ -15,3 +15,13 @@ settings:
       wc: config-write-py --force
       wq: quit --save
       wqa: quit --save
+  colors.completion.category.bg:
+    global: 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #E90F58, stop:1 #0A0807)'
+  colors.completion.item.selected.bg:
+    global: '#FC6296'
+  colors.completion.item.selected.border.bottom:
+    global: '#FC6296'
+  colors.completion.item.selected.border.top:
+    global: '#FC6296'
+  colors.completion.scrollbar.bg:
+    global: '#FC6296'

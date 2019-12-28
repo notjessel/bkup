@@ -1,22 +1,22 @@
-static const char norm_fg[] = "#f8f8f2";
-static const char norm_bg[] = "#121022";
-static const char norm_border[] = "#121022";
+static const char norm_fg[] = "#f7f7f7";
+static const char norm_bg[] = "#0A0807";
+static const char norm_border[] = "#0A0807";
 
-static const char sel_fg[] = "#121022";
-static const char sel_bg[] = "#BD93F9";
-static const char sel_border[] = "#BD93F9";
+static const char sel_fg[] = "#0A0807";
+static const char sel_bg[] = "#F85C8E";
+static const char sel_border[] = "#F85C8E";
 
-static const char tit_fg[] = "#f8f8f2";
-static const char tit_bg[] = "#121022";
-static const char tit_border[] = "#121022";
+static const char tit_fg[] = "#f7f7f7";
+static const char tit_bg[] = "#0A0807";
+static const char tit_border[] = "#0A0807";
 
-static const char war_fg[] = "#CD3ABE";
-static const char war_bg[] = "#121022";
-static const char war_border[] = "#121022";
+static const char war_fg[] = "#73863B";
+static const char war_bg[] = "#0A0807";
+static const char war_border[] = "#0A0807";
 
-static const char urg_fg[] = "#DA0098";
-static const char urg_bg[] = "#121022";
-static const char urg_border[] = "#121022";
+static const char urg_fg[] = "#E90F58";
+static const char urg_bg[] = "#0A0807";
+static const char urg_border[] = "#0A0807";
 
 static const char *colors[][5]      = {
     /*               fg           bg         border                         */
