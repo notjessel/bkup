@@ -3,15 +3,15 @@ CHARGE=$(cat /sys/class/power_supply/BAT0/capacity)
 STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
 if [ "$STATUS" = "Full" ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "full "
 elif [ "$CHARGE" -gt 95 ] && [ "$CHARGE" -le 100 ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "$CHARGE% "
 elif [ "$CHARGE" -gt 72 ] && [ "$CHARGE" -le 95 ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "$CHARGE% "
 elif [ "$CHARGE" -gt 49 ] && [ "$CHARGE" -le 72 ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "$CHARGE% "
 elif [ "$CHARGE" -gt 15 ] && [ "$CHARGE" -le 49 ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "$CHARGE% "
 elif [ "$CHARGE" -gt 0 ] && [ "$CHARGE" -le 15 ]; then
-    printf "%s%%" "$CHARGE%"
+    printf "%s%%" "$CHARGE% "
 fi

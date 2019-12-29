@@ -420,7 +420,7 @@ c.colors.completion.category.border.bottom = 'black'
 
 # Foreground color of the selected completion item.
 # Type: QtColor
-c.colors.completion.item.selected.fg = '#f7f7f7'
+c.colors.completion.item.selected.fg = '#0A0807'
 
 # Background color of the selected completion item.
 # Type: QssColor

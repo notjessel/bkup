@@ -7,7 +7,7 @@ set $color0 #0A0807
 set $color1 #E90F58
 set $color2 #C05648
 set $color3 #73863B
-set $color4 #F85C8E
+set $color4 #F85CBE
 set $color5 #E6A759
 set $color6 #E2DE66
 set $color7 #f7f7f7
@@ -15,7 +15,7 @@ set $color8 #a06b87
 set $color9 #E90F58
 set $color10 #C05648
 set $color11 #73863B
-set $color12 #F85C8E
+set $color12 #F85CBE
 set $color13 #E6A759
 set $color14 #E2DE66
 set $color15 #f7f7f7

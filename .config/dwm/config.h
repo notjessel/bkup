@@ -9,13 +9,12 @@ static const unsigned int borderpx  = 3;    /* border pixel of windows */
 static const unsigned int gappx     = 0;    /* gaps between tiled windows */
 static const unsigned int snap      = 10;   /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
-static const unsigned int systrayspacing = 0;   /* systray spacing */
+static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
 static const char *fonts[]          = { "Hack Nerd Font:size=11:style=regular:antialias=true:autohint=true" };
-static const char dmenufont[]       = "CodeNewRoman Nerd Font:size=13:style=normal:antialias=true:autohint=true";
 #include "/home/jll/.cache/wal/colors-wal-dwm.h"
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 
