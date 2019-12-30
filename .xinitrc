@@ -26,9 +26,11 @@ usr/bin/gnome-keyring-daemon --start --components=secrets &
 pulseeffects --gapplication-service --load-preset freeqy &
 /usr/lib/at-spi-bus-launcher --launch-immediately &
 gnome-keyring-daemon --start --components=pkcs11 &
+when-changed -r1q ~/.config/mpd/log mpd-conkyart &
 when-changed -r1q ~/.config/mpd/log mpd-conky &
 /usr/share/aarchup/aarchupstartup.sh &
 xmodmap -e "keycode 135 = Super_R"
+bum --no_display --size "250" &
 xsetroot -cursor_name left_ptr
 amixer set channel 0% mute &
 notification-daemon -r &

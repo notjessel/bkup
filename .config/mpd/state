@@ -2,6 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
+current: 5
 random: 0
 repeat: 0
 single: 0
@@ -10,20 +11,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:l/Lock Up/Hate Breeds Suffering/01 Feeding on the Opiate.mp3
-1:l/Lock Up/Hate Breeds Suffering/02 Castrate the Wreckage.mp3
-2:l/Lock Up/Hate Breeds Suffering/03 Violent Reprisal.mp3
-3:l/Lock Up/Hate Breeds Suffering/04 Detestation.mp3
-4:l/Lock Up/Hate Breeds Suffering/05 Retrogression.mp3
-5:l/Lock Up/Hate Breeds Suffering/06 Slaughterous Ways.mp3
-6:l/Lock Up/Hate Breeds Suffering/07 Dead Seas Scroll Deception.mp3
-7:l/Lock Up/Hate Breeds Suffering/08 Hate Breeds Suffering.mp3
-8:l/Lock Up/Hate Breeds Suffering/09 Catharsis.mp3
-9:l/Lock Up/Hate Breeds Suffering/10 The Jesus Virus.mp3
-10:l/Lock Up/Hate Breeds Suffering/11 Broken World.mp3
-11:l/Lock Up/Hate Breeds Suffering/12 Horns of Venus.mp3
-12:l/Lock Up/Hate Breeds Suffering/13 High Tide in a Sea of Blood.mp3
-13:l/Lock Up/Hate Breeds Suffering/14 Cascade Leviathan.mp3
-14:l/Lock Up/Hate Breeds Suffering/15 Fake Somebody _ Real Nobody.mp3
-15:l/Lock Up/Hate Breeds Suffering/16 The Sixth Extinction.mp3
+0:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 01 - Intro (Tireheb).mp3
+1:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 02 - Salomon's Gate.mp3
+2:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 03 - Nocturnal Evil.mp3
+3:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 04 - Sadomatic Rites.mp3
+4:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 05 - Black Arts.mp3
+5:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 06 - The Gates of Nanna.mp3
+6:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 07 - Nuclear Girl.mp3
+7:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 08 - Unholy Pagan Fire.mp3
+8:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 09 - Down There.mp3
+9:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 10 - Summerlands.mp3
+10:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 11 - Werewolf Semen and Blood.mp3
+11:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 12 - Thou Angel of the Gods.mp3
+12:b/Beherit/Drawing Down the Moon/Beherit - Drawing Down the Moon - 13 - Lord of Shadows and Goldenwood.mp3
 playlist_end

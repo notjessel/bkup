@@ -1,5 +1,5 @@
 " Special
-let wallpaper  = "/home/jll/.wallpaper/astronaut-colorful-ship-4k_1540749986.jpg"
+let wallpaper  = "/home/jll/.config/wpg/wallpapers/astronaut-colorful-ship-4k_1540749986.jpg"
 let background = "#0A0807"
 let foreground = "#f7f7f7"
 let cursor     = "#f7f7f7"
