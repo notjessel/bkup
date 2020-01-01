@@ -595,51 +595,51 @@ c.fonts.monospace = '"Hack Nerd Font"'
 
 # Font used in the completion widget.
 # Type: Font
-c.fonts.completion.entry = '11pt monospace'
+c.fonts.completion.entry = '12pt monospace'
 
 # Font used in the completion categories.
 # Type: Font
-c.fonts.completion.category = '11pt monospace'
+c.fonts.completion.category = '12pt monospace'
 
 # Font used for the debugging console.
 # Type: QtFont
-c.fonts.debug_console = '11pt monospace'
+c.fonts.debug_console = '12pt monospace'
 
 # Font used for the downloadbar.
 # Type: Font
-c.fonts.downloads = '11pt monospace'
+c.fonts.downloads = '12pt monospace'
 
 # Font used for the hints.
 # Type: Font
-c.fonts.hints = '11pt monospace'
+c.fonts.hints = '12pt monospace'
 
 # Font used in the keyhint widget.
 # Type: Font
-c.fonts.keyhint = '11pt monospace'
+c.fonts.keyhint = '12pt monospace'
 
 # Font used for error messages.
 # Type: Font
-c.fonts.messages.error = '11pt monospace'
+c.fonts.messages.error = '12pt monospace'
 
 # Font used for info messages.
 # Type: Font
-c.fonts.messages.info = '11pt monospace'
+c.fonts.messages.info = '12pt monospace'
 
 # Font used for warning messages.
 # Type: Font
-c.fonts.messages.warning = '11pt monospace'
+c.fonts.messages.warning = '12pt monospace'
 
 # Font used for prompts.
 # Type: Font
-c.fonts.prompts = '11pt sans-serif'
+c.fonts.prompts = '12pt sans-serif'
 
 # Font used in the statusbar.
 # Type: Font
-c.fonts.statusbar = '11pt monospace'
+c.fonts.statusbar = '12pt monospace'
 
 # Font used in the tab bar.
 # Type: QtFont
-c.fonts.tabs = '11pt monospace'
+c.fonts.tabs = '12pt monospace'
 
 # Font family for standard fonts.
 # Type: FontFamily

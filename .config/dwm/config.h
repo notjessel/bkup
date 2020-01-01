@@ -14,7 +14,7 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;     /* 0 means no systray */
 static const int showbar            = 1;    /* 0 means no bar */
 static const int topbar             = 1;    /* 0 means bottom bar */
-static const char *fonts[]          = { "Hack Nerd Font:size=11:style=regular:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Hack Nerd Font:size=12:style=regular:antialias=true:autohint=true" };
 #include "/home/jll/.cache/wal/colors-wal-dwm.h"
 /* alpha values and approximate opacity 
 100% — 0xFF, 95% — 0xF2, 90% — 0xE6, 85% — 0xD9, 80% — 0xCC, 

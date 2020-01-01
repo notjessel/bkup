@@ -2,7 +2,7 @@ sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:toggle_visualizer
 state: stop
-current: 5
+current: 2
 random: 0
 repeat: 0
 single: 0
@@ -11,14 +11,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:m/Meshuggah/Nothing/Meshuggah - Nothing - 01 - Stengah.mp3
-1:m/Meshuggah/Nothing/Meshuggah - Nothing - 02 - Rational Gaze.mp3
-2:m/Meshuggah/Nothing/Meshuggah - Nothing - 03 - Perpetual Black Second.mp3
-3:m/Meshuggah/Nothing/Meshuggah - Nothing - 04 - Closed Eye Visuals.mp3
-4:m/Meshuggah/Nothing/Meshuggah - Nothing - 05 - Glints Collide.mp3
-5:m/Meshuggah/Nothing/Meshuggah - Nothing - 06 - Organic Shadows.mp3
-6:m/Meshuggah/Nothing/Meshuggah - Nothing - 07 - Straws Pulled At Random.mp3
-7:m/Meshuggah/Nothing/Meshuggah - Nothing - 08 - Spasm.mp3
-8:m/Meshuggah/Nothing/Meshuggah - Nothing - 09 - Nebulous.mp3
-9:m/Meshuggah/Nothing/Meshuggah - Nothing - 10 - Obsidian.mp3
+0:e/Enslaved/Frost/Enslaved - Frost - 01 - Frost.mp3
+1:e/Enslaved/Frost/Enslaved - Frost - 02 - Loke.mp3
+2:e/Enslaved/Frost/Enslaved - Frost - 03 - Fenris.mp3
+3:e/Enslaved/Frost/Enslaved - Frost - 04 - Svarte Vidder.mp3
+4:e/Enslaved/Frost/Enslaved - Frost - 05 - Yggdrasil.mp3
+5:e/Enslaved/Frost/Enslaved - Frost - 06 - Jotunblod.mp3
+6:e/Enslaved/Frost/Enslaved - Frost - 07 - Gylfaginning.mp3
+7:e/Enslaved/Frost/Enslaved - Frost - 08 - Wotan.mp3
+8:e/Enslaved/Frost/Enslaved - Frost - 09 - Isöders Dronning.mp3
 playlist_end
