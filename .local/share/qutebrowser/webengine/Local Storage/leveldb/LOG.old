@@ -1,3 +1,3 @@
-2019/12/31-22:01:30.933 a21e Reusing MANIFEST leveldb/MANIFEST-000001
-2019/12/31-22:01:30.935 a21e Recovering log #1432
-2019/12/31-22:01:30.935 a21e Reusing old log leveldb/001432.log 
+2020/01/01-23:14:10.085 2ee6b0 Reusing MANIFEST leveldb/MANIFEST-000001
+2020/01/01-23:14:10.086 2ee6b0 Recovering log #1448
+2020/01/01-23:14:10.086 2ee6b0 Reusing old log leveldb/001448.log 

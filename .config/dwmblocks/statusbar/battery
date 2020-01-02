@@ -4,7 +4,9 @@ STATUS=$(cat /sys/class/power_supply/BAT0/status)
 
 if [ "$STATUS" = "Full" ]; then
     printf "%s%%" "full "
-elif [ "$CHARGE" -gt 95 ] && [ "$CHARGE" -le 100 ]; then
+elif [ "$CHARGE" -gt 99 ] && [ "$CHARGE" -le 100 ]; then
+    printf "%s%%" "full "
+elif [ "$CHARGE" -gt 95 ] && [ "$CHARGE" -le 99 ]; then
     printf "%s%%" "$CHARGE% "
 elif [ "$CHARGE" -gt 72 ] && [ "$CHARGE" -le 95 ]; then
     printf "%s%%" "$CHARGE% "

@@ -36,8 +36,8 @@ amixer set channel 0% mute &
 notification-daemon -r &
 unclutter --timeout 2 &
 rfkill block bluetooth
-whenchanged &
 xsettingsd &
+evolution &
 dwmblocks &
 beep -l 0 &
 compton &
