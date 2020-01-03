@@ -40,6 +40,7 @@ xsettingsd &
 evolution &
 dwmblocks &
 beep -l 0 &
+aarchup &
 compton &
 xset -b
 wal -R
